@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>צור קשר</title>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --rose: #E8A598;
+      --rose-dark: #C97B6E;
+      --cream: #FFF5F0;
+      --white: #FFFFFF;
+      --gray: #5C4A47;
+      --gray-light: #8B7570;
+      --shadow: 0 4px 24px rgba(92,74,71,0.10);
+      --error: #e74c3c;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Heebo', sans-serif;
+      background: var(--cream);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 16px;
+    }
+
+    .card {
+      background: var(--white);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+      padding: 48px 40px 40px;
+      width: 100%;
+      max-width: 540px;
+    }
+
+    .card-title {
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--gray);
+      margin-bottom: 8px;
+      text-align: center;
+    }
+
+    .title-underline {
+      width: 56px;
+      height: 4px;
+      background: var(--rose);
+      border-radius: 2px;
+      margin: 0 auto 36px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--gray);
+      margin-bottom: 6px;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      border: 1.5px solid var(--rose);
+      border-radius: 10px;
+      padding: 12px 16px;
+      font-family: 'Heebo', sans-serif;
+      font-size: 1rem;
+      color: var(--gray);
+      background: var(--white);
+      transition: border-color 0.18s, box-shadow 0.18s;
+      direction: rtl;
+    }
+
+    input:focus,
+    textarea:focus {
+      outline: none;
+      border-color: var(--rose-dark);
+      box-shadow: 0 0 0 3px rgba(232,165,152,0.18);
+    }
+
+    input.invalid,
+    textarea.invalid {
+      border-color: var(--error);
+      box-shadow: 0 0 0 3px rgba(231,76,60,0.10);
+      background: rgba(231,76,60,0.06);
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 110px;
+    }
+
+    .error-msg {
+      display: block;
+      color: var(--error);
+      font-size: 0.82rem;
+      margin-top: 5px;
+      min-height: 18px;
+    }
+
+    .btn-submit {
+      width: 100%;
+      padding: 14px;
+      background: linear-gradient(135deg, var(--rose), var(--rose-dark));
+      color: var(--white);
+      border: none;
+      border-radius: 10px;
+      font-family: 'Heebo', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 3px 14px rgba(201,123,110,0.25);
+      margin-top: 8px;
+    }
+
+    .btn-submit:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(201,123,110,0.35);
+    }
+
+    .btn-submit:active {
+      transform: translateY(0);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-8px); }
+      to   { opacity: 1; transform: translateY(0);    }
+    }
+
+    @keyframes fadeOut {
+      from { opacity: 1; transform: translateY(0);    }
+      to   { opacity: 0; transform: translateY(-8px); }
+    }
+
+    .success-msg {
+      display: none;
+      background: #f0fdf4;
+      border: 1.5px solid #86efac;
+      color: #166534;
+      border-radius: 10px;
+      padding: 14px 18px;
+      font-size: 0.97rem;
+      font-weight: 500;
+      text-align: center;
+      margin-top: 20px;
+      animation-duration: 0.4s;
+      animation-fill-mode: forwards;
+    }
+
+    .success-msg.fade-in  { animation-name: fadeIn;  }
+    .success-msg.fade-out { animation-name: fadeOut; }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 36px 20px 28px;
+      }
+
+      .card-title {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1 class="card-title">צור קשר</h1>
+    <div class="title-underline"></div>
+
+    <form id="contactForm" novalidate>
+
+      <div class="form-group">
+        <label for="fullName">שם מלא</label>
+        <input type="text" id="fullName" name="fullName" placeholder="הכנס את שמך המלא" />
+        <span class="error-msg" id="fullNameError"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="email">אימייל</label>
+        <input type="email" id="email" name="email" placeholder="example@email.com" />
+        <span class="error-msg" id="emailError"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">טלפון</label>
+        <input type="tel" id="phone" name="phone" placeholder="0501234567" />
+        <span class="error-msg" id="phoneError"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="message">הודעה</label>
+        <textarea id="message" name="message" placeholder="כתוב את הודעתך כאן..."></textarea>
+        <span class="error-msg" id="messageError"></span>
+      </div>
+
+      <button type="submit" class="btn-submit">שלח</button>
+
+      <div class="success-msg" id="successMsg">
+        ההודעה נשלחה בהצלחה! נחזור אליך בקרוב.
+      </div>
+    </form>
+  </div>
+
+  <script>
+    const form = document.getElementById('contactForm');
+
+    function setError(fieldId, errorId, message) {
+      const field = document.getElementById(fieldId);
+      const errorEl = document.getElementById(errorId);
+      field.classList.add('invalid');
+      field.classList.remove('valid');
+      errorEl.textContent = message;
+    }
+
+    function clearError(fieldId, errorId) {
+      const field = document.getElementById(fieldId);
+      const errorEl = document.getElementById(errorId);
+      field.classList.remove('invalid');
+      errorEl.textContent = '';
+    }
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      let isValid = true;
+
+      const fullName = document.getElementById('fullName').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      // שם מלא
+      if (fullName === '') {
+        setError('fullName', 'fullNameError', 'נא למלא שם מלא');
+        isValid = false;
+      } else {
+        clearError('fullName', 'fullNameError');
+      }
+
+      // אימייל
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(email)) {
+        setError('email', 'emailError', 'נא להזין כתובת אימייל תקינה');
+        isValid = false;
+      } else {
+        clearError('email', 'emailError');
+      }
+
+      // טלפון
+      const phoneRegex = /^\d{9,10}$/;
+      if (!phoneRegex.test(phone)) {
+        setError('phone', 'phoneError', 'טלפון חייב להכיל 9-10 ספרות בלבד');
+        isValid = false;
+      } else {
+        clearError('phone', 'phoneError');
+      }
+
+      // הודעה
+      if (message.length < 10) {
+        setError('message', 'messageError', 'ההודעה חייבת להכיל לפחות 10 תווים');
+        isValid = false;
+      } else {
+        clearError('message', 'messageError');
+      }
+
+      if (isValid) {
+        alert(
+          'נתונים שנשלחו:\n' +
+          'שם: '    + fullName + '\n' +
+          'אימייל: ' + email    + '\n' +
+          'טלפון: '  + phone    + '\n' +
+          'הודעה: '  + message
+        );
+
+        form.reset();
+        ['fullName','email','phone','message'].forEach(id => {
+          document.getElementById(id).classList.remove('invalid');
+        });
+
+        const successMsg = document.getElementById('successMsg');
+        successMsg.classList.remove('fade-out');
+        successMsg.style.display = 'block';
+        successMsg.classList.add('fade-in');
+
+        setTimeout(() => {
+          successMsg.classList.remove('fade-in');
+          successMsg.classList.add('fade-out');
+          setTimeout(() => {
+            successMsg.style.display = 'none';
+            successMsg.classList.remove('fade-out');
+          }, 400);
+        }, 3000);
+      }
+    });
+  </script>
+</body>
+</html>

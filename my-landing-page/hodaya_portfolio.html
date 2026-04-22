@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>הודיה חדד | עובדת סוציאלית</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --rose:      #E8A598;
+      --rose-dark: #C97B6E;
+      --cream:     #FFF5F0;
+      --white:     #FFFFFF;
+      --gray:      #5C4A47;
+      --gray-light:#8B7570;
+      --shadow:    0 4px 24px rgba(92,74,71,0.10);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Heebo', sans-serif;
+      background: var(--cream);
+      color: var(--gray);
+      line-height: 1.7;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed;
+      top: 0; right: 0; left: 0;
+      z-index: 100;
+      background: rgba(255,245,240,0.92);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgba(232,165,152,0.25);
+      padding: 0 2rem;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    nav .logo {
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: var(--rose-dark);
+      text-decoration: none;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 2rem;
+    }
+    nav ul a {
+      text-decoration: none;
+      color: var(--gray);
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    nav ul a:hover { color: var(--rose-dark); }
+
+    /* ── HERO ── */
+    .hero {
+      min-height: 100vh;
+      background: linear-gradient(145deg, #FDE8E2 0%, #FFF5F0 55%, #FAE0D8 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 100px 2rem 4rem;
+    }
+    .hero-inner { max-width: 680px; }
+
+    .avatar {
+      position: relative;
+      overflow: hidden;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--rose) 0%, var(--rose-dark) 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3.6rem;
+      font-weight: 800;
+      color: #fff;
+      margin: 0 auto 1.8rem;
+      box-shadow:
+        0 8px 24px rgba(201,123,110,0.40),
+        0 2px 8px  rgba(201,123,110,0.25),
+        0 0 0 6px rgba(255,255,255,0.85);
+      border: 4px solid #fff;
+      transition: box-shadow 0.3s, transform 0.3s;
+    }
+    .avatar:hover {
+      transform: scale(1.04);
+      box-shadow:
+        0 16px 40px rgba(201,123,110,0.50),
+        0 4px 12px  rgba(201,123,110,0.30),
+        0 0 0 6px rgba(255,255,255,0.90);
+    }
+    .avatar-img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 800;
+      color: var(--gray);
+      margin-bottom: 0.4rem;
+    }
+    .hero .subtitle {
+      font-size: 1.05rem;
+      font-weight: 500;
+      color: var(--rose-dark);
+      margin-bottom: 1.2rem;
+      letter-spacing: 0.01em;
+    }
+    .hero .tagline {
+      font-size: 1rem;
+      color: var(--gray-light);
+      max-width: 480px;
+      margin: 0 auto 2.2rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.8rem 2.4rem;
+      border-radius: 50px;
+      font-family: 'Heebo', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s, background 0.2s, filter 0.2s;
+      box-shadow: 0 4px 18px rgba(201,123,110,0.30);
+    }
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 28px rgba(201,123,110,0.45);
+    }
+    .btn:active { transform: translateY(-1px); }
+    .btn-primary {
+      background: linear-gradient(135deg, var(--rose) 0%, var(--rose-dark) 100%);
+      color: #fff;
+      border: none;
+    }
+    .btn-primary:hover {
+      background: linear-gradient(135deg, #d98e80 0%, #b5614f 100%);
+      filter: brightness(1.05);
+    }
+
+    /* ── SECTION COMMONS ── */
+    section { padding: 5rem 2rem; }
+    .section-title {
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: var(--gray);
+      margin-bottom: 0.5rem;
+    }
+    .section-line {
+      width: 56px;
+      height: 4px;
+      background: linear-gradient(90deg, var(--rose), var(--rose-dark));
+      border-radius: 2px;
+      margin: 0 auto 3rem;
+    }
+    .container { max-width: 900px; margin: 0 auto; }
+
+    /* ── ABOUT ── */
+    #about { background: var(--white); }
+    .about-text {
+      font-size: 1.05rem;
+      color: var(--gray-light);
+      text-align: center;
+      max-width: 660px;
+      margin: 0 auto 3rem;
+      line-height: 1.9;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.4rem;
+    }
+    .card {
+      background: var(--cream);
+      border-radius: 16px;
+      padding: 1.8rem 1.5rem;
+      text-align: center;
+      box-shadow: var(--shadow);
+      transition: transform 0.2s;
+    }
+    .card:hover { transform: translateY(-4px); }
+    .card-icon { font-size: 2.2rem; margin-bottom: 0.8rem; }
+    .card h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--rose-dark);
+      margin-bottom: 0.5rem;
+    }
+    .card p { font-size: 0.88rem; color: var(--gray-light); }
+
+    /* ── SERVICES ── */
+    #services { background: var(--cream); }
+    .services-list {
+      list-style: none;
+      max-width: 620px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1.1rem;
+    }
+    .services-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.9rem;
+      background: var(--white);
+      border-radius: 12px;
+      padding: 1rem 1.4rem;
+      box-shadow: var(--shadow);
+      font-size: 0.97rem;
+    }
+    .services-list li .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--rose);
+      margin-top: 0.45rem;
+      flex-shrink: 0;
+    }
+
+    /* ── CONTACT ── */
+    #contact { background: var(--white); }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.9rem;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    .contact-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.35rem;
+      background: var(--cream);
+      border-radius: 14px;
+      padding: 1rem 0.6rem;
+      text-decoration: none;
+      color: var(--gray);
+      box-shadow: var(--shadow);
+      transition: transform 0.18s, box-shadow 0.18s;
+    }
+    .contact-item:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 28px rgba(201,123,110,0.20);
+      color: var(--rose-dark);
+    }
+    .contact-item .ci-icon { font-size: 1.6rem; }
+    .contact-item .ci-label { font-size: 0.8rem; font-weight: 600; }
+    .contact-item .ci-value { font-size: 0.70rem; color: var(--gray-light); word-break: break-all; text-align: center; }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--gray);
+      color: rgba(255,255,255,0.7);
+      text-align: center;
+      padding: 1.6rem 1rem;
+      font-size: 0.82rem;
+    }
+    footer span { color: var(--rose); }
+
+    /* ── MOBILE ── */
+    @media (max-width: 600px) {
+      nav { padding: 0 1rem; }
+      nav ul { gap: 0.9rem; }
+      nav ul a { font-size: 0.8rem; }
+      .hero { padding: 90px 1.2rem 3rem; }
+      .avatar { width: 120px; height: 120px; font-size: 2.8rem; }
+      section { padding: 3.5rem 1.2rem; }
+      .contact-grid { grid-template-columns: repeat(2, 1fr); gap: 0.7rem; }
+      .contact-item { padding: 0.9rem 0.5rem; }
+      .contact-item .ci-icon { font-size: 1.4rem; }
+      .services-list li { font-size: 0.91rem; }
+    }
+    @media (max-width: 380px) {
+      nav ul { gap: 0.6rem; }
+      nav ul a { font-size: 0.74rem; }
+      .contact-grid { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#" class="logo">הודיה חדד</a>
+    <ul>
+      <li><a href="#about">אודות</a></li>
+      <li><a href="#services">שירותים</a></li>
+      <li><a href="#contact">צור קשר</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="avatar">
+        <!-- ✏️ כדי להוסיף תמונה אמיתית: שמרי קובץ תמונה (למשל photo.jpg) באותה תיקייה והחליפי "photo.jpg" בשם הקובץ -->
+        <img src="photo.jpg" alt="הודיה חדד" class="avatar-img" onerror="this.remove()" />
+        ה
+      </div>
+      <h1>הודיה חדד</h1>
+      <p class="subtitle">עובדת סוציאלית | ילדים עם צרכים מיוחדים באומנה</p>
+      <p class="tagline">
+        מלווה ילדים, משפחות ומטפלים עם לב פתוח, ניסיון מקצועי ותשוקה אמיתית לשינוי.
+      </p>
+      <a href="#contact" class="btn btn-primary">בואו נדבר</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">אודותי</h2>
+      <div class="section-line"></div>
+      <p class="about-text">
+        <!--
+          ✏️ החליפי את הטקסט הזה בתיאור שלך:
+          למשל: שנות ניסיון, מוסדות שעבדת בהם, גישה מקצועית, מה מניע אותך.
+        -->
+        שמי הודיה חדד, עובדת סוציאלית עם ניסיון רב בעבודה עם ילדים בעלי צרכים מיוחדים במסגרת אומנה.
+        אני מאמינה שכל ילד זכאי לסביבה בטוחה, חמה ומותאמת לצרכיו הייחודיים,
+        ומכאן נובעת המחויבות שלי לתמוך גם בילדים וגם במשפחות המטפלות בהם.
+      </p>
+      <div class="cards">
+        <div class="card">
+          <div class="card-icon">📚</div>
+          <h3>ניסיון מקצועי</h3>
+          <p>
+            <!4 הוסיפי כאן שנות ניסיון, מקומות עבודה, תפקידים-->
+            עבודה עם ילדים ומשפחות במגזרים שונים, ליווי הורים אומנים ועוד.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-icon">💛</div>
+          <h3>תחומי התמחות</h3>
+          <p>אומנה, ילדים עם צרכים מיוחדים, ליווי משפחות, תכנון טיפולי.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🌿</div>
+          <h3>גישה וערכים</h3>
+          <p>עבודה מתוך אמפתיה, שיתוף פעולה, וראייה הוליסטית של הילד ומשפחתו.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="container">
+      <h2 class="section-title">מה אני מציעה</h2>
+      <div class="section-line"></div>
+      <ul class="services-list">
+        <li>
+          <span class="dot"></span>
+          <span>ליווי וייעוץ להורים אומנים של ילדים עם צרכים מיוחדים</span>
+        </li>
+        <li>
+          <span class="dot"></span>
+          <span>הערכה וכתיבת תכניות טיפול פרטניות לילד</span>
+        </li>
+        <li>
+          <span class="dot"></span>
+          <span>תיאום בין גורמי הטיפול — רפואה, חינוך ורווחה</span>
+        </li>
+        <!--✏️ ניתן להוסיף שורות נוספות בפורמט זהה-->
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">צרי קשר</h2>
+      <div class="section-line"></div>
+      <div class="contact-grid">
+
+        <!-- EMAIL -->
+        <a class="contact-item" href="mailto:hdhodaya@jerusalem.muni.il">
+          <span class="ci-icon">✉️</span>
+          <span class="ci-label">מייל</span>
+          <span class="ci-value">hdhodaya@jerusalem.muni.il</span>
+        </a>
+
+        <!-- WHATSAPP -->
+        <a class="contact-item" href="https://wa.me/972548596334" target="_blank" rel="noopener">
+          <span class="ci-icon">💬</span>
+          <span class="ci-label">WhatsApp</span>
+          <span class="ci-value">054-859-6334</span>
+        </a>
+
+        <!-- FACEBOOK -->
+        <a class="contact-item" href="https://www.facebook.com/profile.php?id=61568866960313" target="_blank" rel="noopener">
+          <span class="ci-icon">📘</span>
+          <span class="ci-label">פייסבוק</span>
+          <span class="ci-value">עמוד פייסבוק</span>
+        </a>
+
+        <a class="contact-item" href="https://www.instagram.com/hodaya7613/" target="_blank" rel="noopener">
+          <span class="ci-icon">📷</span>
+          <span class="ci-label">אינסטגרם</span>
+          <span class="ci-value">@hodaya7613</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 <span>הודיה חדד</span> | כל הזכויות שמורות</p>
+    <p style="margin-top:0.4rem; font-size:0.75rem; opacity:0.6;">נבנה עם Claude Code 💙</p>
+  </footer>
+
+</body>
+</html>

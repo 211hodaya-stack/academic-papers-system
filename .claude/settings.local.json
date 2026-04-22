@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"c:/Users/200ho/OneDrive/שולחן העבודה/projects\" log --oneline -10)",
+      "Bash(git -C \"c:/Users/200ho/OneDrive/שולחן העבודה/projects\" remote -v)",
+      "Bash(git -C \"c:/Users/200ho/OneDrive/שולחן העבודה/projects\" status)"
+    ]
+  }
+}
