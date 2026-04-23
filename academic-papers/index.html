@@ -7,55 +7,735 @@
   <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;800&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --rose:        #E8A598;
+      --rose-dark:   #C97B6E;
+      --cream:       #FFF5F0;
+      --gray:        #5C4A47;
+      --gray-light:  #8B7570;
+      --white:       #FFFFFF;
+      --badge-pm-bg: #e0f2fe;
+      --badge-pm-fg: #0369a1;
+      --badge-ss-bg: #f0fdf4;
+      --badge-ss-fg: #15803d;
+    }
+
     body {
       font-family: 'Heebo', sans-serif;
-      background: #FFF5F0;
-      color: #5C4A47;
+      background: var(--cream);
+      color: var(--gray);
       min-height: 100vh;
+    }
+
+    /* ── Header ─────────────────────────────────── */
+    header {
+      background: linear-gradient(135deg, var(--rose-dark), var(--rose));
+      color: var(--white);
+      text-align: center;
+      padding: 3rem 1.5rem 2.5rem;
+    }
+    header h1 {
+      font-size: clamp(1.8rem, 5vw, 2.8rem);
+      font-weight: 800;
+      margin-bottom: 0.5rem;
+    }
+    header p { font-size: 1rem; opacity: 0.9; }
+    header .meta {
+      margin-top: 0.8rem;
+      font-size: 0.85rem;
+      opacity: 0.75;
+    }
+
+    /* ── Filters ─────────────────────────────────── */
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      justify-content: center;
+      padding: 1.5rem 1rem 0.5rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .filter-btn {
+      border: 2px solid var(--rose);
+      background: var(--white);
+      color: var(--rose-dark);
+      font-family: 'Heebo', sans-serif;
+      font-size: 0.82rem;
+      font-weight: 600;
+      padding: 0.45rem 1.1rem;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+    }
+    .filter-btn:hover,
+    .filter-btn.active {
+      background: linear-gradient(135deg, var(--rose), var(--rose-dark));
+      color: var(--white);
+      border-color: transparent;
+    }
+
+    /* ── Grid ────────────────────────────────────── */
+    .papers-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 1.5rem;
+      max-width: 1200px;
+      margin: 1.5rem auto;
+      padding: 0 1.2rem 3rem;
+    }
+
+    /* ── Card ────────────────────────────────────── */
+    .paper-card {
+      background: var(--white);
+      border-radius: 16px;
+      padding: 1.6rem;
+      box-shadow: 0 4px 24px rgba(92, 74, 71, 0.10);
       display: flex;
       flex-direction: column;
+      gap: 0.6rem;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .paper-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 32px rgba(92, 74, 71, 0.16);
+    }
+
+    .card-header {
+      display: flex;
       align-items: center;
-      justify-content: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .source-badge {
+      font-size: 0.68rem;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+    .badge-pubmed { background: var(--badge-pm-bg); color: var(--badge-pm-fg); }
+    .badge-ss     { background: var(--badge-ss-bg); color: var(--badge-ss-fg); }
+    .year-badge {
+      font-size: 0.75rem;
+      color: var(--gray-light);
+      font-weight: 500;
+    }
+
+    .title-he {
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: var(--gray);
+      line-height: 1.4;
+    }
+    .title-en {
+      font-size: 0.8rem;
+      color: var(--gray-light);
+      font-style: italic;
+      line-height: 1.4;
+    }
+    .authors {
+      font-size: 0.8rem;
+      color: var(--gray-light);
+    }
+
+    .keywords-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+    }
+    .kw-tag {
+      background: #fdf2f0;
+      color: var(--rose-dark);
+      font-size: 0.68rem;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 999px;
+    }
+
+    .summary {
+      font-size: 0.9rem;
+      line-height: 1.85;
+      color: var(--gray);
+      flex: 1;
+    }
+    .no-summary {
+      font-style: italic;
+      color: var(--gray-light);
+      font-size: 0.85rem;
+    }
+
+    .read-link {
+      display: inline-block;
+      margin-top: 0.4rem;
+      color: var(--rose-dark);
+      font-weight: 700;
+      font-size: 0.88rem;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .read-link:hover { color: var(--gray); text-decoration: underline; }
+
+    /* ── Empty state ─────────────────────────────── */
+    .empty-state {
       text-align: center;
-      padding: 2rem;
+      padding: 4rem 1rem;
+      color: var(--gray-light);
+      grid-column: 1 / -1;
     }
-    header {
-      background: linear-gradient(135deg, #C97B6E, #E8A598);
-      color: white;
-      width: 100%;
-      padding: 3rem 1.5rem 2.5rem;
-      margin-bottom: 3rem;
-      position: fixed;
-      top: 0;
+    .empty-state p { font-size: 1.1rem; }
+
+    /* ── Responsive ──────────────────────────────── */
+    @media (max-width: 520px) {
+      header { padding: 2rem 1rem; }
+      .papers-grid { grid-template-columns: 1fr; padding: 0 0.8rem 2rem; }
     }
-    header h1 { font-size: 2rem; font-weight: 800; margin-bottom: 0.5rem; }
-    header p  { font-size: 1rem; opacity: 0.9; }
-    .content {
-      margin-top: 180px;
-      background: white;
-      border-radius: 16px;
-      padding: 3rem 2.5rem;
-      box-shadow: 0 4px 24px rgba(92,74,71,0.10);
-      max-width: 500px;
-    }
-    .icon { font-size: 3rem; margin-bottom: 1rem; }
-    h2 { font-size: 1.4rem; font-weight: 800; margin-bottom: 0.8rem; }
-    p  { font-size: 0.95rem; line-height: 1.8; color: #8B7570; }
   </style>
 </head>
 <body>
-  <header>
-    <h1>מאמרים אקדמיים</h1>
-    <p>עבודה סוציאלית, לקויות קוגניטיביות, AAC ותמיכה חברתית</p>
-  </header>
-  <div class="content">
-    <div class="icon">⏳</div>
-    <h2>האתר מוכן — ממתין לריצה הראשונה</h2>
-    <p>
-      המאמרים יופיעו כאן אחרי שה-GitHub Actions workflow ירוץ בפעם הראשונה.<br /><br />
-      ניתן להפעיל אותו ידנית דרך:<br />
-      <strong>Actions → Fetch Academic Papers → Run workflow</strong>
-    </p>
+
+<header>
+  <h1>מאמרים אקדמיים</h1>
+  <p>עבודה סוציאלית, לקויות קוגניטיביות, AAC ותמיכה חברתית</p>
+  <p class="meta">35 מאמרים | עודכן לאחרונה: 23/04/2026</p>
+</header>
+
+<section class="filters" aria-label="סינון לפי נושא">
+  <button class="filter-btn active" data-filter="all">הכל</button>
+  <button class="filter-btn" data-filter="social work disability">עבודה סוציאלית ולקות</button>
+  <button class="filter-btn" data-filter="cognitive disability intervention">התערבות קוגניטיבית</button>
+  <button class="filter-btn" data-filter="AAC augmentative communication">AAC</button>
+  <button class="filter-btn" data-filter="intellectual disability social support">תמיכה חברתית</button>
+</section>
+
+<main class="papers-grid" id="grid">
+
+<article class="paper-card" data-keywords="intellectual disability social support">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
   </div>
+  <h2 class="title-he">Deficits in Forelimb Reach Learning in a Mouse Model of Fragile X Syndrome.</h2>
+  <h3 class="title-en">Deficits in Forelimb Reach Learning in a Mouse Model of Fragile X Syndrome.</h3>
+  <p class="authors">Young Leanne F, Derham Ann, Zhu Rui, Suvrathan Aparna</p>
+  <div class="keywords-row"><span class="kw-tag">intellectual disability social support</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/41922168/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="AAC augmentative communication">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Early observations on how children with and without autism take photographs: Preliminary implications for Augmentative and Alternative Communication design.</h2>
+  <h3 class="title-en">Early observations on how children with and without autism take photographs: Preliminary implications for Augmentative and Alternative Communication design.</h3>
+  <p class="authors">Pitt Kevin, Thiessen Amber Lynn, Washburn Taylor, Ousley Ciara ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">AAC augmentative communication</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/41995163/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="cognitive disability intervention">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Long-term neurodevelopmental outcomes in extremely preterm infants born at 22-26 weeks gestation: a follow-up of 2-2.5 years across two Swedish national cohorts from 2004-2007 to 2014-2016.</h2>
+  <h3 class="title-en">Long-term neurodevelopmental outcomes in extremely preterm infants born at 22-26 weeks gestation: a follow-up of 2-2.5 years across two Swedish national cohorts from 2004-2007 to 2014-2016.</h3>
+  <p class="authors">Ådén Ulrika, Farooqi Aijaz, Hellstrom-Westas Lena, Sävman Karin ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">cognitive disability intervention</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/41093440/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="cognitive disability intervention">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Autistic Adolescents' and their Parents' Perspectives on a National Flourishing Item Set: A Construct Validation Study.</h2>
+  <h3 class="title-en">Autistic Adolescents' and their Parents' Perspectives on a National Flourishing Item Set: A Construct Validation Study.</h3>
+  <p class="authors">Ross-Cypcar Samantha M, Zimmerman Shannon, Frame Loryn, Williams Tanner ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">cognitive disability intervention</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/41989537/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="cognitive disability intervention">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Supporting self-determination in ageing adults with mild-to-moderate intellectual disabilities through virtual reality environments.</h2>
+  <h3 class="title-en">Supporting self-determination in ageing adults with mild-to-moderate intellectual disabilities through virtual reality environments.</h3>
+  <p class="authors">Álvarez-Aguado Izaskun, Muñoz La Rivera Felipe, Roselló-Peñaloza Miguel, González-Carrasco Félix ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">cognitive disability intervention</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/41990225/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="cognitive disability intervention">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Identifying Evidence-Based Strategies in a Digital Mental Health Intervention for Depression: Qualitative Content Analysis.</h2>
+  <h3 class="title-en">Identifying Evidence-Based Strategies in a Digital Mental Health Intervention for Depression: Qualitative Content Analysis.</h3>
+  <p class="authors">Jonathan Geneva K, Sung Jenna Y, Arcese Heyli T, Holz Phoebe ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">cognitive disability intervention</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/41990254/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="cognitive disability intervention">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Implementation of a digital tool for monitoring and managing the emotional and cognitive sequelae of post-intensive care syndrome: ICURA study protocol for a randomised clinical trial.</h2>
+  <h3 class="title-en">Implementation of a digital tool for monitoring and managing the emotional and cognitive sequelae of post-intensive care syndrome: ICURA study protocol for a randomised clinical trial.</h3>
+  <p class="authors">Llabrés-Álvarez Esther, Riera-Sagrera Maria, Llompart-Casasnovas Aina, Salvá Pilar ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">cognitive disability intervention</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/41997709/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="cognitive disability intervention">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Advancing EEG-based assessment of consciousness and cognition in prolonged disorders of consciousness.</h2>
+  <h3 class="title-en">Advancing EEG-based assessment of consciousness and cognition in prolonged disorders of consciousness.</h3>
+  <p class="authors">du Bois Naomi, Korik Attila, Hodge Stephanie, Hudson Leah ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">cognitive disability intervention</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/41998183/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="cognitive disability intervention">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Cognition and fatigue in clinically stable multiple sclerosis: EDSS and MRI metrics outperform serum biomarkers.</h2>
+  <h3 class="title-en">Cognition and fatigue in clinically stable multiple sclerosis: EDSS and MRI metrics outperform serum biomarkers.</h3>
+  <p class="authors">Erhart Deborah K, Balz Luisa T, Opfer Roland, Spies Lothar ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">cognitive disability intervention</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/41998559/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="cognitive disability intervention">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Effectiveness of exercise and nutrition interventions for cognitive function in older adults: A systematic review and meta-analysis.</h2>
+  <h3 class="title-en">Effectiveness of exercise and nutrition interventions for cognitive function in older adults: A systematic review and meta-analysis.</h3>
+  <p class="authors">Castillo-Bernad Sergio, Moradell Ana, Gómez-Bruton Alejandro, Matute-Llorente Ángel ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">cognitive disability intervention</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/41999780/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="cognitive disability intervention">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Neuropathological hallmarks during the chronic phase of ischemic stroke in mice and humans.</h2>
+  <h3 class="title-en">Neuropathological hallmarks during the chronic phase of ischemic stroke in mice and humans.</h3>
+  <p class="authors">Khan Romeesa, Guzman Gary, Do Trang, Devlin Patrick ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">cognitive disability intervention</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/41999827/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="cognitive disability intervention">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Task-based fNIRS biomarkers of HD-tDCS treatment for negative symptoms in schizophrenia.</h2>
+  <h3 class="title-en">Task-based fNIRS biomarkers of HD-tDCS treatment for negative symptoms in schizophrenia.</h3>
+  <p class="authors">Lin Ching-En, Chen Li-Fen, Sack Alexander T, Chang Hsin-An</p>
+  <div class="keywords-row"><span class="kw-tag">cognitive disability intervention</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/42000633/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="cognitive disability intervention">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Traditional Chinese medicine as a therapeutic option for cerebral small vessel disease: treatment outcomes and potential mechanisms.</h2>
+  <h3 class="title-en">Traditional Chinese medicine as a therapeutic option for cerebral small vessel disease: treatment outcomes and potential mechanisms.</h3>
+  <p class="authors">Bao Xuan, Zhang Zexiang, Bai Xiaodan, Si Meilong ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">cognitive disability intervention</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/42002118/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="cognitive disability intervention">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Sex differences in proteomic response to ischemic stroke.</h2>
+  <h3 class="title-en">Sex differences in proteomic response to ischemic stroke.</h3>
+  <p class="authors">McLouth Christopher J, Hazelwood Hunter S, Frank Jacqueline A, Harp Jordan P ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">cognitive disability intervention</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/42002779/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="cognitive disability intervention">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">French-Canadian adaptation and validation of the adolescents' Pain Coping Questionnaire.</h2>
+  <h3 class="title-en">French-Canadian adaptation and validation of the adolescents' Pain Coping Questionnaire.</h3>
+  <p class="authors">Théroux Jean, Lessard Laurence, Innes Stanley, Gardner Julien ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">cognitive disability intervention</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/42005454/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="cognitive disability intervention">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Cerebral Oximetry in Extremely Preterm Infants: 2-Year Follow-Up of the SafeBoosC-III Randomized Clinical Trial.</h2>
+  <h3 class="title-en">Cerebral Oximetry in Extremely Preterm Infants: 2-Year Follow-Up of the SafeBoosC-III Randomized Clinical Trial.</h3>
+  <p class="authors">Rasmussen Marie Isabel Skov, Hansen Mathias L, Pellicer Adelina, Hyttel-Sørensen Simon ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">cognitive disability intervention</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/42008246/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="cognitive disability intervention">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Effectiveness of Nonpharmacologic Treatments for Chronic Low Back Pain : A Sequential, Multiple-Assignment, Randomized Trial.</h2>
+  <h3 class="title-en">Effectiveness of Nonpharmacologic Treatments for Chronic Low Back Pain : A Sequential, Multiple-Assignment, Randomized Trial.</h3>
+  <p class="authors">Fritz Julie M, Skolasky Richard L, Brennan Gerard, Minick Kate ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">cognitive disability intervention</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/42008809/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="cognitive disability intervention">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Global trends in research on environmental chemical exposure and childhood learning disabilities: insights from a two-decade bibliometric and Latent Dirichlet Allocation analysis.</h2>
+  <h3 class="title-en">Global trends in research on environmental chemical exposure and childhood learning disabilities: insights from a two-decade bibliometric and Latent Dirichlet Allocation analysis.</h3>
+  <p class="authors">Liu Qi, Shu Xinchen, Cao Jiaxin, Wang Yixin ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">cognitive disability intervention</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/42010680/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="cognitive disability intervention">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Functionality in Clinically Recovered Subjects with Obsessive-Compulsive Disorder: A Case-Control Study: Capacité fonctionnelle des sujets atteints d'un trouble obsessionnel-compulsif qui obtiennent un rétablissement clinique - Étude cas-témoins.</h2>
+  <h3 class="title-en">Functionality in Clinically Recovered Subjects with Obsessive-Compulsive Disorder: A Case-Control Study: Capacité fonctionnelle des sujets atteints d'un trouble obsessionnel-compulsif qui obtiennent un rétablissement clinique - Étude cas-témoins.</h3>
+  <p class="authors">Jaisoorya T S, Sudhir Paulomi M, Kandavel Thennarassu, Reddy Y C Janardhan</p>
+  <div class="keywords-row"><span class="kw-tag">cognitive disability intervention</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/42012164/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="cognitive disability intervention">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Effect of participation-focused strategy training on post-stroke cognitive functions and quality of life: results from a randomized trial.</h2>
+  <h3 class="title-en">Effect of participation-focused strategy training on post-stroke cognitive functions and quality of life: results from a randomized trial.</h3>
+  <p class="authors">Hsu Shih-Pin, Skidmore Elizabeth R, Kang Jiunn-Horng, Chiu Valeria ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">cognitive disability intervention</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/42013638/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="cognitive disability intervention">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Feasibility and Validity of a Remotely-Administered 30-Second Sit-to-Stand in People with Multiple Sclerosis.</h2>
+  <h3 class="title-en">Feasibility and Validity of a Remotely-Administered 30-Second Sit-to-Stand in People with Multiple Sclerosis.</h3>
+  <p class="authors">Najafi Parisa, Declerck Louise, Huynh Trinh L T, Jeng Brenda ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">cognitive disability intervention</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/42013930/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="cognitive disability intervention">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Lifestyle intervention and cognitive outcomes in Down syndrome: a horizon 21 European Down syndrome consortium scoping review.</h2>
+  <h3 class="title-en">Lifestyle intervention and cognitive outcomes in Down syndrome: a horizon 21 European Down syndrome consortium scoping review.</h3>
+  <p class="authors">McGlinchey Eimear, Pape Sarah, Zaman Shahid H, Eustace-Cook Jessica ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">cognitive disability intervention</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/42014975/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="cognitive disability intervention">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Convergent and known-groups validity of the Pediatric Evaluation of Disability Inventory - Patient-Reported Outcome (PEDI-PRO).</h2>
+  <h3 class="title-en">Convergent and known-groups validity of the Pediatric Evaluation of Disability Inventory - Patient-Reported Outcome (PEDI-PRO).</h3>
+  <p class="authors">Guerrero Calle Fiorella Y, Kramer Jessica M, Ni Pengsheng, Pfeiffer Beth ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">cognitive disability intervention</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/42015716/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="cognitive disability intervention">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">The role of social determinants of health in predicting pediatric anemia in primary care clinics.</h2>
+  <h3 class="title-en">The role of social determinants of health in predicting pediatric anemia in primary care clinics.</h3>
+  <p class="authors">Hoffman Julia, Posa Molly, Otero Jaclyn, Chi Xiaofei ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">cognitive disability intervention</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/42017359/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="cognitive disability intervention">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Participatory priority setting of research questions for improving hospital care of adults with childhood-onset intellectual disabilities (PRISMA): a study protocol for a mixed-methods study.</h2>
+  <h3 class="title-en">Participatory priority setting of research questions for improving hospital care of adults with childhood-onset intellectual disabilities (PRISMA): a study protocol for a mixed-methods study.</h3>
+  <p class="authors">Scheffel Antonia, Fritsch Tanja, Arnold Susanne, Asam Thomas ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">cognitive disability intervention</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/42020125/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="social work disability">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Parental experience of having a child with hypoxic ischaemic encephalopathy: a qualitative study.</h2>
+  <h3 class="title-en">Parental experience of having a child with hypoxic ischaemic encephalopathy: a qualitative study.</h3>
+  <p class="authors">Bache Alexandra, Sutcliffe Alastair G, Lemmon Monica E, Williams Carrie ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">social work disability</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/41087080/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="social work disability">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">How does disability impact children's experiences in outdoor and risky play? A scoping review and narrative synthesis.</h2>
+  <h3 class="title-en">How does disability impact children's experiences in outdoor and risky play? A scoping review and narrative synthesis.</h3>
+  <p class="authors">Locke Maggie, Stone Michelle R, So Sofia, Sheriko Jordan ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">social work disability</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/41987080/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="social work disability">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">User experiences, unmet needs, and access barriers to lower limb orthoses in India.</h2>
+  <h3 class="title-en">User experiences, unmet needs, and access barriers to lower limb orthoses in India.</h3>
+  <p class="authors">Gaurav Navjit, Mittal Meenal</p>
+  <div class="keywords-row"><span class="kw-tag">social work disability</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/41990202/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="social work disability">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Health, poverty and employment effects of cutting income replacement benefits for the disabled: a difference-in-differences analysis of the 2017 welfare reforms.</h2>
+  <h3 class="title-en">Health, poverty and employment effects of cutting income replacement benefits for the disabled: a difference-in-differences analysis of the 2017 welfare reforms.</h3>
+  <p class="authors">Song Huihui, Piroddi Roberta, McHale Philip, Barr Benjamin</p>
+  <div class="keywords-row"><span class="kw-tag">social work disability</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/41997741/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="social work disability">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Mothers' return to work after a first-born child with a disability: evidence from Norway.</h2>
+  <h3 class="title-en">Mothers' return to work after a first-born child with a disability: evidence from Norway.</h3>
+  <p class="authors">Wondemu Michael Yisfashewa, Hermansen Åsmund, Joranger Pål, Brekke Idunn</p>
+  <div class="keywords-row"><span class="kw-tag">social work disability</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/42003092/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="social work disability">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Brain Imaging Biomarkers and Cognitive Outcomes in a Multidomain Lifestyle Intervention: The POINTER Imaging Ancillary Study.</h2>
+  <h3 class="title-en">Brain Imaging Biomarkers and Cognitive Outcomes in a Multidomain Lifestyle Intervention: The POINTER Imaging Ancillary Study.</h3>
+  <p class="authors">Harrison Theresa M, Harvey Danielle J, Chadwick Trevor, Chao Yishu ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">social work disability</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/42008251/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="social work disability">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Family burden and happiness in mothers of children with intellectual and developmental disabilities: role of support and quality of life.</h2>
+  <h3 class="title-en">Family burden and happiness in mothers of children with intellectual and developmental disabilities: role of support and quality of life.</h3>
+  <p class="authors">Sardohan Yildirim Adile Emel, Altindağ Kumaş Özlem, Sümer Dodur Halime Miray, Aris Metin ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">social work disability</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/42010812/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="social work disability">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Socioeconomic Impact of Artemether-Lumefantrine in Malaria Treatment across Sub-Saharan Africa: A Model-Based Historical Analysis with 2022 as Reference Year.</h2>
+  <h3 class="title-en">Socioeconomic Impact of Artemether-Lumefantrine in Malaria Treatment across Sub-Saharan Africa: A Model-Based Historical Analysis with 2022 as Reference Year.</h3>
+  <p class="authors">Atitallah Adnan, Peristeris Platon, Lovera Davide, Branner Jennifer ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">social work disability</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/42013819/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="social work disability">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Investigating the ME/CFS experience through qualitative analysis of memorial entries.</h2>
+  <h3 class="title-en">Investigating the ME/CFS experience through qualitative analysis of memorial entries.</h3>
+  <p class="authors">Sirotiak Zoe, Amro Hailey J</p>
+  <div class="keywords-row"><span class="kw-tag">social work disability</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/42018525/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+<article class="paper-card" data-keywords="social work disability">
+  <div class="card-header">
+    <span class="source-badge badge-pubmed">PubMed</span>
+    <span class="year-badge">2026</span>
+  </div>
+  <h2 class="title-he">Cancer diagnosed during pregnancy: a qualitative study of women's psychosocial experiences during treatment and survivorship.</h2>
+  <h3 class="title-en">Cancer diagnosed during pregnancy: a qualitative study of women's psychosocial experiences during treatment and survivorship.</h3>
+  <p class="authors">Harris Jenny, Marcu Afrodita, Gibson Faith, Ream Emma ועוד</p>
+  <div class="keywords-row"><span class="kw-tag">social work disability</span></div>
+  <p class="no-summary">(סיכום אינו זמין — המאמר אינו כולל תקציר)</p>
+  <a class="read-link" href="https://pubmed.ncbi.nlm.nih.gov/42020845/" target="_blank" rel="noopener noreferrer">
+    קרא את המאמר המלא ←
+  </a>
+</article>
+</main>
+
+<script>
+  const buttons = document.querySelectorAll('.filter-btn');
+  const cards   = document.querySelectorAll('.paper-card');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      let visible = 0;
+      cards.forEach(card => {
+        const kws = card.dataset.keywords || '';
+        const show = filter === 'all' || kws.includes(filter);
+        card.style.display = show ? '' : 'none';
+        if (show) visible++;
+      });
+      // Show empty state if no cards match
+      let emptyEl = document.getElementById('empty-state');
+      if (visible === 0) {
+        if (!emptyEl) {
+          emptyEl = document.createElement('div');
+          emptyEl.id = 'empty-state';
+          emptyEl.className = 'empty-state';
+          emptyEl.innerHTML = '<p>לא נמצאו מאמרים בקטגוריה זו.</p>';
+          document.getElementById('grid').appendChild(emptyEl);
+        }
+      } else if (emptyEl) {
+        emptyEl.remove();
+      }
+    });
+  });
+</script>
+
 </body>
 </html>
