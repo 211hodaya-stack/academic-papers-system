@@ -45,9 +45,18 @@ client = OpenAI(api_key=OPENAI_KEY)
 
 SYSTEM_PROMPT = (
     "אתה עוזר מחקרי המתמחה ברווחה סוציאלית, לקויות קוגניטיביות ו-AAC. "
-    "קבל מאמר מדעי בעברית ותחזיר JSON עם שני שדות בלבד:\n"
+    "קבל מאמר מדעי ותחזיר JSON עם שני שדות בלבד:\n"
     '{"title_he": "תרגום כותרת קצר ומדויק לעברית", '
     '"summary_he": "סיכום של 10-15 משפטים בעברית המיועד לאנשי מקצוע בתחום העבודה הסוציאלית"}'
+)
+
+SYSTEM_PROMPT_NO_ABSTRACT = (
+    "אתה עוזר מחקרי המתמחה ברווחה סוציאלית, לקויות קוגניטיביות ו-AAC. "
+    "קיבלת כותרת של מאמר מדעי. תרגם את הכותרת לעברית וכתוב סיכום של 10-15 משפטים בעברית "
+    "על תוכן המאמר — מטרתו, שיטות המחקר, ממצאים עיקריים והשלכות לתחום העבודה הסוציאלית. "
+    "החזר JSON עם שני שדות בלבד:\n"
+    '{"title_he": "תרגום כותרת קצר ומדויק לעברית", '
+    '"summary_he": "סיכום של 10-15 משפטים בעברית"}'
 )
 
 # ---------------------------------------------------------------------------
@@ -144,6 +153,13 @@ def _extract_doi_from_summary(summary_item: dict) -> str | None:
     return None
 
 
+def _extract_pmc_from_summary(summary_item: dict) -> str | None:
+    for id_obj in summary_item.get("articleids", []):
+        if id_obj.get("idtype") == "pmc":
+            return id_obj["value"].strip().replace("PMC", "")
+    return None
+
+
 def pubmed_fetch(pmids: list, keyword: str) -> list:
     if not pmids:
         return []
@@ -211,9 +227,10 @@ def pubmed_fetch(pmids: list, keyword: str) -> list:
         pub_date = medline.find(".//PubDate")
         year = _extract_year(pub_date)
 
-        # DOI from summary
+        # DOI and PMC ID from summary
         summary_item = summary_data.get(pmid, {})
         doi = _extract_doi_from_summary(summary_item)
+        pmc_id = _extract_pmc_from_summary(summary_item)
         paper_id = doi if doi else f"pubmed-{pmid}"
 
         papers.append({
@@ -227,6 +244,7 @@ def pubmed_fetch(pmids: list, keyword: str) -> list:
             "keywords": [keyword],
             "summary_he": "",
             "abstract_en": abstract,
+            "pmc_id": pmc_id or "",
             "date_added": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         })
 
@@ -270,6 +288,51 @@ def _map_ss(raw: dict, keyword: str) -> dict | None:
     }
 
 
+def ss_fetch_abstract(doi: str) -> str:
+    """Try to fetch an abstract from Semantic Scholar by DOI."""
+    try:
+        resp = requests.get(
+            f"{SS_BASE}/paper/DOI:{doi}",
+            params={"fields": "abstract"},
+            timeout=10,
+        )
+        resp.raise_for_status()
+        time.sleep(SLEEP)
+        return (resp.json().get("abstract") or "").strip()
+    except requests.RequestException:
+        return ""
+
+
+def pmc_fetch_fulltext(pmc_id: str) -> str:
+    """Fetch full article text from PubMed Central (open access only)."""
+    try:
+        resp = requests.get(
+            f"{NCBI_BASE}/efetch.fcgi",
+            params={
+                "db": "pmc",
+                "id": pmc_id,
+                "rettype": "full",
+                "retmode": "xml",
+                "tool": NCBI_TOOL,
+                "email": NCBI_EMAIL,
+            },
+            timeout=30,
+        )
+        resp.raise_for_status()
+        time.sleep(SLEEP)
+        root = ET.fromstring(resp.text)
+        # Extract all paragraph text from body sections
+        parts = []
+        for elem in root.iter():
+            if elem.tag in ("p", "title") and elem.text and elem.text.strip():
+                parts.append(elem.text.strip())
+        fulltext = " ".join(parts)
+        # Limit to ~6000 chars to stay within token budget
+        return fulltext[:6000]
+    except Exception:
+        return ""
+
+
 def ss_search(keyword: str) -> list:
     since = (datetime.now(timezone.utc) - timedelta(days=DAYS_BACK)).strftime("%Y-%m-%d")
     params = {
@@ -292,16 +355,35 @@ def ss_search(keyword: str) -> list:
 # OpenAI summarization
 # ---------------------------------------------------------------------------
 
-def summarize(title_en: str, abstract_en: str) -> tuple:
-    if not abstract_en:
-        print(f"    [OpenAI] No abstract — skipping: {title_en[:70]}")
-        return "", ""
+def summarize(title_en: str, abstract_en: str, doi: str = "", pmc_id: str = "") -> tuple:
+    content = abstract_en
+
+    # Step 2: try Semantic Scholar if no abstract and DOI is available
+    if not content and doi:
+        print(f"    [Fallback] Trying Semantic Scholar for DOI: {doi}")
+        content = ss_fetch_abstract(doi)
+
+    # Step 3: try PMC full text if still no content
+    if not content and pmc_id:
+        print(f"    [Fallback] Fetching full text from PMC: {pmc_id}")
+        content = pmc_fetch_fulltext(pmc_id)
+
+    has_content = bool(content)
+    system_prompt = SYSTEM_PROMPT if has_content else SYSTEM_PROMPT_NO_ABSTRACT
+    user_content = (
+        f"כותרת: {title_en}\n\nתוכן המאמר:\n{content}"
+        if has_content
+        else f"כותרת: {title_en}"
+    )
+    if not has_content:
+        print(f"    [Fallback] No content found — summarizing from title only: {title_en[:70]}")
+
     try:
         resp = client.chat.completions.create(
-            model="gpt-4o",
+            model="gpt-4o-mini",
             messages=[
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": f"כותרת: {title_en}\n\nתקציר:\n{abstract_en[:3000]}"},
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_content},
             ],
             response_format={"type": "json_object"},
             temperature=0.3,
@@ -631,11 +713,35 @@ def generate_html(papers: list) -> None:
 # Main
 # ---------------------------------------------------------------------------
 
+def backfill_missing_summaries(papers: list) -> bool:
+    """Fill in missing summaries for existing papers. Returns True if any were updated."""
+    updated = False
+    for p in papers:
+        if p.get("summary_he"):
+            continue
+        print(f"  [Backfill] {p['title_en'][:70]}")
+        doi = p["id"] if not p["id"].startswith(("pubmed-", "ss-")) else ""
+        title_he, summary_he = summarize(p["title_en"], p.get("abstract_en", ""), doi=doi, pmc_id=p.get("pmc_id", ""))
+        if title_he or summary_he:
+            p["title_he"] = title_he or p.get("title_he", "")
+            p["summary_he"] = summary_he
+            updated = True
+    return updated
+
+
 def main() -> None:
     print("=== Academic Papers Fetcher ===")
     print(f"Loading {PAPERS_JSON} ...")
     existing = load_papers()
     print(f"  {len(existing)} existing papers.")
+
+    # Fill summaries for papers that were saved without one
+    print("\n[Backfill] Checking for papers without summaries ...")
+    if backfill_missing_summaries(existing):
+        print("  Backfill complete — saving.")
+        save_papers(existing)
+        generate_html(existing)
+
     existing_ids, existing_titles = build_dedup_sets(existing)
     new_papers: list = []
 
@@ -670,7 +776,8 @@ def main() -> None:
                 continue
 
             print(f"  [NEW] {paper['title_en'][:75]}")
-            title_he, summary_he = summarize(paper["title_en"], paper["abstract_en"])
+            doi = paper["id"] if not paper["id"].startswith(("pubmed-", "ss-")) else ""
+            title_he, summary_he = summarize(paper["title_en"], paper["abstract_en"], doi=doi, pmc_id=paper.get("pmc_id", ""))
             paper["title_he"] = title_he
             paper["summary_he"] = summary_he
 
