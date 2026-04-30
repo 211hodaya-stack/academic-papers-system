@@ -24,11 +24,22 @@ SENTINEL = REPO_ROOT / ".no_new_papers"
 # ---------------------------------------------------------------------------
 OPENAI_KEY = os.environ["OPENAI_API_KEY"]  # fails fast if secret is missing
 
-KEYWORDS = [
-    "social work disability",
-    "cognitive disability intervention",
-    "AAC augmentative communication",
-    "intellectual disability social support",
+# PubMed uses official MeSH Terms for precise results
+PUBMED_QUERIES = [
+    '"Autism Spectrum Disorder"[MeSH] AND ("social work"[tiab] OR "intervention"[tiab])',
+    '"Intellectual Disability"[MeSH] AND ("social support"[tiab] OR "intervention"[tiab])',
+    '"Communication Aids for Disabled"[MeSH]',
+    '"Neurodevelopmental Disorders"[MeSH] AND ("family"[tiab] OR "caregiver"[tiab])',
+    "IDD[tiab] AND (intervention[tiab] OR support[tiab] OR inclusion[tiab])",
+]
+
+# Plain-text queries for Semantic Scholar, SocArXiv, Europe PMC
+TEXT_QUERIES = [
+    "autism spectrum disorder social work intervention",
+    "intellectual developmental disability IDD support",
+    "AAC augmentative alternative communication",
+    "ASD caregiver family intervention",
+    "intellectual disability inclusion community",
 ]
 
 DAYS_BACK = 7
@@ -37,6 +48,8 @@ NCBI_EMAIL = "academic-papers-bot@example.com"
 NCBI_TOOL = "academic-papers-bot"
 NCBI_BASE = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 SS_BASE = "https://api.semanticscholar.org/graph/v1"
+OSF_BASE = "https://api.osf.io/v2"
+EUROPE_PMC_BASE = "https://www.ebi.ac.uk/europepmc/webservices/rest"
 
 # ---------------------------------------------------------------------------
 # OpenAI
@@ -352,6 +365,129 @@ def ss_search(keyword: str) -> list:
         return []
 
 # ---------------------------------------------------------------------------
+# SocArXiv (OSF preprints — social sciences)
+# ---------------------------------------------------------------------------
+
+def socarxiv_search(query: str) -> list:
+    since = (datetime.now(timezone.utc) - timedelta(days=DAYS_BACK)).strftime("%Y-%m-%dT%H:%M:%S")
+    params = {
+        "filter[provider]": "socarxiv",
+        "filter[date_created][gte]": since,
+        "filter[tags]": "",
+        "q": query,
+        "page[size]": 25,
+        "embed": "contributors",
+    }
+    try:
+        resp = requests.get(f"{OSF_BASE}/preprints/", params=params, timeout=15)
+        resp.raise_for_status()
+        time.sleep(SLEEP)
+        results = []
+        for item in resp.json().get("data", []):
+            attr = item.get("attributes", {})
+            title = (attr.get("title") or "").strip()
+            if not title:
+                continue
+            doi = attr.get("doi") or ""
+            paper_id = doi if doi else f"socarxiv-{item['id']}"
+            abstract = (attr.get("description") or "").strip()
+            # Authors from embedded contributors
+            authors = []
+            for contrib in (item.get("embeds", {}).get("contributors", {}).get("data", [])):
+                name = (contrib.get("embeds", {}).get("users", {})
+                        .get("data", {}).get("attributes", {}).get("full_name") or "")
+                if name:
+                    authors.append(name)
+            year = None
+            date_str = attr.get("date_created") or attr.get("date_published") or ""
+            if date_str:
+                try:
+                    year = int(date_str[:4])
+                except ValueError:
+                    pass
+            url = f"https://osf.io/preprints/socarxiv/{item['id']}/"
+            results.append({
+                "id": paper_id,
+                "title_en": title,
+                "title_he": "",
+                "authors": authors,
+                "year": year,
+                "source": "SocArXiv",
+                "url": url,
+                "keywords": [query],
+                "summary_he": "",
+                "abstract_en": abstract,
+                "pmc_id": "",
+                "date_added": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+            })
+        return results
+    except requests.RequestException as exc:
+        print(f"  [SocArXiv] Warning: {exc} — skipping")
+        return []
+
+
+# ---------------------------------------------------------------------------
+# Europe PMC
+# ---------------------------------------------------------------------------
+
+def europe_pmc_search(query: str) -> list:
+    since = (datetime.now(timezone.utc) - timedelta(days=DAYS_BACK)).strftime("%Y-%m-%d")
+    params = {
+        "query": f"{query} AND (FIRST_PDATE:[{since} TO *]) AND (SRC:MED OR SRC:PMC OR SRC:AGR)",
+        "resultType": "core",
+        "pageSize": 25,
+        "format": "json",
+        "cursorMark": "*",
+    }
+    try:
+        resp = requests.get(f"{EUROPE_PMC_BASE}/search", params=params, timeout=15)
+        resp.raise_for_status()
+        time.sleep(SLEEP)
+        results = []
+        for item in resp.json().get("resultList", {}).get("result", []):
+            title = (item.get("title") or "").strip().rstrip(".")
+            if not title:
+                continue
+            doi = item.get("doi") or ""
+            pmcid = item.get("pmcid") or ""
+            paper_id = doi if doi else f"epmc-{item.get('id', '')}"
+            abstract = (item.get("abstractText") or "").strip()
+            authors_raw = item.get("authorList", {}).get("author", [])
+            authors = [
+                f"{a.get('lastName', '')} {a.get('firstName', '')}".strip()
+                for a in authors_raw
+            ]
+            year = item.get("pubYear")
+            try:
+                year = int(year) if year else None
+            except ValueError:
+                year = None
+            url = (
+                f"https://europepmc.org/article/MED/{item['pmid']}"
+                if item.get("pmid")
+                else f"https://europepmc.org/search?query={doi}"
+            )
+            results.append({
+                "id": paper_id,
+                "title_en": title,
+                "title_he": "",
+                "authors": authors,
+                "year": year,
+                "source": "Europe PMC",
+                "url": url,
+                "keywords": [query],
+                "summary_he": "",
+                "abstract_en": abstract,
+                "pmc_id": pmcid.replace("PMC", "") if pmcid else "",
+                "date_added": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+            })
+        return results
+    except requests.RequestException as exc:
+        print(f"  [Europe PMC] Warning: {exc} — skipping")
+        return []
+
+
+# ---------------------------------------------------------------------------
 # OpenAI summarization
 # ---------------------------------------------------------------------------
 
@@ -419,8 +555,12 @@ HTML_TEMPLATE = """\
       --white:       #FFFFFF;
       --badge-pm-bg: #e0f2fe;
       --badge-pm-fg: #0369a1;
-      --badge-ss-bg: #f0fdf4;
-      --badge-ss-fg: #15803d;
+      --badge-ss-bg:   #f0fdf4;
+      --badge-ss-fg:   #15803d;
+      --badge-soc-bg:  #fdf4ff;
+      --badge-soc-fg:  #7e22ce;
+      --badge-epmc-bg: #fff7ed;
+      --badge-epmc-fg: #c2410c;
     }
 
     body {
@@ -518,8 +658,10 @@ HTML_TEMPLATE = """\
       text-transform: uppercase;
       letter-spacing: 0.03em;
     }
-    .badge-pubmed { background: var(--badge-pm-bg); color: var(--badge-pm-fg); }
-    .badge-ss     { background: var(--badge-ss-bg); color: var(--badge-ss-fg); }
+    .badge-pubmed { background: var(--badge-pm-bg);  color: var(--badge-pm-fg); }
+    .badge-ss     { background: var(--badge-ss-bg);  color: var(--badge-ss-fg); }
+    .badge-soc    { background: var(--badge-soc-bg); color: var(--badge-soc-fg); }
+    .badge-epmc   { background: var(--badge-epmc-bg); color: var(--badge-epmc-fg); }
     .year-badge {
       font-size: 0.75rem;
       color: var(--gray-light);
@@ -675,7 +817,12 @@ def generate_html(papers: list) -> None:
             f'<span class="kw-tag">{_escape_html(kw)}</span>'
             for kw in p.get("keywords", [])
         )
-        source_class = "badge-pubmed" if p["source"] == "PubMed" else "badge-ss"
+        source_class = {
+            "PubMed": "badge-pubmed",
+            "Semantic Scholar": "badge-ss",
+            "SocArXiv": "badge-soc",
+            "Europe PMC": "badge-epmc",
+        }.get(p["source"], "badge-ss")
         title_he = _escape_html(p["title_he"] or p["title_en"])
         title_en = _escape_html(p["title_en"])
         summary = p.get("summary_he") or ""
@@ -713,6 +860,29 @@ def generate_html(papers: list) -> None:
 # Main
 # ---------------------------------------------------------------------------
 
+def _process_papers(candidates: list, new_papers: list, existing_ids: set, existing_titles: set) -> None:
+    for paper in candidates:
+        if is_duplicate(paper, existing_ids, existing_titles):
+            continue
+        already = next((p for p in new_papers if p["id"] == paper["id"]), None)
+        if already:
+            for kw in paper.get("keywords", []):
+                if kw not in already["keywords"]:
+                    already["keywords"].append(kw)
+            continue
+        print(f"  [NEW] {paper['title_en'][:75]}")
+        doi = paper["id"] if not paper["id"].startswith(("pubmed-", "ss-", "socarxiv-", "epmc-")) else ""
+        title_he, summary_he = summarize(
+            paper["title_en"], paper["abstract_en"],
+            doi=doi, pmc_id=paper.get("pmc_id", ""),
+        )
+        paper["title_he"] = title_he
+        paper["summary_he"] = summary_he
+        existing_ids.add(paper["id"])
+        existing_titles.add(_normalize(paper["title_en"]))
+        new_papers.append(paper)
+
+
 def backfill_missing_summaries(papers: list) -> bool:
     """Fill in missing summaries for existing papers. Returns True if any were updated."""
     updated = False
@@ -745,47 +915,37 @@ def main() -> None:
     existing_ids, existing_titles = build_dedup_sets(existing)
     new_papers: list = []
 
-    for keyword in KEYWORDS:
-        print(f"\n[Keyword] {keyword}")
-
-        # PubMed
-        print("  Fetching from PubMed ...")
+    # ── PubMed (MeSH queries) ────────────────────────────────────────────────
+    for query in PUBMED_QUERIES:
+        print(f"\n[PubMed] {query[:70]}")
         try:
-            pmids = pubmed_search(keyword)
+            pmids = pubmed_search(query)
             print(f"  Found {len(pmids)} PMIDs.")
-            pubmed_papers = pubmed_fetch(pmids, keyword)
-            print(f"  Parsed {len(pubmed_papers)} PubMed articles.")
+            pubmed_papers = pubmed_fetch(pmids, query)
+            print(f"  Parsed {len(pubmed_papers)} articles.")
         except Exception as exc:
             print(f"  [PubMed] Error: {exc} — skipping.")
             pubmed_papers = []
+        _process_papers(pubmed_papers, new_papers, existing_ids, existing_titles)
 
-        # Semantic Scholar
+    # ── Semantic Scholar, SocArXiv, Europe PMC (text queries) ───────────────
+    for query in TEXT_QUERIES:
+        print(f"\n[Text query] {query}")
+
         print("  Fetching from Semantic Scholar ...")
-        ss_papers = ss_search(keyword)
-        print(f"  Found {len(ss_papers)} Semantic Scholar papers.")
+        ss_papers = ss_search(query)
+        print(f"  Found {len(ss_papers)} papers.")
+        _process_papers(ss_papers, new_papers, existing_ids, existing_titles)
 
-        for paper in pubmed_papers + ss_papers:
-            if is_duplicate(paper, existing_ids, existing_titles):
-                continue
+        print("  Fetching from SocArXiv ...")
+        soc_papers = socarxiv_search(query)
+        print(f"  Found {len(soc_papers)} papers.")
+        _process_papers(soc_papers, new_papers, existing_ids, existing_titles)
 
-            # Already accepted this run from another keyword — just add keyword tag
-            already = next((p for p in new_papers if p["id"] == paper["id"]), None)
-            if already:
-                if keyword not in already["keywords"]:
-                    already["keywords"].append(keyword)
-                continue
-
-            print(f"  [NEW] {paper['title_en'][:75]}")
-            doi = paper["id"] if not paper["id"].startswith(("pubmed-", "ss-")) else ""
-            title_he, summary_he = summarize(paper["title_en"], paper["abstract_en"], doi=doi, pmc_id=paper.get("pmc_id", ""))
-            paper["title_he"] = title_he
-            paper["summary_he"] = summary_he
-
-            # Mark seen so cross-source duplicates within this run are caught
-            existing_ids.add(paper["id"])
-            existing_titles.add(_normalize(paper["title_en"]))
-
-            new_papers.append(paper)
+        print("  Fetching from Europe PMC ...")
+        epmc_papers = europe_pmc_search(query)
+        print(f"  Found {len(epmc_papers)} papers.")
+        _process_papers(epmc_papers, new_papers, existing_ids, existing_titles)
 
     if not new_papers:
         print("\nNo new papers found. Skipping update.")
