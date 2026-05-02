@@ -488,6 +488,40 @@ def europe_pmc_search(query: str) -> list:
 
 
 # ---------------------------------------------------------------------------
+# Relevance filter
+# ---------------------------------------------------------------------------
+
+RELEVANCE_PROMPT = """אתה מומחה לעבודה סוציאלית עם אנשים עם מוגבלות.
+עליך להחליט אם מאמר מחקרי רלוונטי לאחד מהתחומים הבאים:
+1. התערבויות עם אנשים עם אוטיזם (ASD) או לקות שכלית התפתחותית (IDD/ID)
+2. מחקר על משפחות ומטפלים של אנשים עם ASD/IDD
+3. כלים, שיטות ופרקטיקות לעבודה סוציאלית עם אנשים עם ASD/IDD
+
+מאמרים שאינם רלוונטיים: מחקר גנטי בסיסי, מחקרי בעלי חיים, מחקרים תרופתיים בלבד, מחקרים שעוסקים במוגבלות אחרת לחלוטין.
+
+ענה במילה אחת בלבד: רלוונטי או לא_רלוונטי"""
+
+
+def is_relevant(title_en: str, abstract_en: str) -> bool:
+    snippet = abstract_en[:500] if abstract_en else ""
+    user_content = f"כותרת: {title_en}\nתקציר: {snippet}"
+    try:
+        resp = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "system", "content": RELEVANCE_PROMPT},
+                {"role": "user", "content": user_content},
+            ],
+            temperature=0,
+            max_tokens=5,
+        )
+        answer = resp.choices[0].message.content.strip()
+        return "רלוונטי" in answer and "לא" not in answer
+    except Exception:
+        return True  # on error, keep the paper
+
+
+# ---------------------------------------------------------------------------
 # OpenAI summarization
 # ---------------------------------------------------------------------------
 
@@ -860,27 +894,62 @@ def generate_html(papers: list) -> None:
 # Main
 # ---------------------------------------------------------------------------
 
-def _process_papers(candidates: list, new_papers: list, existing_ids: set, existing_titles: set) -> None:
+MAX_PAPERS_PER_RUN = 15
+
+
+def _collect_candidates(candidates: list, pool: list, existing_ids: set, existing_titles: set) -> None:
+    """Deduplicate and relevance-filter into pool without summarizing yet."""
     for paper in candidates:
         if is_duplicate(paper, existing_ids, existing_titles):
             continue
-        already = next((p for p in new_papers if p["id"] == paper["id"]), None)
+        already = next((p for p in pool if p["id"] == paper["id"]), None)
         if already:
             for kw in paper.get("keywords", []):
                 if kw not in already["keywords"]:
                     already["keywords"].append(kw)
             continue
-        print(f"  [NEW] {paper['title_en'][:75]}")
-        doi = paper["id"] if not paper["id"].startswith(("pubmed-", "ss-", "socarxiv-", "epmc-")) else ""
-        title_he, summary_he = summarize(
-            paper["title_en"], paper["abstract_en"],
-            doi=doi, pmc_id=paper.get("pmc_id", ""),
-        )
-        paper["title_he"] = title_he
-        paper["summary_he"] = summary_he
+        if not is_relevant(paper["title_en"], paper.get("abstract_en", "")):
+            print(f"  [SKIP] Not relevant: {paper['title_en'][:75]}")
+            continue
+        print(f"  [CANDIDATE] {paper['title_en'][:75]}")
         existing_ids.add(paper["id"])
         existing_titles.add(_normalize(paper["title_en"]))
-        new_papers.append(paper)
+        pool.append(paper)
+
+
+def pick_top_papers(pool: list, n: int) -> list:
+    """Ask GPT to rank and return the n most valuable papers from the pool."""
+    if len(pool) <= n:
+        return pool
+
+    print(f"\n[Ranking] {len(pool)} candidates → selecting top {n} ...")
+    numbered = "\n".join(
+        f"{i+1}. {p['title_en']} | {p.get('abstract_en', '')[:150]}"
+        for i, p in enumerate(pool)
+    )
+    prompt = (
+        f"להלן {len(pool)} מאמרים מדעיים. בחר את {n} המאמרים בעלי הערך הגבוה ביותר "
+        f"לעובדות סוציאליות העובדות עם אנשים עם אוטיזם (ASD) או לקות שכלית התפתחותית (IDD). "
+        f"העדף מאמרים על: (1) התערבויות מעשיות, (2) תמיכה במשפחות ומטפלים, "
+        f"(3) כלים ושיטות לעבודה סוציאלית.\n\n"
+        f"{numbered}\n\n"
+        f"החזר JSON בלבד: {{\"selected\": [מספרים של המאמרים הנבחרים]}}"
+    )
+    try:
+        resp = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[{"role": "user", "content": prompt}],
+            response_format={"type": "json_object"},
+            temperature=0,
+            max_tokens=200,
+        )
+        selected_nums = json.loads(resp.choices[0].message.content).get("selected", [])
+        chosen = [pool[i - 1] for i in selected_nums if 1 <= i <= len(pool)]
+        print(f"  Selected: {[p['title_en'][:50] for p in chosen]}")
+        return chosen[:n]
+    except Exception as exc:
+        print(f"  [Ranking] Error: {exc} — keeping first {n}")
+        return pool[:n]
 
 
 def backfill_missing_summaries(papers: list) -> bool:
@@ -914,6 +983,7 @@ def main() -> None:
 
     existing_ids, existing_titles = build_dedup_sets(existing)
     new_papers: list = []
+    candidates: list = []
 
     # ── PubMed (MeSH queries) ────────────────────────────────────────────────
     for query in PUBMED_QUERIES:
@@ -926,7 +996,7 @@ def main() -> None:
         except Exception as exc:
             print(f"  [PubMed] Error: {exc} — skipping.")
             pubmed_papers = []
-        _process_papers(pubmed_papers, new_papers, existing_ids, existing_titles)
+        _collect_candidates(pubmed_papers, candidates, existing_ids, existing_titles)
 
     # ── Semantic Scholar, SocArXiv, Europe PMC (text queries) ───────────────
     for query in TEXT_QUERIES:
@@ -935,17 +1005,33 @@ def main() -> None:
         print("  Fetching from Semantic Scholar ...")
         ss_papers = ss_search(query)
         print(f"  Found {len(ss_papers)} papers.")
-        _process_papers(ss_papers, new_papers, existing_ids, existing_titles)
+        _collect_candidates(ss_papers, candidates, existing_ids, existing_titles)
 
         print("  Fetching from SocArXiv ...")
         soc_papers = socarxiv_search(query)
         print(f"  Found {len(soc_papers)} papers.")
-        _process_papers(soc_papers, new_papers, existing_ids, existing_titles)
+        _collect_candidates(soc_papers, candidates, existing_ids, existing_titles)
 
         print("  Fetching from Europe PMC ...")
         epmc_papers = europe_pmc_search(query)
         print(f"  Found {len(epmc_papers)} papers.")
-        _process_papers(epmc_papers, new_papers, existing_ids, existing_titles)
+        _collect_candidates(epmc_papers, candidates, existing_ids, existing_titles)
+
+    # ── Rank and select top 15 ───────────────────────────────────────────────
+    print(f"\n[Pool] {len(candidates)} relevant candidates found.")
+    selected = pick_top_papers(candidates, MAX_PAPERS_PER_RUN)
+
+    # ── Summarize only the winners ───────────────────────────────────────────
+    for paper in selected:
+        print(f"\n[Summarize] {paper['title_en'][:75]}")
+        doi = paper["id"] if not paper["id"].startswith(("pubmed-", "ss-", "socarxiv-", "epmc-")) else ""
+        title_he, summary_he = summarize(
+            paper["title_en"], paper["abstract_en"],
+            doi=doi, pmc_id=paper.get("pmc_id", ""),
+        )
+        paper["title_he"] = title_he
+        paper["summary_he"] = summary_he
+        new_papers.append(paper)
 
     if not new_papers:
         print("\nNo new papers found. Skipping update.")
