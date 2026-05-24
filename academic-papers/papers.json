@@ -5590,5 +5590,93 @@
     "abstract_en": "<h4>Purpose</h4>Intellectual disability often impairs an individual's ability to communicate and engage in social interactions. Augmentative and Alternative Communication (AAC) systems, as a subset of Assistive Technology (AT), provide essential support for individuals facing such challenges. Despite their potential, issues related to accessibility, usability, and social acceptability continue to hinder the widespread adoption of AAC solutions.<h4>Materials and methods</h4>This study presents AAC Vest, a novel wearable AAC solution, grounded in user need-driven scenarios and developed through iterative prototyping and interdisciplinary expert workshops. The developed AAC vest integrates touch and pressure sensors into a vest, enabling users to trigger pre-recorded voice messages and send text alerts <i>via</i> a Bluetooth-connected smartphone application.<h4>Results</h4>It offers a discreet and easy-to-use communication aid that supports both users and caregivers in everyday interactions. Findings highlight the potential of wearable AAC technologies to bridge gaps between user needs and technical solutions.<h4>Conclusion</h4>Furthermore, the study underscores both the importance and the complexity of interdisciplinary collaboration in the development of effective assistive technologies.",
     "pmc_id": "",
     "date_added": "2026-05-17"
+  },
+  {
+    "id": "10.1371/journal.pone.0349576",
+    "title_en": "'Just Play' (JP) - creative arts therapies-based dyadic intervention for children with intellectual disability and their mothers: Study protocol for a mixed-methods randomized controlled trial.",
+    "title_he": "'רק לשחק' - התערבות דיאדית מבוססת על תרפיות אמנותיות לילדים עם לקות אינטלקטואלית ואמותיהם: פרוטוקול מחקר לניסוי מבוקר מעורב",
+    "authors": [
+      "Abramov Rita",
+      "Stern Amitai",
+      "Feniger-Schaal Rinat",
+      "Elefant Cochavit",
+      "Goldner Limor",
+      "Rabinowitch Tal-Chen"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42166477/",
+    "keywords": [
+      "\"Intellectual Disability\"[MeSH] AND (\"social support\"[tiab] OR \"intervention\"[tiab])"
+    ],
+    "summary_he": "מאמר זה מציע מחקר על התערבות דיאדית בשם 'רק לשחק' (JP), המיועדת לשפר את איכות האינטראקציות בין אמהות לילדיהן עם לקות אינטלקטואלית (ID). המשחק הוא מרכיב מרכזי בהתפתחות ילדים, אך ילדים עם ID מתקשים להשתתף בו, מה שמוביל ללחץ מוגבר אצל ההורים ולירידה בשעשוע באינטראקציות. מטרת המחקר היא לפתח ולהעריך את JP, אשר מבוססת על תרפיות אמנותיות, כדי לשפר את הקשרים בין אמהות לילדיהן. הניסוי יכלול 60 דיאדות אם-ילד, כאשר המשתתפים יחולקו אקראית לקבוצת ההתערבות או לקבוצת ביקורת. הנתונים הכמותיים ימדדו זמינות רגשית, משחקיות של אם וילד, ורמות סנכרון בין אם לילד. בנוסף, ייערכו ראיונות איכותניים עם אמהות מקבוצת JP כדי לחקור את חוויותיהן. תוצאות המחקר צפויות לספק ראיות אמפיריות על יעילות ההתערבות ולתרום להנחיות מבוססות ראיות לעובדים סוציאליים בתחום זה.",
+    "abstract_en": "BACKGROUND: Play is a fundamental aspect of children's development, fostering their cognitive, social, and emotional growth. However, children with intellectual disability (ID) experience limitations in their ability to engage in play, which can impact their relationships with caregivers. Parents of children with ID face heightened stress and reduced playfulness in their interactions with their children. Existing early interventions have primarily focused on behavioral parent training programs to manage challenging child behaviors, lacking a direct and positive approach to enhancing parent-child play interactions and relationships.\n\nOBJECTIVE: This study aims to develop, implement, and evaluate 'Just Play'(JP), a creative arts therapies-based dyadic early intervention to enhance the quality of mother-child interactions through positive playful engagement.\n\nMETHODS: A mixed-methods randomized controlled trial will be conducted with 60 mother-child dyads (children aged 3-7 with a prior ID diagnosis). Participants will be randomly assigned to either the JP dyadic intervention or to psycho-educational parent counseling control group. Quantitative data will include measures of emotional availability, mother and child playfulness, and the level of interpersonal synchrony between mothers and their children at baseline and post-intervention. Additionally, qualitative interviews with a subset of mothers in the JP group will be conducted at post-intervention and two-month follow-up to explore their experiences and identify the best practices of the intervention.\n\nRESULTS & IMPLICATIONS: This study will provide empirical evidence on the effectiveness of JP dyadic intervention in strengthening positive mother-child relationships in families of children with ID. Findings will inform future early intervention strategies, contributing to evidence-based guidelines for practitioners working with children with ID while emphasizing the unique contribution of creative arts therapies to this population.\n\nTRIAL REGISTRATION: ClinicalTrials.gov, registered August 6, 2024 (NCT06541782 || https://clinicaltrials.gov/study/NCT06541782).",
+    "pmc_id": "13193551",
+    "date_added": "2026-05-24"
+  },
+  {
+    "id": "10.2196/81173",
+    "title_en": "Virtual Consultations for People With Intellectual Disabilities in General Practice and Community Care: Mixed Methods Qualitative Study.",
+    "title_he": "התייעצויות וירטואליות לאנשים עם לקויות קוגניטיביות במרפאות כלליות ובטיפול קהילתי: מחקר איכותני בשיטות מעורבות",
+    "authors": [
+      "Mold Freda",
+      "Cox Anna",
+      "Tsianakas Vicki",
+      "van Marwijk Harm",
+      "Shanahan Paul",
+      "Parsons Treena",
+      "Armes Jo"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42160753/",
+    "keywords": [
+      "\"Neurodevelopmental Disorders\"[MeSH] AND (\"family\"[tiab] OR \"caregiver\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בהתייעצויות וירטואליות (VCs) שנעשו במרפאות כלליות ובטיפול קהילתי במהלך מגפת COVID-19, במיוחד עבור אנשים עם לקויות קוגניטיביות. מטרת המחקר הייתה לחקור את החוויות והדעות של אנשים עם לקויות קוגניטיביות, משפחותיהם, עובדים סוציאליים ומקצועני בריאות לגבי איכות ובטיחות ההתייעצויות הוירטואליות. הנתונים נאספו משיחות וידאו ומראיונות עם 34 משתתפים, והניתוח התבסס על מסגרת ניתוחית. הממצאים הצביעו על חמישה נושאים מרכזיים: הקשר והמרחב, אפשרויות בחירה, בניית אמון, הכנה והתאמה אישית, וחיבור מתמשך. המשתתפים הכירו במגבלות של VCs, כמו חוסר במעקב ביתי, אך גם ציינו יתרונות כמו זמינות וטיפוח קשרים נוחים. המאמר מסכם כי VCs יכולים לשפר את הכללת הדיגיטלית בטיפול רפואי עבור אנשים עם לקויות קוגניטיביות, אך יש צורך בבחינה מתמשכת של צרכי המטופלים כדי להבטיח שהעדפותיהם יילקחו בחשבון.",
+    "abstract_en": "BACKGROUND: Virtual consultations (VCs) using video or telephone were embraced at speed in general practice (GP) and community care during the COVID-19 pandemic. People with intellectual disabilities, their families, and support workers (SWs), along with health care professionals (HCPs), had to adapt quickly to this change in provision, but little is known about how this new way of working was experienced.\n\nOBJECTIVE: This study aims to explore the views and experiences of people with intellectual disabilities, their families, SWs, GP, and community care professionals on the quality and safety of VCs.\n\nMETHODS: This paper reports on users' experiences of VCs, as part of a larger Experience-Based Co-design study. This paper relates to 2 stages of data collection. Observed video consultations in GP and community care (n=3), and semistructured interviews with people with intellectual disabilities, their family members or SWs, GP, and community care professionals (n=34). The 30-month study was conducted from November 2021 ending in April 2024. Data were analyzed using framework analysis.\n\nRESULTS: Integrated results are presented through 5 themes, encompassed under an overarching theme of safety and quality. The five themes highlight critical factors in planning, delivery, and aftercare of VCs in GP and community services for people with intellectual disabilities in the United Kingdom: (1) context, space, and purpose-showing the importance of safe spaces to talk, and having clear consultation objectives and purpose; (2) choice-facilitating choice over time about modality of health care contact; (3) familiarity, online relationships, and trust-the building blocks for quality consultations; (4) prepare and personalize-to ensure that HCPs are aware of reasonable adjustments, and recognition of caregiver involvement; and (5) continued connection-where patients or families are offered continued contact with a named or same HCP enhancing access to regular or ongoing care. All participants were aware of the limitations of VC, which may impact safety, such as gaps in home monitoring due to the absence of appropriate equipment or recording, inability to identify vital risk indicators, and limited field of vision on screen. However, participants were also aware of the distinct benefits they offer in terms of quality provision, such as timeliness of care, building and sustaining comfortable relationships, support for more frequent attendance, and continuous connection to health teams.\n\nCONCLUSIONS: VCs offer an opportunity to improve digital inclusion in health care for people with intellectual disabilities. However, the quality and safety of VCs for this population are dependent on continuous review of patients' needs over time and ensuring that their choices and preferences are considered when planning and providing ongoing care.",
+    "pmc_id": "",
+    "date_added": "2026-05-24"
+  },
+  {
+    "id": "10.1007/s11606-026-10517-0",
+    "title_en": "Structural Ableism and Healthcare Transition for Adults with Intellectual and/or Developmental Disabilities.",
+    "title_he": "אבליזם מבני ומעבר לבריאות עבור מבוגרים עם לקויות קוגניטיביות ופיתוחיות",
+    "authors": [
+      "Ehrenberger Kristen Ann",
+      "Mendoza-Cervantes Diana",
+      "Baldwin Jennifer L"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42151527/",
+    "keywords": [
+      "IDD[tiab] AND (intervention[tiab] OR support[tiab] OR inclusion[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בתקופת המעבר לגיל ההתבגרות, שבה מתבצע המעבר משירותי בריאות לילדים לשירותי בריאות למבוגרים. תהליך זה, לעיתים קרובות לא מסודר, כולל אתגרים כמו מציאת ספקי שירותים חדשים וביטוח בריאות. ילדים ובני נוער עם צרכים בריאותיים מיוחדים נתקלים ביותר בעיות במעבר זה, דבר שמוביל לתוצאות בריאותיות שליליות. עבור אנשים עם לקויות קוגניטיביות ופיתוחיות, המעבר יכול להיות מסוכן במיוחד, בשל הנחות שגויות לגבי מהות היותם 'מטופלים מבוגרים'. המאמר מציע כי מדיניות המקדמת עצמאות עלולה להגביל את הגישה לשירותי בריאות, מה שמוביל לאבליזם מבני. הוא מציע דרכים לשיפור המעבר על ידי קידום הכללה רדיקלית עבור אלו הזקוקים לכך ביותר, במטרה לשפר את איכות הטיפול לכולם.",
+    "abstract_en": "Young adulthood is a period of changes, including transitioning from pediatric to adult healthcare; this is often an informal, disjointed process of securing new insurance and finding adult providers. Children and youth with special healthcare needs (CYSHCN) have more contact with the healthcare system than their peers, thus presenting more opportunities for gaps in care and consequently negative health outcomes during healthcare transition. The discontinuities between pediatric and adult healthcare are particularly consequential for the subset of individuals with intellectual and/or developmental disabilities (I/DD), especially those who will not develop autonomy and the capacity to function on their own. While parents and other caregivers often try to bridge the gaps, transition can be confusing or even dangerous because of ableist assumptions about what it means to be \"an adult\" patient. When independence is built into policies, procedures, and expectations that paradoxically limit access to and participation in healthcare spaces or services, that is structural ableism. This perspective provides examples of structural ableism in healthcare transition and offers suggestions for how a re-orientation toward radical inclusion for those who need it most can enable better care for all.",
+    "pmc_id": "",
+    "date_added": "2026-05-24"
+  },
+  {
+    "id": "10.1371/journal.pone.0349403",
+    "title_en": "Advantages and disadvantages of self-determination support strategies for people with severe or profound intellectual and multiple disabilities: A Delphi study",
+    "title_he": "יתרונות וחסרונות של אסטרטגיות תמיכה בקביעת גורל עצמי עבור אנשים עם לקויות אינטלקטואליות חמורות או מרובות: מחקר דלפי",
+    "authors": [
+      "Kúld Pála Björk",
+      "Frielink Noud",
+      "Schuengel Carlo",
+      "Embregts Petri"
+    ],
+    "year": 2026,
+    "source": "Europe PMC",
+    "url": "https://europepmc.org/article/MED/42154784",
+    "keywords": [
+      "AAC augmentative alternative communication"
+    ],
+    "summary_he": "מאמר זה עוסק ביתרונות ובחסרונות של אסטרטגיות תמיכה בקביעת גורל עצמי עבור אנשים עם לקויות אינטלקטואליות חמורות או מרובות. המחקר נערך באמצעות שיטת דלפי, שכללה ארבעה סבבים עם 10 בני משפחה ו-13 מקצוענים בתחום. הממצאים הצביעו על 79 נושאים, מהם הושג הסכמה על 72 נושאים בסבבים המאוחרים. יתרונות שצוינו כוללים אמון הדדי, למידה הדדית ושיפוט משופר על חייהם של אנשים עם מוגבלויות. עם זאת, חסרונות כוללים תנאים מוקדמים שלא תמיד מתקיימים, כמו שימוש עקבי בעזרי תקשורת וזמן מספק. המאמר מדגיש את הצורך בהבנת האינטראקציות עם רשתות התמיכה ואיכות שיתוף הפעולה, ומציע כי יש לבחון את היתרונות והחסרונות של כל אסטרטגיה בהתאם לגיוון באוכלוסייה זו ובמערכות התמיכה שלהן.",
+    "abstract_en": "<h4>Background</h4>The specific advantages and disadvantages of strategies that caregivers use to support self-determination in individuals with profound intellectual and multiple disabilities need to be known. This study explored consensus on advantages and disadvantages of support strategies from the perspective of users.<h4>Method</h4>A four-round Delphi study was conducted with 10 relatives and 13 professionals experienced in self-determination support. In Round 1, qualitative data were collected and thematically analysed. Subsequent rounds used Likert scales and participant feedback to explore consensus.<h4>Results</h4>Thematic analysis of Round 1 produced 79 themes, on which 72 consensus was reached across later rounds. On 63 themes, consensus was found across both groups. Users reported advantages such as mutual trust, reciprocal learning, and a more unified and efficient approaches to support self-determination. For individuals with disabilities, advantages included improved health, participation, and increased influence over their lives. However, disadvantages included preconditions that are often unmet in practice, such as consistent use of communication aids, sufficient time, and stable staffing.<h4>Conclusion</h4>Promoting self-determination in this population requires attention to their interactions with support networks and the quality of collaboration. Each support strategy has specific advantages and disadvantages that should be examined in light of the diversity within this population and their networks. Future research and practice could address identified barriers and build on advantages of support strategies by evaluating their applicability and relevance in individual cases.",
+    "pmc_id": "13186378",
+    "date_added": "2026-05-24"
   }
 ]
