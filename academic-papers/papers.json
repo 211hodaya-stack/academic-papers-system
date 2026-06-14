@@ -6303,5 +6303,335 @@
     "abstract_en": "Autism Spectrum Disorder (ASD) is frequently accompanied by feeding difficulties that can affect both a child's nutritional intake and family's well-being. Using a cross-sectional correlational design, this study explored how parenting stress, ASD symptom severity, and parenting styles (authoritative, authoritarian, permissive, and overprotective) relate to eating behaviours, particularly food fussiness and satiety responsiveness. Sixty-nine parents of children with ASD aged 2-9 were recruited from a private therapy centre and a foundation providing psychosocial and educational support in Istanbul, Türkiye. Parents reported stress using the Parental Stress Scale, parenting style using the Parent Attitude Scale, and children's eating behaviours using the Children's Eating Behaviour Questionnaire. Parents also rated their child's ASD symptom severity on a single Likert-scale item developed for this study. Hierarchical regressions revealed that parental stress, symptom severity and parenting style did not predict food fussiness or satiety responsiveness. However, we found patterns suggesting associations between parenting style and children's eating behaviours. In particular, higher levels of authoritarian parenting were associated with lower enjoyment of food, whereas more overprotective parenting was associated with greater food enjoyment. The discussion considers how culture-specific norms may shape the relationship between parenting style and children's eating behaviours.",
     "pmc_id": "",
     "date_added": "2026-06-07"
+  },
+  {
+    "id": "10.2196/82246",
+    "title_en": "A Self-Guided Web-Based Transdiagnostic Mental Health Program for People With Intellectual Disability: Single-Arm Trial.",
+    "title_he": "תוכנית בריאות נפשית מקוונת עצמאית עבור אנשים עם לקות אינטלקטואלית: ניסוי חד-זרועי",
+    "authors": [
+      "Baldwin Peter",
+      "Rasmussen Victoria",
+      "Grey Wesley",
+      "Trollor Julian",
+      "Zhao Jenna",
+      "Anderson Josephine",
+      "Rule Chris",
+      "Heck Chloe",
+      "Gardner Anita",
+      "Christensen Helen",
+      "Boydell Katherine"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42275302/",
+    "keywords": [
+      "\"Intellectual Disability\"[MeSH] AND (\"social support\"[tiab] OR \"intervention\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בתוכנית בריאות נפשית מקוונת בשם Healthy Mind, שנועדה לאנשים עם לקות אינטלקטואלית קלה עד גבולית. התוכנית פותחה במטרה להקל על תסמיני חרדה ודיכאון ולשפר את תפקוד המשתתפים. במחקר השתתפו 80 אנשים אוסטרליים בגיל 16 ומעלה, עם תסמינים קלים עד בינוניים של דיכאון או חרדה. התוצאות לא הראו שיפורים משמעותיים בתסמיני דיכאון או חרדה, והמעורבות בתוכנית הייתה נמוכה, כאשר 42.5% מהמשתתפים לא ניגשו לתוכנית. המאמר מדגיש את הצורך האקוטי באסטרטגיות לשיפור המעורבות, כמו גימיפיקציה ותוכן מותאם אישית. אף על פי שהתוכנית לא הוכיחה שיפורים משמעותיים, היא מדגימה את האפשרות לגייס ולשמור על אנשים עם לקות אינטלקטואלית בניסויים מקוונים, ומצביעה על הפוטנציאל של התערבויות בריאות נפשית אלקטרוניות במילוי הפער בשירותי בריאות נפש עבור אוכלוסייה זו.",
+    "abstract_en": "BACKGROUND: People with intellectual disability experience rates of mental illness up to 3 times higher than the general population, yet face significant barriers to care, including limited clinician expertise, diagnostic overshadowing, and exclusion from key mental health services. Electronic mental health interventions have demonstrated effectiveness in the general population and may address these barriers for people with intellectual disability by providing accessible, tailored treatment.\n\nOBJECTIVE: This study examined the ability of Healthy Mind, a self-guided, web-based transdiagnostic mental health program designed specifically for people with borderline to mild intellectual disability, to reduce symptoms of anxiety and depression and improve functioning in people with intellectual disability.\n\nMETHODS: In a single-arm uncontrolled design, Australian residents aged ≥16 years with a diagnosis of borderline or mild intellectual disability, and mild-to-moderate symptoms of depression or anxiety on the Anxiety, Depression, and Mood Scale (ADAMS) were recruited online and offered access to Healthy Mind. Assistance from a nominated supporter was optional. Primary outcomes were symptoms of depression and anxiety (ADAMS). Secondary outcomes were psychological distress (Kessler Psychological Distress Scale [K10]) and functional impairment (World Health Organization Disability Assessment Schedule 2.0 [WHO-DAS]). Outcomes were assessed at baseline, 8 weeks, and 3 months. In total, 80 participants (mean age 27.8, SD 7 y; n=37, 46% female; n=39, 49% identifying as Aboriginal and/or Torres Strait Islander) enrolled; 61% (n=49) nominated a supporter. Data were analyzed using multilevel models with random intercepts for participants.\n\nRESULTS: No significant changes were found in ADAMS depression or anxiety scores from baseline to postintervention or follow-up. Similarly, no significant effects were found for K10 or WHO-DAS scores, except for an improvement in K10 scores between baseline and 3 months when controlling for cognitive functioning (n=15). Having a supporter was associated with lower baseline distress but did not moderate treatment effects. Engagement with Healthy Mind was low; 42.5% (n=34) did not access the program, and among those who did, the median number of completed modules was 7 (IQR 3-11). Greater module completion was associated with slightly higher WHO-DAS scores post intervention.\n\nCONCLUSIONS: This trial did not demonstrate significant improvements in mental health or functioning associated with Healthy Mind, likely due to low engagement, reduced statistical power, and the absence of a control group. Nonetheless, the study demonstrates the feasibility of recruiting and retaining people with intellectual disability in fully online trials and highlights the urgent need for strategies to improve engagement, including gamification, personalized content, and integrated social features. Electronic mental health remains a promising avenue for addressing the substantial mental health service gap for people with intellectual disability.",
+    "pmc_id": "13256486",
+    "date_added": "2026-06-14"
+  },
+  {
+    "id": "10.1136/bmj-2025-086562",
+    "title_en": "Advances in supporting development in autistic children and youth",
+    "title_he": "התקדמות בתמיכה בהתפתחות של ילדים ובני נוער אוטיסטים",
+    "authors": [
+      "Penner Melanie",
+      "Zwaigenbaum Lonnie",
+      "Piroddi Nicholas",
+      "Park Saebom",
+      "Minhas Ripudaman Singh",
+      "Singal Deepa"
+    ],
+    "year": 2026,
+    "source": "Europe PMC",
+    "url": "https://europepmc.org/article/MED/42270130",
+    "keywords": [
+      "autism spectrum disorder social work intervention"
+    ],
+    "summary_he": "מאמר זה עוסק בהתקדמות בתמיכה בהתפתחות של ילדים ובני נוער עם אוטיזם, מצב נוירו-התפתחותי המוביל לדפוסים שונים של חוזקות ואתגרים לאורך החיים. מחקרים ארוכי טווח מדגישים את חשיבות הכישורים ההתפתחותיים והאדפטיביים בשנים המוקדמות, ואת השפעתם על התופעות הנלוות המופיעות בהמשך. המאמר מדגיש את היתרונות של התערבויות שונות, אך גם את הצורך לשקול את ההשפעות השליליות ואת העדפותיהם של אנשים אוטיסטים. תוכניות המיועדות לילדים ובני נוער אוטיסטים מתקדמות על ידי שילוב קהילות מגוונות והתאמת ההתערבויות לצרכיהם. במיוחד, אנשים אוטיסטים מדגישים את התרומות הרבות לחיים טובים, כאשר קבלה והכלה משמעותית בולטים ביניהן. סקירה זו מסכמת את הראיות האחרונות לגבי מסלולי ההתפתחות והתוצאות בקרב ילדים ובני נוער אוטיסטים וכיצד זה מתורגם לפרקטיקה קלינית ולמדיניות.",
+    "abstract_en": "Autism is a neurodevelopmental condition with varied trajectories through the lifespan, leading to individualized patterns of strengths and challenges. Longitudinal autism cohort studies show the importance of developmental and adaptive skills starting in the early years, followed by emerging co-occurring conditions, and opportunities for autonomy and community participation when approaching adulthood. Studies of interventions to support developmental outcomes in autistic children have shown benefits; however, adverse events from therapies and outcomes prioritized by autistic people must be incorporated. Programs for autistic children and youth are making some progress by including members of diverse communities, developing and adapting interventions to meet their needs. Most importantly, autistic people have highlighted the many contributors to a 'good life', prominent among which are acceptance and meaningful inclusion. This review summarizes the latest evidence about developmental trajectories and outcomes among autistic children and youth, and how this translates into clinical practice and policy.",
+    "pmc_id": "13250720",
+    "date_added": "2026-06-14"
+  },
+  {
+    "id": "10.2196/90444",
+    "title_en": "Serious Game Aimed at Assessing Executive Planning Skills in Children With Autism: Cross-Sectional Design and Formative Evaluation of ShopAutiPlan",
+    "title_he": "משחק רציני להערכת מיומנויות תכנון ביצועי בילדים עם אוטיזם: עיצוב חוצה-קטגוריות והערכה formative של ShopAutiPlan",
+    "authors": [
+      "Shamhan Athmar N M",
+      "Hijab Mohamad Hassan Fadi",
+      "Qaraqe Marwa",
+      "Al-Thani Dena"
+    ],
+    "year": 2026,
+    "source": "Europe PMC",
+    "url": "https://europepmc.org/article/MED/42258700",
+    "keywords": [
+      "autism spectrum disorder social work intervention"
+    ],
+    "summary_he": "מאמר זה מציג את ShopAutiPlan, משחק רציני המיועד להערכת מיומנויות תכנון ביצועי בילדים עם אוטיזם. במחקר נמצא כי לקויות תכנון הן קושי נפוץ בילדים עם אוטיזם, המשפיע על פעילויות יומיומיות. המשחק מציע חלופה להערכות נוירו-פסיכולוגיות מסורתיות, בכך שהוא מדמה תרחישים יומיומיים ומאפשר תצפית על התנהגויות תכנון. ההערכה של המשחק כללה שישה מומחים מתחומים שונים, אשר זיהו 45 בעיות שימושיות, עם דגש על נגישות קוגניטיבית וברור משוב. תוצאות ההערכה הראו שהציון הכללי של המשחק היה מעל הסף המקובל, מה שמעיד על קבילות המערכת. המאמר מציע מסגרת לפיתוח כלים דיגיטליים להערכה אקולוגית, שיכולים להשלים גישות נוירו-פסיכולוגיות מסורתיות במחקר ובפרקטיקה קלינית באוטיזם.",
+    "abstract_en": "<h4>Background</h4>Planning deficits are a common and functionally significant executive function difficulty in children with autism, affecting everyday activities such as organizing tasks, prioritizing goals, and monitoring progress. Traditional neuropsychological assessments often lack ecological validity and may not capture these skills in real-world contexts. Serious games offer promising alternatives by simulating everyday scenarios and enabling observation of planning behaviors during interactive tasks. However, most existing systems focus on training rather than theory-driven assessment, and are rarely evaluated for usability before deployment with children with autism.<h4>Objective</h4>This study aimed to design and evaluate ShopAutiPlan, a supermarket-based serious game intended to assess executive planning skills in children with ASD by conducting a formative expert evaluation before its use in clinical or research settings. The evaluation sought to identify usability strengths and limitations, ensuring that the system aligns with planning theory and accommodates the unique needs of autistic users.<h4>Methods</h4>A theory-driven design approach grounded in the Hayes-Roth cognitive model of planning was used to map planning subcomponents-including goal formulation, strategy generation, sequencing, execution, and monitoring-to in-game tasks and logged behavioral metrics. A cross-sectional, formative expert-based usability evaluation was conducted using inspection and think-aloud protocols. Six domain experts (2 psychologists, 2 human-computer interaction researchers, and 2 game developers) participated in individual evaluation sessions. Usability assessment was guided by ASD-specific usability heuristics, and experts completed the System Usability Scale (SUS). SUS scores were summarized using descriptive statistics, and qualitative feedback was analyzed through deductive coding mapped to heuristic categories.<h4>Results</h4>Across experts, 45 usability issues were identified, spanning cognitive accessibility, feedback clarity, realism, and technical performance. Severity ratings varied according to disciplinary perspectives: psychologists highlighted cognitive load, sensory accessibility, and task clarity, whereas developers focused on system responsiveness, interaction consistency, and technical reliability. The overall SUS score (mean 70.4, 95% CI 45.2-95.7) exceeded the standard benchmark of 68, supporting the acceptability of the system and complementing the qualitative findings from the heuristic evaluation. Recommendations from the evaluation informed iterative refinements to interface design, interaction flow, and task representation to enhance alignment between planning constructs and user experience.<h4>Conclusions</h4>To the best of our knowledge, this study introduces the first shopping-based serious game specifically designed to assess executive planning skills in children with autism. Unlike many existing autism-related serious games that primarily focus on intervention or training, ShopAutiPlan adopts a theory-driven assessment-oriented design grounded in a cognitive model of planning and supported by gameplay-based behavioral measures. By integrating cognitive theory, serious game design, and interdisciplinary usability evaluation, the study proposes a structured framework for developing ecologically valid digital assessment tools that may complement conventional neuropsychological approaches in autism research and clinical practice.",
+    "pmc_id": "13245710",
+    "date_added": "2026-06-14"
+  },
+  {
+    "id": "10.1007/s40675-026-00379-7",
+    "title_en": "Behavioral Sleep Interventions for Neurodivergent Youth: A Narrative Review",
+    "title_he": "התערבויות התנהגותיות לשינה עבור צעירים נוירודיוורגנטיים: סקירה נרטיבית",
+    "authors": [
+      "Hartman Amy G",
+      "Caldwell Angela",
+      "Joseph Heather",
+      "Northrup Jessie",
+      "Schwichtenberg Amy J",
+      "Soehner Adriane M"
+    ],
+    "year": 2026,
+    "source": "Europe PMC",
+    "url": "https://europepmc.org/article/MED/42273378",
+    "keywords": [
+      "autism spectrum disorder social work intervention"
+    ],
+    "summary_he": "מאמר זה עוסק בבריאות השינה בילדות, שהיא קריטית לצמיחה ולפיתוח, במיוחד עבור ילדים נוירודיוורגנטיים כמו ילדים עם ADHD, אוטיזם ותסמונת דאון, אשר חווים אתגרים משמעותיים יותר בשינה בהשוואה לעמיתיהם. סקירה זו מזהה התערבויות התנהגותיות לשינה שפורסמו בחמש השנים האחרונות, המיועדות לילדים נוירודיוורגנטיים, ובוחנת את השפעתן על בריאות השינה. הממצאים האחרונים מצביעים על עלייה במחקרי התערבות התנהגותית הממוקדים בבריאות השינה של ילדים נוירודיוורגנטיים. ההתערבויות כוללות מרכיבים מסורתיים, אך גם מתמקדות בחוויות ספציפיות לנוירודיוורגנציה, כמו הבדלים בעיבוד חושי, השפעות תרופתיות ותמיכה משפחתית. הראיות האחרונות מאשרות כי התערבויות התנהגותיות משפרות את בריאות השינה ומשפיעות חיובית על תפקוד במהלך היום. המאמר מדגיש את הצורך במחקר עתידי שיביא לדגימות גדולות ומגוונות יותר, ויכלול את הקהילות המקומיות לשיפור הצלחת היישום.",
+    "abstract_en": "<h4>Purpose of this review</h4>Sleep health in childhood is critical for growth and development, however, neurodivergent children (e.g., children with attention deficit hyperactivity disorder, autism, Down syndrome) experience significantly more sleep challenges compared to their peers. Recent intervention research has begun to address specific challenges that contribute to poor sleep health for neurodivergent children. This review identifies behavioral sleep interventions published in the past 5 years that are developed for neurodivergent children and examines the impact of these interventions on sleep health.<h4>Recent findings</h4>Evidence highlights an increase in behavioral sleep intervention research targeting the sleep health of neurodivergent children. In addition to the traditional behavioral sleep intervention components, these interventions target neurodivergent-specific experiences that impact sleep difficulties like sensory processing differences, medication effects, and familial supports. Recent evidence affirms that behavioral interventions improve sleep health and positively impact daytime functioning for neurodivergent children.<h4>Summary</h4>Behavioral interventions developed or adapted for neurodivergent children to target specific challenges they experience have emerging efficacy. Future research should aim to increase the generalizability of the preliminary findings with larger, more diverse samples and engagement with key community members to improve implementation success.",
+    "pmc_id": "13246903",
+    "date_added": "2026-06-14"
+  },
+  {
+    "id": "10.2196/90243",
+    "title_en": "Fully Virtual, Focused Applied Behavior Analysis Services: Acceptability and Feasibility Study",
+    "title_he": "שירותי ניתוח התנהגותי יישומי וירטואליים לחלוטין: מחקר על קבילות ויכולת יישום",
+    "authors": [
+      "Edwards William H",
+      "Wierzba Brittany C"
+    ],
+    "year": 2026,
+    "source": "Europe PMC",
+    "url": "https://europepmc.org/article/MED/42268246",
+    "keywords": [
+      "ASD caregiver family intervention"
+    ],
+    "summary_he": "מאמר זה עוסק במודלים המסורתיים של שירותי ניתוח התנהגותי יישומי (ABA) עבור אנשים עם הפרעת ספקטרום האוטיזם (ASD), אשר מתמקדים בשירותים פנים אל פנים, אך מצביע על הצורך במודלים חדשניים ויעילים יותר. המחקר הנוכחי בוחן את הקבילות והיכולת ליישם מודל וירטואלי לחלוטין של שירותי ABA ממוקדים. באמצעות ניתוח רטרוספקטיבי, נבדקו שינויים בזמן בהתנהגות אדפטיבית, התנהגות לא אדפטיבית ושביעות רצון המטפלים במהלך טיפול ABA וירטואלי ממוקד. התוצאות הראו שיפורים במדדים שונים, כולל איכות חיים ושביעות רצון גבוהה מצד המטפלים. אף על פי שלא ניתן לקבוע סיבתיות, הממצאים תומכים בקבילות וביכולת היישום של מודל שירותי ABA זה.",
+    "abstract_en": "<h4>Background</h4>Traditional models of applied behavior analysis (ABA) services for those diagnosed with autism spectrum disorder (ASD) involve time-intensive, labor-intensive, comprehensive, in-person services. The increasing prevalence of ASD in the United States has precipitated a need to identify effective, accessible, and innovative methods to address the needs of those with ASD.<h4>Objective</h4>The present descriptive study examines the feasibility and acceptability of a fully virtual, targeted model of ABA service delivery.<h4>Methods</h4>This retrospective analysis evaluated changes over time in adaptive behavior, maladaptive behavior, and caregiver satisfaction during focused, virtual ABA therapy delivered by a Board Certified Behavior Analyst.<h4>Results</h4>Improvements in standard scores across Vineland-3 domains and improvements in quality of life (Child and Family Quality of Life, Second Edition), in addition to high levels of caregiver satisfaction, were observed over time.<h4>Conclusions</h4>While causality cannot be determined for these improvements, results support the feasibility and acceptability of this novel ABA service delivery model.",
+    "pmc_id": "13251544",
+    "date_added": "2026-06-14"
+  },
+  {
+    "id": "10.1186/s12888-026-08259-8",
+    "title_en": "Cluster analysis based on sensory characteristics of children with autism spectrum disorder and its impact on emotional and behavioral manifestations and parenting stress",
+    "title_he": "ניתוח אשכולות בהתבסס על תכונות סנסוריות של ילדים עם הפרעת ספקטרום האוטיזם והשפעתן על manifestations רגשיות והתנהגותיות ולחץ הורי",
+    "authors": [
+      "Xu Zhanbin",
+      "Wang Feiying",
+      "Qin Hongchao",
+      "Jiang Hao",
+      "Ma Libing",
+      "Zhang Qiuyang",
+      "Wang Jia",
+      "Wu Lijie"
+    ],
+    "year": 2026,
+    "source": "Europe PMC",
+    "url": "https://europepmc.org/article/MED/42277743",
+    "keywords": [
+      "ASD caregiver family intervention"
+    ],
+    "summary_he": "מאמר זה עוסק בהטרוגניות של עיבוד סנסורי בהפרעת ספקטרום האוטיזם (ASD) והשפעתה על manifestations רגשיות והתנהגותיות ולחץ הורי. החוקרים ביצעו ניתוח אשכולות כדי לסווג ילדים עם ASD לשלוש קבוצות סנסוריות שונות, תוך שימוש במידע מהפרופיל הסנסורי הקצר (SSP). התוצאות הראו הבדלים משמעותיים בתכונות סנסוריות בין קבוצת הילדים עם ASD לקבוצת הביקורת. הקבוצות שנוצרו כללו את 'סוג הסנסורי האדפטיבי', 'סוג רגישות/חולשה מוטורית' ו'סוג סינון שמיעתי'. המאמר מדגיש כי לסוגי הפרופילים הסנסוריים יש השפעות שונות על manifestations רגשיות והתנהגותיות ולחץ הורי, כאשר סוג הסינון השמיעתי משפיע לרעה על לחץ הורי. זיהוי מוקדם של תתי קבוצות אלו עשוי לסייע בפיתוח תוכניות התערבות ממוקדות ולתמוך במערכות תמיכה להורים, ובכך לשפר את הסימפטומים הקליניים של ילדים עם ASD ולהקל על לחץ הורי.",
+    "abstract_en": "Autism spectrum disorder (ASD) exhibits substantial sensory processing heterogeneity, linked to diverse emotional-behavioral manifestations and caregiver challenges. Sensory-based subgroups may reveal distinct clinical profiles and inform targeted interventions, yet their associations with parenting stress remain underexplored. While prior work has examined sensory features, emotional-behavioral manifestations, and parenting stress in autistic children, few studies have characterized sensory subgroups and their correlates. This study employed K-Means cluster analysis combined with the elbow method to categorize autistic children into distinct subgroups based on the three The Short Sensory Profile (SSP) dimensions with the highest variability, aiming to explore the sensory characteristics of different subgroups and their impacts on emotional and behavioral manifestations and parenting stress. The research included 225 autistic children and 228 comparison group participants, using SSP, The Strengths and Difficulties Questionnaire (SDQ) and The Parenting Stress Index-Short Form (PSI-SF) to assess sensory features, emotional and behavioral manifestations and parenting stress in both groups. The results showed that the three dimensions with the highest proportions of sensory differences in children with ASD were auditory filtering (the capacity to filter out irrelevant background sounds) had the highest rate at 68.44%, followed by low energy/weak (66.67%), and movement sensitivity (51.56%), which were significantly higher than those in the control group (26.32%, 24.56%, 27.19%) (all P<0.01). Using the K-Means clustering algorithm combined with the elbow method, children with ASD were classified into three subgroups: Group 1 as the \"sensory adaptive type\", Group 2 as the \"motor-sensitive/weakness type\" and Group 3 as the \"auditory filtering type\". Structural equation modeling results showed no significant association between sensory features and emotional and behavioral manifestations or total parenting stress scores in Group 1 (all P > 0.05). In Group 2, auditory filtering had a significant direct negative effect on both the SDQ total difficulties score and PSI-SF total parenting stress score (β = -0.25, -0.38, P < 0.05), while movement sensitivity had a significant direct negative effect on the SDQ total difficulties score (β = -0.26, P < 0.05). In Group 3, auditory filtering exerted a significant direct negative effect on the PSI-SF total parenting stress score (β = -0.25, P < 0.01) and also indirectly influenced it through the SDQ total difficulties score (β = -0.22, 0.31, P < 0.05). Additionally, sex had a significant direct effect on the total parenting stress scores of the PSI-SF in group 3 of children with ASD (β = 0.17, P < 0.05). Sensory differences are prevalent in ASD and correlate with emotional/behavioral manifestations and parenting stress. However, different types of sensory profiles influence emotional/behavioral characteristics and parenting stress through distinct pathways. Compared to the \"sensory adaptive type\" and \"motor-sensitive/weakness type\" subgroups, the \"auditory filtering type\" subgroup not only exerted a significant direct negative effect on parenting stress but also demonstrated a significant indirect negative effect through the mediating role of emotional/behavioral manifestations. Early identification of distinct ASD subgroups using sensory features may facilitate the timely development of targeted intervention plans and support policies, which improve clinical symptoms in children with ASD and alleviate parenting stress.",
+    "pmc_id": "",
+    "date_added": "2026-06-14"
+  },
+  {
+    "id": "10.1111/1460-6984.70267",
+    "title_en": "Improving Health Care Services for Autistic Young Adults: Development and Use of a Self-Reported Health Care Transition Readiness Assessment",
+    "title_he": "שיפור שירותי הבריאות עבור צעירים אוטיסטים: פיתוח ושימוש בהערכה עצמית של מוכנות למעבר לשירותי בריאות",
+    "authors": [
+      "Cheak-Zamora N C",
+      "Boccardi L",
+      "Bertucci G"
+    ],
+    "year": 2026,
+    "source": "Europe PMC",
+    "url": "https://europepmc.org/article/MED/42260974",
+    "keywords": [
+      "ASD caregiver family intervention"
+    ],
+    "summary_he": "מאמר זה עוסק בהכנה ובחוויות של צעירים אוטיסטים במעבר לשירותי הבריאות למבוגרים, נושא שעד כה לא זכה למחקר מעמיק. במהלך המחקר, 14 צעירים אוטיסטים השתתפו בסקרים ובראיונות אישיים, והביעו את דעתם על מיומנויות המעבר הקשורות לבריאות. הממצאים מראים כי המשתתפים ציינו את החשיבות של ידע על מצבים פיזיים ונפשיים, כמו גם את הצורך בעזרים כמו תזכורות אלקטרוניות כדי לפתח עצמאות. עם זאת, הם חוו קשיים רבים, כגון תלות במטפלים וחוסר יכולת להשיג עצמאות. המאמר מדגיש את הצורך בהתערבויות שיתאימו לצרכים ולחוויות של צעירים אוטיסטים, כולל שימוש בכלים אלקטרוניים והדרכת מטפלים. חיזוק האמונה של צעירים אוטיסטים ביכולתם להיות עצמאיים עשוי להיות קריטי כמו לימוד מיומנויות עצמאות עצמן.",
+    "abstract_en": "<h4>Background</h4>Autistic young adults' preparation for and experiences of transitioning to adult healthcare services is understudied. This transition period is important for Autistic young adults as many have chronic physical and mental health conditions that require regular healthcare utilization.<h4>Aims</h4>This study aimed to examine the experiences of autistic young adults as they transition into the adult healthcare system.<h4>Methods and procedures</h4>Participants were recruited through social media, word of mouth and advertisements in autism specialty clinics. Autistic young adults (n = 14) completed surveys and individual interviews, via Zoom, about health-related transition skills and experiences. Three researchers used thematic analysis to Bertucci OUTCOMES AND RESULTS: Participants rated all Health-related independence topics as important to the transition process, with knowledge about physical and mental conditions and safety as most important. Qualitative findings centred around what supports helped and hindered autistic young adults from becoming more independent. They used electronic reminders, observation, or training to learn living skills. Barriers included reliance on caregivers and a sense of being unable to achieve independence.<h4>Conclusions and implications</h4>Autistic young adults reported having some strategies but facing many challenges in achieving independence, related to healthcare needs. Participants described barriers related to making medical appointments, taking medications on their own and talking about their ASD and other medical conditions. Interventions and assessments should incorporate their experiences and needs.<h4>Key points</h4>Autistic young adult participants described the need for memory aids and reminders as an important part of being an adult. Many participants reported learning independent-related skills by observing or mirroring others, asking a support person for guidance, or searching out information often on the internet. Participants discussed feeling unable to be independent. Many participants were not sure what was holding them back, or they felt like they didn't have the communication skills needed to do independent tasks themselves.<h4>What this paper adds</h4>What is already known on this subject Autistic experiences of the move from paediatric to adult-centred care is understudied. Most research in this area is based on general surveys or parent reports. What this study adds to the existing knowledge By giving Autistic Young Adults a voice in describing their transition experiences and needs, this paper increases the knowledge base in this understudied area. Autistic young adults described the need for memory aids and reminders. Participants discussed feeling unable to be independent. Many participants were not sure what was holding them back, or they felt like they didn't have the communication skills needed to do independent tasks themselves. What are the potential or actual clinical implications of this study? Clinicians should build additional tools and supports that correspond with Autistic young adults' strengths and ways of learning, like electronic tools, discrete trial training and including caregivers in training when needed. Clinicians should purposefully utilize caregivers in interventions with decreasing reliance on their assistance and involvement over time. Strengthening Autistic young adults' belief that they can be more independent may be as important as teaching independence-related skills.",
+    "pmc_id": "13247350",
+    "date_added": "2026-06-14"
+  },
+  {
+    "id": "10.1136/fmch-2026-004072",
+    "title_en": "Comparative screening accuracy of the Modified Checklist for Autism in Toddlers, Revised with Follow-Up (M-Chat-R/F) for early autism spectrum disorder: a systematic review.",
+    "title_he": "דיוק הסינון של רשימת הבדיקה המותאמת לאוטיזם בתינוקות, גרסה מעודכנת עם מעקב (M-CHAT-R/F) לאוטיזם בגיל צעיר: סקירה שיטתית",
+    "authors": [
+      "Tsen Aaron Siong Fatt",
+      "Bantalani Mohammad Azri",
+      "Ab Rahim Muhammad Nazrin",
+      "Amat Siti Zuraina Ain",
+      "Mokti Khalid"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42264543/",
+    "keywords": [
+      "\"Autism Spectrum Disorder\"[MeSH] AND (\"social work\"[tiab] OR \"intervention\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק ביעילות הסינון המוקדם לאוטיזם בגיל הרך באמצעות הכלי M-CHAT-R/F, אשר הפך לפופולרי ברחבי העולם. הסקירה השיטתית נועדה להעריך את דיוק הסינון של M-CHAT-R/F בהשוואה לכלים אחרים לאוטיזם. מתוך 172 מאמרים שנמצאו, ניתוח של שישה מחקרים באיכות גבוהה עם 12,633 משתתפים גיל 12-48 חודשים גילה כי הדיוק של M-CHAT-R/F משתנה מאוד. רגישותו לזיהוי מקרים פוטנציאליים הייתה לא עקבית, אך הערך החזוי השלילי שלו היה גבוה, מה שאפשר זיהוי אמין של ילדים שסוננו שלילית. עם זאת, הכלי הציג ספציפיות משתנה וערך חיובי חזוי נמוך, מה שמעיד על בעיית חיוביות שקרית גבוהה. בנוסף, הדיוק של M-CHAT-R/F היה תלוי גיל, עם ירידה בביצועים מחוץ לטווח האופטימלי של 16-30 חודשים. המאמר ממליץ על אימוץ פרוטוקולי סינון מדורגים בהתאם לגיל כדי לשפר את היעילות האבחונית ולהקצות טוב יותר משאבי התערבות.",
+    "abstract_en": "OBJECTIVE: Early screening for autism spectrum disorder (ASD) is critical for timely intervention, making the Modified Checklist for Autism in Toddlers, Revised with Follow-Up (M-CHAT-R/F) a widely adopted tool globally. However, a recent systematic synthesis of its comparative accuracy is lacking. This review aimed to evaluate the screening accuracy of the M-CHAT-R/F against other ASD screening instruments.\n\nDESIGN: A systematic review was conducted in accordance with Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines. A narrative synthesis was employed to integrate findings across diverse study designs and methodological quality was assessed using the Joanna Briggs Institute checklist.\n\nELIGIBILITY CRITERIA: Peer-reviewed, English-language observational studies published between January 2020 and October 2025 that compared the accuracy metrics of the M-CHAT-R/F with alternative screening tools.\n\nINFORMATION SOURCES: Scopus, PubMed, ScienceDirect and ProQuest.\n\nRESULTS: From 172 identified articles, six high-quality studies encompassing 12 633 participants aged 12-48 months were analysed. The synthesis revealed a complex performance profile for the M-CHAT-R/F. While its sensitivity for detecting potential cases was highly inconsistent, its negative predictive value remained consistently high, reliably identifying children who screened negative. Conversely, the tool demonstrated variable specificity and a persistently low positive predictive value, indicating a substantial false-positive burden and reduced confidence in positive results. Furthermore, the M-CHAT-R/F's accuracy was highly age-dependent, with performance degrading outside the optimal 16-30-month window compared with other specialised tools.\n\nCONCLUSIONS: The M-CHAT-R/F may not be an optimal instrument in every clinical setting. Its clinical utility may be limited by variable sensitivity and a lower positive predictive value, potentially creating a higher false-positive burden. Clinicians and health systems should consider adopting age-specific, tiered screening protocols to improve diagnostic efficiency and better allocate intervention resources.",
+    "pmc_id": "",
+    "date_added": "2026-06-14"
+  },
+  {
+    "id": "epmc-PMC13260102",
+    "title_en": "Editorial: Enhancing the social skills and social competence for children and adolescents with autism spectrum disorder",
+    "title_he": "שיפור מיומנויות חברתיות ויכולת חברתית לילדים ובני נוער עם הפרעת ספקטרום האוטיזם",
+    "authors": [
+      "Budisteanu Magdalena"
+    ],
+    "year": null,
+    "source": "Europe PMC",
+    "url": "https://europepmc.org/search?query=",
+    "keywords": [
+      "autism spectrum disorder social work intervention"
+    ],
+    "summary_he": "מאמר זה עוסק בהפרעת ספקטרום האוטיזם (ASD), שהיא הפרעה נוירו-התפתחותית נפוצה המאפיינת קשיים מתמשכים באינטראקציה חברתית ובתקשורת. המאמר מסכם תרומות מעשרה מחקרים מדעיים המציעים אסטרטגיות התערבות שונות, השפעות ביולוגיות וסביבתיות על יכולת חברתית, וחוויות של מטפלים. בין הממצאים הבולטים נמצאת היעילות של התערבויות מיומנויות חברתיות מותאמות בשירותי בריאות נפש ציבוריים, והבטחה של טכניקות ביומדיות כמו אולטרסונוגרפיה ממוקדת. המאמר מדגיש את הצורך בתמיכה תרבותית רגישת תרבות עבור מטפלים, ומצביע על חשיבות פיתוח מודלים של התערבות המותאמים לפרופילים אישיים. הממצאים תורמים להבנה מעמיקה יותר של ASD, ומספקים כלים לשיפור השתתפות חברתית ואיכות חיים עבור אנשים עם הפרעה זו.",
+    "abstract_en": "",
+    "pmc_id": "13260102",
+    "date_added": "2026-06-14"
+  },
+  {
+    "id": "epmc-PMC13260601",
+    "title_en": "Clinical and sociodemographic characterization of a sibling-matched cohort of children with autism Spectrum disorder in Uruguay",
+    "title_he": "אפיון קליני וסוציודמוגרפי של קבוצת ילדים עם הפרעת ספקטרום האוטיזם באורוגוואי",
+    "authors": [
+      "Lamberti Lucia",
+      "Rusiñol Camila",
+      "Guisande Andreina",
+      "Peñalba Florencia",
+      "Irastorza Maite",
+      "Konik Florencia",
+      "Parada Andrés",
+      "Iglesias Claudio",
+      "Mendive Paula",
+      "Riera Nadia",
+      "Garrido Gabriela"
+    ],
+    "year": null,
+    "source": "Europe PMC",
+    "url": "https://europepmc.org/search?query=",
+    "keywords": [
+      "autism spectrum disorder social work intervention"
+    ],
+    "summary_he": "מאמר זה עוסק באפיון קליני, סוציודמוגרפי, פסיכיאטרי וגסטרואנטרולוגי של 55 משפחות באורוגוואי, בהשוואה בין ילדים עם הפרעת ספקטרום האוטיזם (ASD) לבין אחים נוירוטיפיקליים. מטרות עיקריות כללו את תיאור הפרופילים הסוציודמוגרפיים והמחסומים המערכתיים, הקמת בסיס קליני-תזונתי לילדים אורוגוואיים, והפקת נתונים עבור מחקרי מיקרוביום עתידיים. נמצא כי ישנה שכיחות גבוהה יותר של בנים בקבוצת ה-ASD, כאשר 60% מההריונות היו עם סיבוכים. כל הילדים עם ASD הציגו ייחודיות סנסורית, ו-94.3% דיווחו על תסמינים גסטרואנטרולוגיים. המאמר מדגיש את הצורך בזיהוי מוקדם משופר ומספק ראיות מקומיות חשובות עבור אוכלוסיית ה-ASD באורוגוואי. גישה בין-תחומית זו מקשרת בין פרקטיקה קלינית למחקר, ומקדמת טיפול מותאם בהקשר המקומי.",
+    "abstract_en": "",
+    "pmc_id": "13260601",
+    "date_added": "2026-06-14"
+  },
+  {
+    "id": "10.1080/20008066.2026.2673670",
+    "title_en": "The efficacy of EMDR therapy in adults with a severe intellectual disability and posttraumatic stress disorder",
+    "title_he": "היעילות של טיפול EMDR במבוגרים עם לקות אינטלקטואלית חמורה והפרעת דחק פוסט-טראומטית",
+    "authors": [
+      "Hoogstad Annemieke",
+      "Bouwmeester Samantha",
+      "Mevissen Liesbeth",
+      "Didden Robert"
+    ],
+    "year": 2026,
+    "source": "Europe PMC",
+    "url": "https://europepmc.org/article/MED/42262905",
+    "keywords": [
+      "ASD caregiver family intervention"
+    ],
+    "summary_he": "מאמר זה עוסק בהשפעת טיפול EMDR (הפחתת רגישות ועיבוד מחדש באמצעות תנועות עיניים) על מבוגרים עם לקות אינטלקטואלית חמורה (IQ 20-35) הסובלים מהפרעת דחק פוסט-טראומטית (PTSD). החוקרים ביצעו ניסוי עם שבעה משתתפים, תוך שימוש בעיצוב בסיסי מרובה, כדי להעריך את היעילות של שיטת הסיפור של EMDR בהפחתת התנהגויות לא פונקציונליות ותסמיני PTSD. התוצאות הראו ירידה משמעותית בתסמיני PTSD ובחלק מההתנהגויות הלא פונקציונליות מיד לאחר הטיפול ובמעקב של שלושה חודשים. עם זאת, התוצאות עבור התנהגויות מאתגרות היו מעורבות. המאמר מספק תמיכה ראשונית לבטיחות ולפוטנציאל של שיטת EMDR בטיפול באנשים עם לקויות אינטלקטואליות חמורות והפרעות דחק פוסט-טראומטיות.",
+    "abstract_en": "<b>Background:</b> Individuals with severe intellectual disabilities (SID; IQ 20-35) are believed to be at heightened risk of developing posttraumatic stress disorder (PTSD). However<i>,</i> research targeting trauma treatment in individuals with SID remains limited, and controlled intervention studies are scarce.<b>Objective:</b> To investigate the effectiveness of Eye Movement Desensitization and Reprocessing (EMDR) storytelling method in seven adults with SID and PTSD.<b>Method:</b> A multiple baseline design was used in seven adults with SID and PTSD to evaluate the efficacy of the EMDR storytelling method in reducing dysfunctional behaviours, PTSD symptoms, and challenging behaviours immediately after treatment and at three-month follow-up assessment.<b>Results:</b> Immediately after EMDR therapy and at three-month follow-up, significant reductions in dysfunctional behaviours and PTSD symptoms were observed at group level. At individual level, reductions in PTSD symptoms were observed in most participants, whereas results for dysfunctional behaviours were mixed. No group-level changes were found for challenging behaviours while individual outcomes were stable for the total score but varied across the BPI subscales (self-injury, stereotypical, and aggressive behaviours). No sessions were discontinued prematurely, and no adverse events were reported.<b>Conclusions:</b> This study provides preliminary support for the safety, suitability, and potential efficacy of the EMDR storytelling method in reducing PTSD symptoms.",
+    "pmc_id": "13250871",
+    "date_added": "2026-06-14"
+  },
+  {
+    "id": "10.1007/s11920-026-01682-4",
+    "title_en": "Sensory Reactivity in Autism: Integrating Behavioural, Affective, Physiological, and Neural Dimensions.",
+    "title_he": "תגובות חושיות באוטיזם: שילוב ממדי התנהגות, רגש, פיזיולוגיה ועצב",
+    "authors": [
+      "Tavassoli Teresa",
+      "Marco Elysa J",
+      "Puts Nick"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42262640/",
+    "keywords": [
+      "\"Neurodevelopmental Disorders\"[MeSH] AND (\"family\"[tiab] OR \"caregiver\"[tiab])"
+    ],
+    "summary_he": "מאמר זה מסכם מחקרים עדכניים על הבדלים בתגובות חושיות באוטיזם במהלך חיי הפרט, תוך שימוש בטקסונומיה חושית כבסיס לארגון המידע. המאמר עוסק כיצד רמות עיבוד שונות - התנהגותיות, רגשיות, תפיסתיות, פיזיולוגיות ועצביות - תורמות להבדלים בתגובות חושיות, וכיצד הבדלים אלו קשורים לתוצאות רחבות יותר כמו בריאות נפשית, תפקוד אדפטיבי ואיכות חיים. נמצא כי בני נוער אוטיסטים מראים רגישות חושית גבוהה ומגוונת, כאשר רגישות יתר מנבאת סימפטומים פנימיים וחיפוש חוויות חושיות מקושר להתנהגויות חיצוניות. כמו כן, נמצא כי רגישות רגשית גבוהה קשורה לחרדה וללחץ על המטפלים. מחקרים פיזיקליים חושפים הבדלים תפיסתיים ספציפיים, בעוד שהראיות הפיזיולוגיות מצביעות על דיסרגולציה אוטונומית. הראיות מהדמיה עצבית מדגישות חוסר איזון בין ריגוש לדיכוי ושינויים בקישוריות בין רשתות שונות. בסיכום, הבדלים בתגובות חושיות באוטיזם הם מגוונים ומשמעותיים, עם קשרים ברורים לבריאות נפשית ולתפקוד יומיומי.",
+    "abstract_en": "PURPOSE OF REVIEW: The goal of this paper is to synthesise recent research on sensory reactivity differences in autism across the lifespan, using He et al.'s sensory taxonomy as an organising framework. The review aims to address how behavioural, affective, perceptual, physiological, and neural levels of processing contribute to sensory reactivity differences, and how these differences relate to broader outcomes such as mental health, adaptive functioning, and quality of life.\n\nRECENT FINDINGS: Across behavioural studies, autistic youth show elevated and variable sensory responsivity, with hypersensitivity predicting internalising symptoms and sensory seeking linked to externalising behaviours. Affective reactivity is consistently elevated across cultures, associated with anxiety and caregiver stress, and sensory seeking may function as a coping mechanism. Psychophysical research reveals domain‑specific perceptual differences-such as reduced tactile adaptation, altered motion noise exclusion, and enhanced pitch discrimination-rather than overarching hyper‑ or hyposensitivity. These perceptual findings often show limited correspondence with questionnaire‑based measures. Physiologically, autonomic dysregulation is implicated, or pharmacological approaches show emerging promise. Neuroimaging evidence highlights excitation-inhibition imbalance and altered connectivity, including dissociations between exogenous and endogenous networks in sensory‑reactive autistic children. Across multiple levels of processing, sensory reactivity differences in autism are robust, heterogeneous, and meaningfully linked to mental health and daily functioning. Key conclusions include: • Sensory hyperreactivity predicts internalising challenges, while sensory seeking may reflect regulatory strategies. • Perceptual differences are domain‑specific • Physiological and neural evidence converges on autonomic dysregulation and differences in connectivity patterns.",
+    "pmc_id": "13249907",
+    "date_added": "2026-06-14"
+  },
+  {
+    "id": "10.1159/000552891",
+    "title_en": "Evaluating Peer-Mediated Instruction for Children with Extensive Support Needs",
+    "title_he": "הערכת הוראה באמצעות בני גיל עבור ילדים עם צרכים תומכים נרחבים",
+    "authors": [
+      "Raley Sheida K",
+      "Lorah Elizabeth R",
+      "Holyfield Christine",
+      "Booth Grace",
+      "Maddox Madison"
+    ],
+    "year": 2026,
+    "source": "Europe PMC",
+    "url": "https://europepmc.org/article/MED/42258589",
+    "keywords": [
+      "AAC augmentative alternative communication"
+    ],
+    "summary_he": "מאמר זה עוסק בהערכת השפעת ההוראה המבוצעת על ידי בני גיל עבור ילדים עם צרכים תומכים נרחבים, המתמודדים עם אתגרים בתקשורת. המחקר כלל שלושה ילדים בני חמש, אשר השתמשו בטכנולוגיה של תקשורת חלופית ומחזקת (AAC) באמצעות טאבלט, במטרה לבקש חטיפים במהלך זמן חטיף. באמצעות עיצוב ניסויי של בסיס מרובה לא תואם, הילדים קיבלו הוראה מבני גיל ללא צרכים תומכים נרחבים, תוך שימוש במודלינג ועיכוב של שלוש שניות לפני התגובה. תוצאות המחקר הראו כי כל הילדים הצליחו לרכוש את היכולת לבקש חטיף באמצעות AAC. המאמר מציע גם מגבלות והמלצות למחקר עתידי וליישום בשטח, תוך הדגשה על החשיבות של תמיכה חברתית בתהליך הלמידה של ילדים עם צרכים מיוחדים.",
+    "abstract_en": "The purpose of this study was to evaluate the use of peer-mediated instruction for requesting during a snack time routine for children with extensive support needs who were also beginning communicators. Participants included three children aged five with extensive support needs who used a tablet-based augmentative and alternative communication (AAC) to communicate. Using a nonconcurrent multiple baseline design, participants were taught by peers without extensive support needs, to request for a preferred snack using modeling and a three-second time delay until responding reached a mastery criterion of 80-100% across five consecutive trials. Results indicated that all three participants acquired the ability to request from a peer using AAC. Limitations and considerations for future research and practice are discussed.",
+    "pmc_id": "",
+    "date_added": "2026-06-14"
+  },
+  {
+    "id": "10.1044/2026_ajslp-25-00469",
+    "title_en": "Artificial Intelligence for Enhancing Emotion Expression in Augmentative and Alternative Communication Systems: A Preliminary Study Including Children Both With and Without Autism",
+    "title_he": "בינה מלאכותית לשיפור הבעות רגשיות במערכות תקשורת תומכת ואלטרנטיבית: מחקר ראשוני כולל ילדים עם ובלי אוטיזם",
+    "authors": [
+      "Pitt Kevin M",
+      "Ousley Ciara",
+      "Gibbons Christopher",
+      "Martinez Eli",
+      "Kirkpatrick Ciera E",
+      "Bubak Austin"
+    ],
+    "year": 2026,
+    "source": "Europe PMC",
+    "url": "https://europepmc.org/article/MED/42257585",
+    "keywords": [
+      "AAC augmentative alternative communication"
+    ],
+    "summary_he": "מאמר זה עוסק בשילוב של בינה מלאכותית במערכות תקשורת תומכת ואלטרנטיבית (AAC) כדי לשפר את הבעות הרגשיות של המשתמשים. המחקר הראשוני השתמש בכלי זיהוי רגשות בשם DeepFace, שבו השתתפו 12 ילדים נוירוטיפיקליים ו-4 ילדים עם אוטיזם, בגילאים 8-13. הילדים ביצעו שני משימות: אחת בהדמיה של רגשות בעזרת תמונות סטטיות והשנייה בהפקת רגשות באופן חצי ספונטני. הממצאים מראים שהמערכת הצליחה לזהות רגשות כמו שמחה, עצב ורוגע, אם כי הדיוק השתנה בין רגשות, משתתפים וסוגי משימות. דירוגי חוויית המשתמש היו חיוביים, מה שמעיד על שביעות רצון מהמערכת. המאמר מדגיש את החשיבות של התאמה אישית במערכות AAC ומציע כיוונים למחקר עתידי, כולל הרחבת מאגרי הנתונים והבנת הקשרים בין פלט דיבור סינתטי לרגשות מזוהים. נדרשים מחקרים רחבים יותר שיכללו משתמשי AAC פעילים ורקע תרבותי מגוון.",
+    "abstract_en": "<h4>Purpose</h4>Artificial intelligence is increasingly being explored in augmentative and alternative communication (AAC) to support personalized and responsive communication. Integrating emotion recognition into AAC systems may help users convey emotion content in real time, enhancing social interaction and communication quality.<h4>Method</h4>This preliminary study utilized DeepFace, a facial emotion recognition tool, as a starting point for integrating emotion recognition into AAC systems. Twelve neurotypical children and four children with autism, aged 8-13 years, completed two tasks: an imitated (copy) emotion condition using static images and a semispontaneous emotion-elicitation condition. Similar to existing AAC devices, each participant completed an individualized calibration procedure to help tailor the model to their facial expressions. Number scale ratings of the user experience were also collected.<h4>Results</h4>Overall, the system demonstrated promising provisional accuracy, particularly for happiness, sadness, and calm (neutrality), although performance varied across emotions, participants, and task types. User experience ratings were generally positive, suggesting satisfaction and engagement with the system, with variability observed.<h4>Conclusions</h4>Findings highlight the value of calibration and personalization in AAC. Future work should expand training data sets to better represent children's facial expressions, incorporate multimodal inputs, and explore the alignment of synthetic speech output with detected emotions. Broader studies including active AAC users, diverse developmental and cultural backgrounds, and more spontaneous real-world interactions are needed. These results support the preliminary utility of DeepFace as a possible starting point for integrating emotion recognition into AAC systems, but further research is warranted. Directions for user-centered development are also discussed.<h4>Supplemental material</h4>https://doi.org/10.23641/asha.32511465.",
+    "pmc_id": "",
+    "date_added": "2026-06-14"
+  },
+  {
+    "id": "10.21608/sero.2026.506237",
+    "title_en": "انعــكاس الشــراكـــة المجتمعيـــة على تنمية المهارات الاجتماعية لذوي الإعاقة الفكرية مـن وجهـــة نظــــر المعلمـــينThe Impact of Community Partnership on the Development of Social Skills for Individuals with Intellectual Disabilities: Perspectives of Teachers",
+    "title_he": "השפעת השותפות הקהילתית על פיתוח מיומנויות חברתיות עבור אנשים עם לקויות קוגניטיביות: נקודת מבטם של המורים",
+    "authors": [
+      "عفاف العتيبي"
+    ],
+    "year": 2026,
+    "source": "Semantic Scholar",
+    "url": "https://www.semanticscholar.org/paper/755044a285d8d44a29600390ef64911cccfc9c45",
+    "keywords": [
+      "intellectual disability inclusion community"
+    ],
+    "summary_he": "מאמר זה עוסק בהשפעת השותפות הקהילתית על פיתוח מיומנויות חברתיות בקרב אנשים עם לקויות קוגניטיביות, תוך התמקדות בניתוח נקודת המבט של המורים. מטרת המחקר היא להבין כיצד שותפויות עם הקהילה תורמות לפיתוח מיומנויות חברתיות אצל תלמידים עם לקויות קוגניטיביות. השיטות כוללות ראיונות עם מורים, תצפיות בכיתות וניתוח תוכן של מסמכים רלוונטיים. הממצאים מצביעים על כך ששיתוף פעולה עם הקהילה, כולל פעילויות חוץ-כיתתיות, מסייע בשיפור הכישורים החברתיים של תלמידים אלו, כמו גם בהגברת ההבנה והסובלנות בקרב תלמידים אחרים. המאמר מדגיש את החשיבות של יצירת קשרים עם ארגונים קהילתיים, אשר יכולים להציע תמיכה ומשאבים נוספים. ההשלכות לתחום העבודה הסוציאלית כוללות המלצות לפיתוח תוכניות שותפות קהילתיות, שיכולות לשפר את איכות החיים של אנשים עם לקויות קוגניטיביות ולהגביר את ההכלה החברתית.",
+    "abstract_en": "",
+    "date_added": "2026-06-14"
   }
 ]
