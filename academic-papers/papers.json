@@ -6723,5 +6723,234 @@
     "abstract_en": "<h4>Introduction</h4>Childhood obesity disproportionately affects children with intellectual and developmental disabilities, in part due to additional risks, including food selectivity, metabolic differences, and systemic inequities. Given the critical role of nutrition in obesity prevention, this systematic review examines the effectiveness of nutrition-based interventions targeting intellectual and developmental disabilities across socio-ecological levels.<h4>Methods</h4>This review followed PRISMA guidelines (PROSPERO ID # CRD42023493651). A search of four electronic databases (PubMed MEDLINE, PsycINFO, CINAHL, Embase) identified articles evaluating nutrition-based obesity prevention interventions for children with intellectual and developmental disabilities. Inclusion criteria encompassed interventions implemented at household, school, community, or policy levels, with outcomes measuring diet-related behaviors and obesity. Outcomes included diet-related behaviors and obesity indicators. Two independent reviewers screened articles, extracted data, and assessed quality. Articles were assessed for methodological quality and intervention effectiveness.<h4>Results</h4>Of 3531 initial citations, 10 articles met inclusion criteria. Most interventions were school-based and incorporated nutrition education, behavioral strategies, and environmental modifications. Of these, 80% targeted school-level interventions, with some extending to community and policy levels. Results showed improved diet-related behaviors, especially increased fruit and vegetable intake, though statistically significant reductions in obesity measures were not observed, likely due to small sample sizes and methodological limitations such as lack of control groups.<h4>Conclusion</h4>Nutrition-based interventions show promise in improving dietary behaviors among children with intellectual and developmental disabilities, but evidence on obesity reduction remains inconclusive. Future research should adopt rigorous study designs and incorporate family and community engagement to enhance intervention efficacy and sustainability.",
     "pmc_id": "",
     "date_added": "2026-06-21"
+  },
+  {
+    "id": "10.1136/bmjpo-2025-004226",
+    "title_en": "Mealtime behaviours, diet quality and parental stress in children with autism spectrum disorder: a cross-sectional study from Türkiye.",
+    "title_he": "התנהגויות במהלך הארוחה, איכות התזונה ולחץ הורי אצל ילדים עם הפרעת ספקטרום האוטיזם: מחקר חתך מטורקיה",
+    "authors": [
+      "Özyildirim Caner",
+      "Karaçil Ermumcu Merve Seyda",
+      "Mutlu Meryem Ece",
+      "Baran Ilgın",
+      "Salim Hediye",
+      "Seremet Kürklü Nilgun"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42336795/",
+    "keywords": [
+      "\"Neurodevelopmental Disorders\"[MeSH] AND (\"family\"[tiab] OR \"caregiver\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בקשיים תזונתיים אצל ילדים עם הפרעת ספקטרום האוטיזם (ASD) והשפעתם על מצב התזונה של הילד ורווחת המשפחה. במחקר חתך שנערך באנטליה, טורקיה, השתתפו 111 הורים לילדים עם ASD. הנתונים נאספו באמצעות ראיונות פנים אל פנים וכללו כלים מאומתים להערכה. נמצא כי 94.5% מהילדים סבלו מאיכות תזונה ירודה, כאשר התנהגויות בעייתיות במהלך הארוחה היו מנבא עצמאי חזק לאיכות תזונה נמוכה. אסטרטגיות הורות פרואקטיביות חיזקו את איכות התזונה, בעוד שפרקטיקות מתאימות כמו הכנת ארוחות מיוחדות השפיעו לרעה. בנוסף, הורים לבנות דיווחו על לחץ גבוה יותר לעומת הורים לבנים. המאמר ממליץ על גישה רב-תחומית וממוקדת משפחה בניהול הקליני, הכוללת תמיכה התנהגותית בתזונה וניהול לחץ הורי.",
+    "abstract_en": "BACKGROUND: Feeding difficulties in children with Autism Spectrum Disorder (ASD) are prevalent, adversely affecting both the child's nutritional status and the family's psychosocial well-being. This study aimed to examine the interrelationships between mealtime behaviours, diet quality and parental stress in children with ASD.\n\nMETHODS: A cross-sectional study was conducted with 111 parents of children diagnosed with ASD (mean age: 6.8±3.5 years) in Antalya, Türkiye. Data were collected via face-to-face interviews using validated tools (Brief Autism Mealtime Behaviour Inventory (BAMBI), parental mealtime strategies, parental stress scale, Quality of Life questionnaire in autism). Diet quality was evaluated using the Healthy Eating Index-2020, derived from 3-day food consumption records. Multivariate linear regression was used to identify independent predictors of diet quality.\n\nRESULTS: The prevalence of poor diet quality was alarmingly high (94.5%). Multivariate regression revealed that problematic mealtime behaviours (BAMBI) were a strong independent predictor of lower diet quality (B=-0.370, p<0.001), even after adjusting for sociodemographic factors. While overall proactive parental strategies positively predicted diet quality, specific accommodative practices like preparing special meals correlated negatively. Furthermore, caregivers of girls reported significantly higher stress (p=0.017) and perceived autism-related burden (p=0.003) compared with caregivers of boys.\n\nCONCLUSIONS: Severe mealtime behavioural dysregulation in ASD intrinsically compromises diet quality and elevates parental psychosocial burden. Clinical management requires a multidisciplinary, family-centred approach integrating behavioural feeding support with caregiver stress management.",
+    "pmc_id": "13295970",
+    "date_added": "2026-06-28"
+  },
+  {
+    "id": "10.1371/journal.pone.0351969",
+    "title_en": "Factors associated with resilience among parents of children with autism spectrum disorder: A systematic review.",
+    "title_he": "גורמים הקשורים לחוסן בקרב הורים לילדים עם הפרעת אוטיזם: סקירה שיטתית",
+    "authors": [
+      "Md Salim Nora Saliza",
+      "Idris Idayu Badilla",
+      "Nor Norazlin Kamal",
+      "Roslan Syakirah",
+      "Abdul Rashid Nafisah",
+      "Ibrahim Roszita",
+      "Abd Rahman Fairuz Nazri"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42329917/",
+    "keywords": [
+      "\"Neurodevelopmental Disorders\"[MeSH] AND (\"family\"[tiab] OR \"caregiver\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בחוסן של הורים לילדים עם הפרעת אוטיזם (ASD) ובגורמים המשפיעים עליו. הורים אלה מתמודדים עם אתגרים מתמשכים הקשורים לטיפול בילדיהם, והשפעתם על רווחת ההורים היא משמעותית. סקירה שיטתית זו נועדה לזהות את הגורמים הקשורים לחוסן בקרב הורים לילדים עם ASD. החוקרים ביצעו סקירה לפי מתודולוגיית PRISMA 2020, שכללה 13 מחקרים שפורסמו בין ינואר 2019 למאי 2025. מתוך המחקרים, זוהו חמישה נושאים מרכזיים המשפיעים על חוסן ההורים: גורמים סוציודמוגרפיים וכלכליים, מאפיינים הקשורים לילד, רווחה נפשית של ההורים, גורמים פסיכולוגיים וסגנונות התמודדות, ותמיכה חברתית ויחסי משפחה. המאמר מדגיש את הצורך בחיזוק משאבי ההתמודדות ותמיכה חברתית כדי לשפר את ההתאמה של ההורים ורווחת המשפחה. כמו כן, הוא מציע לפתח התערבויות רגישות תרבותית ברמות שונות כדי לקדם חוסן בקרב הורים לילדים עם ASD.",
+    "abstract_en": "Parents of children with autism spectrum disorder (ASD) experience ongoing caregiving demands and challenges that may contribute to their general well-being. Research has shown that resilience enables parents to adapt to these challenges; however, existing evidence on associated factors toward resilience among these parents remains fragmented. This systematic review aimed to identify factors associated with resilience among parents of children with ASD. We conducted a PRISMA 2020-guided systematic review on studies published between January 2019 and May 2025 using Web of Science, Scopus, and PubMed by applying predefined search terms and Boolean operators. Studies examining factors associated with resilience among parents of children with ASD aged under 18 years were included in this review. We also used the Mixed Methods Appraisal Tool 2018 to assess the quality of these studies. Findings were synthesised narratively using thematic analysis. From the 13 selected studies, five themes were identified as determinants of resilience among parents, i.e., sociodemographic and economic factors; child-related characteristics; parenting well-being and distress; psychological factors and coping styles; and social support and family relationships. Most included studies were cross-sectional and utilised different measurement tools, which may limit causal inference and comparability. As a conclusion, parental resilience was found to be influenced by psychological, social, and contextual factors. Strengthening coping resources and social support may enhance parental adaptation and family well-being. Along these lines, multi-level and culturally sensitive interventions are thus needed to inform strategies to foster resilience among parents of children with ASD. The review was registered with PROSPERO (CRD420251034348). The author(s) received no specific funding for this work.",
+    "pmc_id": "13286168",
+    "date_added": "2026-06-28"
+  },
+  {
+    "id": "10.1177/15248380261456254",
+    "title_en": "Gender-Based Violence and Intellectual and Developmental Disabilities: A Systematic Review of Reporting, Response, and Reform.",
+    "title_he": "אלימות מבוססת מגדר ולקויות קוגניטיביות והתפתחותיות: סקירה שיטתית של דיווח, תגובה ורפורמה",
+    "authors": [
+      "Burckley Jacquelyn",
+      "Powers Ráchael A",
+      "Gross Rebekkah L",
+      "Hayes Brittany E",
+      "Simmons Amanda K",
+      "McKingsley Leigh Anne"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42363578/",
+    "keywords": [
+      "IDD[tiab] AND (intervention[tiab] OR support[tiab] OR inclusion[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בסיכונים המוגברים של אנשים עם לקויות קוגניטיביות והתפתחותיות (IDD) לאלימות מבוססת מגדר, ובמיוחד בחוויותיהם הייחודיות בדיווח על מקרי אלימות למשטרה, לספקי שירותים ולמערכות תמיכה לא פורמליות. הסקירה השיטתית, שנעשתה בהתאם להנחיות PRISMA, מנתחת 29 מאמרים שנבחרו מתוך חיפושים שיטתיים, ומדגישה את המכשולים הרבים שעומדים בפני הקורבנות, כגון חוסר נגישות מערכתית, חוסר בכוח אדם מיומן ואוטונומיה מוגבלת של הקורבנות. הממצאים מצביעים על הצורך ברפורמות ברמות שונות, שממוקדות בזכויות ובחוויות של אנשים עם IDD, תוך הרחבת הגישה למערכות דיווח פורמליות ולא פורמליות. המאמר ממליץ על כך שהמחקר העתידי יתמקד ביעילות ההתאמות הקיימות בדיווח ובדרכים לשיפור הנגישות והתגובה, וכולל את הקהילה עם מוגבלויות בכל שלבי המחקר כדי להבטיח שהשאלות, השיטות והממצאים י reflekt את החוויות הממשיות ויתמכו בפיתוח מערכות דיווח נגישות.",
+    "abstract_en": "Individuals with intellectual and developmental disabilities (IDD) face elevated risks of gender-based violence, yet their unique experiences reporting to police, service providers, and informal support systems remain underrepresented in trauma and justice research. Following PRISMA guidelines, this systematic review aims to map the existing literature on the pathways of reporting and help-seeking behavior of victims with IDD and their subsequent experiences in engaging with the criminal justice system. We identified empirical work through systematic searches of relevant online databases, hand searches, reference searches, and efforts to obtain grey literature. We retained 29 articles for analysis after meeting inclusion criteria, and these articles emphasized widespread barriers to disclosure and justice, including systemic inaccessibility (e.g., relying on verbal interviews and use of jargon), lack of trained personnel, and victims' limited autonomy. Findings highlight the need for multi-level reforms that center the rights, autonomy, and lived experiences of individuals with IDD while expanding access to formal and informal reporting systems. Future research should prioritize the effectiveness of current accommodations in reporting, the feasibility of recommended accommodations, and pathways to disclosure. These efforts should include the disability community at all stages of the research to better ensure that research questions, methods, and findings reflect lived experiences, address real barriers, and support the development of accessible reporting and response systems.",
+    "pmc_id": "",
+    "date_added": "2026-06-28"
+  },
+  {
+    "id": "epmc-PMC13294225",
+    "title_en": "Applying self-determination theory to understand maternal well-being in autism caregiving: a mini review",
+    "title_he": "יישום תאוריית הסיפוק העצמי להבנת רווחת האמהות בטיפול בילדים עם אוטיזם: סקירה מיניאטורית",
+    "authors": [
+      "Kripamariya J.",
+      "Justin P. J."
+    ],
+    "year": null,
+    "source": "Europe PMC",
+    "url": "https://europepmc.org/search?query=",
+    "keywords": [
+      "autism spectrum disorder social work intervention"
+    ],
+    "summary_he": "מאמר זה עוסק ברווחת האמהות לילדים עם הפרעת אוטיזם, תוך שימוש בתאוריית הסיפוק העצמי (SDT) כדי להבין את ההשפעות הפסיכולוגיות של טיפול בילדים עם אוטיזם. המחקר מצביע על כך שאמהות חוות לעיתים קרובות מתח נפשי, עול טיפול ורווחה נמוכה, אך רוב המחקרים הקודמים התמקדו במודלים של מתח וחסרים במקום במודלים שמדגישים את החוזקות שמסייעות לרווחה ולחוסן. SDT מציעה מסגרת להבנת רווחת האמהות על ידי הדגשת הצרכים הפסיכולוגיים הבסיסיים של אוטונומיה, יכולת וקשר חברתי. נמצא כי סיפוק גבוה של צרכים אלו קשור לבריאות נפשית טובה יותר ולביטחון גבוה יותר בטיפול. המאמר מדגיש את הצורך בשירותים המעצימים את האמהות ומספקים תמיכה חברתית, וממליץ על שילוב SDT במחקר ובפיתוח התערבויות עבור מטפלות. המאמר מציע גם כיוונים לעתיד במחקר וביישום של התערבויות מבוססות SDT כדי לשפר את רווחת האמהות והילדים.",
+    "abstract_en": "",
+    "pmc_id": "13294225",
+    "date_added": "2026-06-28"
+  },
+  {
+    "id": "epmc-PMC13295101",
+    "title_en": "Virtual reality in autism and physical therapy: a meta-analytical review of clinical outcomes and therapeutic efficacy",
+    "title_he": "מציאות מדומה באוטיזם ופיזיותרפיה: סקירה מטה-אנליטית של תוצאות קליניות ויעילות טיפולית",
+    "authors": [
+      "Al Tawil Arar",
+      "Hashim Siti Hazyanti Mohd",
+      "Király Bence",
+      "Leidecker Eleonóra"
+    ],
+    "year": null,
+    "source": "Europe PMC",
+    "url": "https://europepmc.org/search?query=",
+    "keywords": [
+      "autism spectrum disorder social work intervention"
+    ],
+    "summary_he": "מאמר זה עוסק בשימוש בטכנולוגיית מציאות מדומה (VR) כחדשנות טיפולית בתחום הבריאות, במיוחד בהקשר של הפרעת הספקטרום האוטיסטי (ASD) ופיזיותרפיה (PT). המחקר מבצע סקירה שיטתית ומטה-אנליזה כדי להעריך את היעילות של התערבויות VR בשני התחומים. הממצאים מצביעים על השפעה חיובית משמעותית של התערבויות VR, עם שיפור במוטיבציה, מעורבות והיצמדות לטיפול. המאמר מדגיש את האתגרים המתודולוגיים והמעשיים המונעים את האימוץ הרחב של טכנולוגיה זו, כגון עלויות, הכשרה ווריאביליות בפרוטוקולים. כמו כן, הוא מציע כיוונים עתידיים כמו התאמה אישית מונעת בינה מלאכותית, VR נייד וטלה-שיקום. המאמר מציע כי למרות המגבלות, VR מציעה פוטנציאל משמעותי לשיפור תוצאות טיפוליות באוטיזם ובפיזיותרפיה.",
+    "abstract_en": "",
+    "pmc_id": "13295101",
+    "date_added": "2026-06-28"
+  },
+  {
+    "id": "epmc-PMC13290934",
+    "title_en": "Effect of acupuncture on rehabilitation treatment of children with different degrees of autism spectrum disorder: a randomized controlled trial",
+    "title_he": "השפעת דיקור סיני על טיפול שיקומי בילדים עם דרגות שונות של הפרעת ספקטרום האוטיזם: ניסוי מבוקר אקראי",
+    "authors": [
+      "Zhang Qinliang",
+      "Li Mo",
+      "Zhou Zhenwei",
+      "Tian Liyan",
+      "Liu Lianju",
+      "Zhang Jun"
+    ],
+    "year": null,
+    "source": "Europe PMC",
+    "url": "https://europepmc.org/search?query=",
+    "keywords": [
+      "autism spectrum disorder social work intervention"
+    ],
+    "summary_he": "מאמר זה בוחן את השפעת דיקור סיני על שיקום ילדים עם הפרעת ספקטרום האוטיזם (ASD) ומדגיש את ההבדלים בין ילדים עם דרגות קלות-בינוניות לבין ילדים עם אוטיזם חמור. הילדים בקבוצות הדיקור קיבלו טיפול דיקור יחד עם הכשרה שיקומית שגרתית. התוצאות מראות כי טיפול דיקור סיני שיפר את היכולות הקוגניטיביות, השפה, המיומנויות המוטוריות, ההתנהגות החברתית והיכולת לדאוג לעצמם, במיוחד אצל ילדים עם אוטיזם קל עד בינוני. אצל ילדים עם אוטיזם חמור, הדיקור שיפר גם את הקוגניציה, השפה והתנהגויות בעייתיות. לא נצפו תופעות לוואי מהטיפול. המאמר מספק תובנות חשובות לגבי השפעת הדיקור על ילדים עם ASD, ומדגיש את הצורך בהתאמת הטיפול לפי דרגת החומרה של ההפרעה.",
+    "abstract_en": "",
+    "pmc_id": "13290934",
+    "date_added": "2026-06-28"
+  },
+  {
+    "id": "epmc-PMC13294227",
+    "title_en": "Telerehabilitation in children and adolescents with intellectual disability: a systematic review",
+    "title_he": "שיקום מרחוק בילדים ובני נוער עם לקות אינטלקטואלית: סקירה שיטתית",
+    "authors": [
+      "Micai Martina",
+      "Gila Letizia",
+      "Caruso Angela",
+      "Morelli Daniela",
+      "Totino Maria Grazia",
+      "Balboni Giulia",
+      "Belacchi Carmen",
+      "Colucci Alessandra",
+      "Fantini Chiara",
+      "Metitieri Tiziana",
+      "Orsolini Margherita",
+      "Rampazzi Alessandra",
+      "Ruggerini Ciro",
+      "Stefani Cristiana",
+      "Bertelli Marco",
+      "Fulceri Francesca",
+      "Scattoni Maria Luisa"
+    ],
+    "year": null,
+    "source": "Europe PMC",
+    "url": "https://europepmc.org/search?query=",
+    "keywords": [
+      "autism spectrum disorder social work intervention"
+    ],
+    "summary_he": "מאמר זה מציע סקירה שיטתית של השפעת שיקום מרחוק (טלר habilitation) על ילדים ובני נוער עם לקות אינטלקטואלית (ID). השימוש בטכנולוגיות טלר habilitation הולך ומתרקם בשנים האחרונות, אך המידע הקיים עדיין מוגבל ומגוון. הסקירה כללה 28 מחקרים עם 668 משתתפים, והראתה שיפור בכישורי שפה ותקשורת, התנהגויות מאתגרות, תפקודים ניהוליים ותוצאות מוטוריות. התערבויות שמבוססות על מעורבות הורים הוכיחו יעילות, במיוחד בהפחתת התנהגויות חיצוניות ולחץ הורי. עם זאת, המאמר מדגיש את הצורך במחקרים גדולים יותר עם מתודולוגיות חזקות כדי להעריך את האפקטיביות של התערבויות אלו בטווח הארוך ולפתח מודלים של טיפול היברידי שמשלבים גישות פנים אל פנים ורחוקות.",
+    "abstract_en": "",
+    "pmc_id": "13294227",
+    "date_added": "2026-06-28"
+  },
+  {
+    "id": "10.1111/jar.70265",
+    "title_en": "Person-Directed Staffing and Quality of Life: Links Between Staff Choice, Perceived Staff Stability and Community Participation for Individuals With IDD in the United States",
+    "title_he": "העסקת צוות מונחה אדם ואיכות חיים: הקשרים בין בחירת צוות, יציבות צוות נתפסת והשתתפות בקהילה עבור אנשים עם IDD בארצות הברית",
+    "authors": [
+      "Houseworth James",
+      "Tichá Renáta",
+      "Stancliffe Roger J",
+      "Pettingell Sandra L",
+      "Wu Yi-Chen"
+    ],
+    "year": 2026,
+    "source": "Europe PMC",
+    "url": "https://europepmc.org/article/MED/42351271",
+    "keywords": [
+      "intellectual developmental disability IDD support"
+    ],
+    "summary_he": "מאמר זה עוסק בחשיבות של אנשי מקצוע תומכים (DSPs) עבור אנשים עם לקויות אינטלקטואליות והתפתחותיות (IDD) ובבעיית תחלופת הצוות. המחקר בדק אם אנשים עם IDD בארצות הברית מעורבים בבחירת הצוות שלהם, כיצד הם תופסים את תחלופת הצוות והאם יציבות הצוות הנתפסת קשורה לאיכות חייהם. הנתונים שנאספו מסקר ה-National Core Indicators לשנת 2022-2023 ניתחו את הקשרים בין בחירת צוות, יציבות צוות נתפסת ותוצאות הקשורות לבחירות יומיומיות ולפעילויות קהילתיות. התוצאות הראו כי אנשים המעורבים בבחירת הצוות שלהם דיווחו על יציבות צוות גבוהה יותר, ושהיציבות הנתפסת קשורה להתאמה טובה יותר בין השתתפות קהילתית להעדפות אישיות, אך לא הייתה השפעה משמעותית על תוצאות הבחירה. הממצאים תומכים במודלים של שירותים מונחי אדם ומדגישים את החשיבות של מעורבות אנשים עם IDD בהחלטות על הצוות כדי לקדם יציבות צוות והשתתפות קהילתית ממוקדת אדם.",
+    "abstract_en": "<h4>Background and aims</h4>Direct support professionals (DSPs) are essential to individuals with intellectual and developmental disabilities (IDD), yet staff turnover remains a significant concern. This study examined whether individuals with IDD in the United States are involved in choosing their staff, how they perceive staff turnover and whether perceived staff stability is associated with quality of life.<h4>Methods</h4>Data from the 2022-2023 National Core Indicators-In Person Survey were analysed to assess relationships between staff choice, perceived staff stability and outcomes related to everyday choice, support-related choice and alignment of community activities with personal preferences.<h4>Results</h4>Individuals involved in choosing their staff were more likely to report greater staff stability. Perceived staff stability was associated with better alignment between community participation and personal preferences but was not significantly associated with choice-making outcomes.<h4>Conclusion</h4>Findings support person-directed service models and highlight the value of involving individuals with IDD in staffing decisions to promote staff stability and person-centred community participation.",
+    "pmc_id": "",
+    "date_added": "2026-06-28"
+  },
+  {
+    "id": "10.1080/07434618.2026.2677481",
+    "title_en": "Developing Reco-intervention for individuals who use aided AAC and their partners: an Intervention Mapping Protocol",
+    "title_he": "פיתוח התערבות Reco עבור אנשים המשתמשים בעזרי AAC ושותפיהם: פרוטוקול תכנון התערבות",
+    "authors": [
+      "Savolainen Irina",
+      "Antila Anna-Kaisa",
+      "Uoti Eeva"
+    ],
+    "year": 2026,
+    "source": "Europe PMC",
+    "url": "https://europepmc.org/article/MED/42323829",
+    "keywords": [
+      "AAC augmentative alternative communication"
+    ],
+    "summary_he": "מאמר זה עוסק באתגרים שבשימוש בעזרי תקשורת באינטראקציות יומיומיות, למרות שהשימוש בהם יכול לקדם התפתחות לשונית והשתתפות חברתית. המחקר הקודם זיהה כי גורם מרכזי בקידום השימוש בעזרי תקשורת הוא הכשרת שותפי התקשורת במיומנויות המקלות על אינטראקציה בעזרת עזרים. המאמר מציג את תהליך העיצוב של מודל התערבות חדש בשם Reco (תקשורת רגועה), שנועד לילדים ובני נוער המומלץ להם להשתמש בעזרי תקשורת, כמו גם לשותפי התקשורת שלהם. מטרת Reco היא להקל על השימוש בעזרי תקשורת באינטראקציות יומיומיות. תהליך הפיתוח החל בזיהוי הבעיה והמטרות להתערבות, והמשיך בבחירת שיטות מבוססות ראיות. בשלב הפיילוט השתתפו שני ילדים בגיל בית ספר, הוריהם, מורים ומומחי תקשורת, ובשלב היישום השתתפו שישה ילדים ושותפי התקשורת שלהם. שלב היישום נמצא כעת בבחינה. מאמר זה חשוב להדגמת השימוש בעיצוב מחקר משתף והערכה של התערבויות מבוססות ראיות בתחום ה-AAC.",
+    "abstract_en": "Using communication aids in everyday interaction is often challenging, despite evidence showing that their use can facilitate linguistic development and social participation. Previous research has identified that a key factor in promoting the use of communication aids is teaching communication partners skills that facilitate aided interaction. This paper outlines, step by step, the design process of a new evidence-based intervention model called Reco (relaxed communication), which was developed according to the Intervention Mapping Protocol. Reco was designed for children and young people for whom communication aids are recommended as well as for their communication partners. The aim of Reco is to facilitate the use of communication aids in everyday interaction. The development process began by identifying the problem and objectives for intervention and continued by selecting evidence-based methods. In the pilot phase, participants comprised two school-aged children who use AAC and their parents, school instructors, and speech and language therapists, and in the implementation phase six children and their communication partners. The implementation phase is currently under review. This protocol article is valuable for demonstrating how to use participatory research design and evaluate evidence-based interventions in the AAC field.",
+    "pmc_id": "",
+    "date_added": "2026-06-28"
+  },
+  {
+    "id": "10.1111/jar.70271",
+    "title_en": "Exploring Resilience in Mothers of Adolescents With Intellectual Disabilities in Thailand: A Qualitative Study",
+    "title_he": "חקר החוסן אצל אמהות של מתבגרים עם לקויות אינטלקטואליות בתאילנד: מחקר איכותני",
+    "authors": [
+      "Tejakum Wattana",
+      "Truesdale Maria",
+      "Cairns Deborah"
+    ],
+    "year": 2026,
+    "source": "Europe PMC",
+    "url": "https://europepmc.org/article/MED/42333761",
+    "keywords": [
+      "intellectual disability inclusion community"
+    ],
+    "summary_he": "מאמר זה עוסק באתגרים שעמם מתמודדות אמהות בתאילנד המגדלות מתבגרים עם לקויות אינטלקטואליות. באמצעות ראיונות חצי-מובנים עם 12 אמהות, החוקרים חקרו את חוויותיהן והבינו את הגורמים התורמים לחוסן שלהן. הממצאים הצביעו על שישה נושאים מרכזיים בחוויות האמהות: הפיכתה לאם של ילד עם לקות אינטלקטואלית, מציאת הדרך שלהן, התמודדות עם אתגרים, מערכות תמיכה, אחיזה באמונה ואסטרטגיות לחשיבה קדימה. המאמר מדגיש כי החוסן הוא תהליך דינמי המושפע מתכונות אישיות, אסטרטגיות התמודדות, תמיכה חברתית ואמונות תרבותיות ורוחניות. ממצאים אלו מדגישים את הצורך בהתערבויות רגישות תרבותית לחיזוק החוסן ההורי.",
+    "abstract_en": "<h4>Background</h4>Raising adolescents with intellectual disabilities in Thailand is challenging. Whilst some mothers show resilience, limited understanding exists of the factors within these cultural contexts that contribute to resilience. This qualitative study explores experiences of mothers caring for adolescent children with intellectual disabilities in Thailand.<h4>Methods</h4>Semi-structured interviews were conducted with 12 Thai mothers of adolescents with intellectual disabilities at the Rajanukul Institute in Thailand. Interview transcripts were analysed using thematic analysis, guided by Braun and Clarke (2006).<h4>Results</h4>Six themes were developed, detailing mothers' resilience journeys: becoming a mother of a child with intellectual disabilities, finding my way, navigating challenges, support systems, holding on to faith, and forward-thinking strategies.<h4>Conclusion</h4>This study reveals that resilience amongst mothers is a dynamic process shaped by personal attributes, coping strategies, social support, and cultural and spiritual beliefs. These findings highlight the need for culturally sensitive interventions to strengthen parental resilience.",
+    "pmc_id": "13288015",
+    "date_added": "2026-06-28"
   }
 ]
