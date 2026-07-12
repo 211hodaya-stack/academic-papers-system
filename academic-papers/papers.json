@@ -7254,5 +7254,218 @@
     "abstract_en": "BACKGROUND: Direct support professionals (DSPs) play a key role in supporting the health and quality of life of people with intellectual and developmental disabilities (IDD). Despite the importance of their roles, the DSP workforce also represents a major threat to the health and quality of life of people with IDD due to the instability of the workforce, and the consequences of this instability.\n\nOBJECTIVE: We theorize and purport that the status, availability, and quality of the DSP workforce should be considered a social determinant of health of people with IDD. Thus, the aim of this study was to examine the relationship between DSP turnover, and people with IDD's health and social determinants of health-related outcomes.\n\nMETHODS: We analyzed secondary Personal Outcome Measures (POM) data from 5457 people with IDD (January 2018 and December 2024) using descriptive statistics, binary logistic regressions, and negative binomial regression models.\n\nRESULTS: People with IDD who experienced DSP turnover were significantly less likely to have health outcomes present, and to receive person-centered health supports (odds ratios ranged from 0.50 to 0.77). People with IDD who experienced DSP turnover also had a 19.10 % decrease in other social determinants of health-related outcomes.\n\nCONCLUSIONS: The harms of an unstable DSP workforce can be two-fold, in that it both directly negatively impacts people with IDD's health outcomes and health services, and it negatively impacts other areas of people with IDD's lives that also serve as social determinants of health, which also go on to hinder people with IDD's health.",
     "pmc_id": "",
     "date_added": "2026-07-05"
+  },
+  {
+    "id": "10.2196/85290",
+    "title_en": "Large Language Model-Assisted Annotation Framework for Cross-Platform Analysis of Online Autism Communities: Implications for Parent Education and Digital Support.",
+    "title_he": "מסגרת אנוטציה מסייעת על ידי מודל שפה גדול לניתוח בין-פלטפורמתי של קהילות אוטיזם אונליין: השלכות על חינוך הורים ותמיכה דיגיטלית",
+    "authors": [
+      "Xu Yifan",
+      "Ma Jianhao",
+      "Hu Yujia",
+      "Liu Yixue",
+      "Chen Yu",
+      "Feng Wei",
+      "Zhang Changwei",
+      "Zhang Lei",
+      "Zhang Xuening",
+      "Huang Ruochen"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42430199/",
+    "keywords": [
+      "\"Autism Spectrum Disorder\"[MeSH] AND (\"social work\"[tiab] OR \"intervention\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בקהילות בריאות אונליין (OHCs) כערוץ חשוב להורים של ילדים עם אוטיזם, המציע מידע בריאותי ותמיכה פסיכו-חברתית. המחקר מציע מסגרת אנוטציה מסייעת על ידי מודל שפה גדול (LLM) כדי לנתח את ההבדלים בין פלטפורמות פורום פתוח לפלטפורמות ייעוץ רופא-מטופל. באמצעות קידוד פתוח אנושי, פותחה מסגרת אחידה לקטגוריות נושאים וזיהוי כותבים. תוצאות המחקר מצביעות על כך שהמודל המוצלח ביותר השיג רמות הסכמה גבוהות עם אנוטציה אנושית, מה שמצביע על יכולת המודל לבצע אנוטציה אמינה בקנה מידה גדול. הממצאים מדגישים את המבנה המורכב של השתתפות בפלטפורמות פתוחות ואת השפעת השחקנים המסחריים, תוך הדגשה של הבדלים בדרכי החיפוש של מידע בין הפלטפורמות. מסגרת זו מציעה גישה שקופה, שחזורית וחסכונית למחקר בקהילות בריאות אונליין, עם דגש על השפעת מבנה הפלטפורמה על גישה למידע והחלטות של הורים.",
+    "abstract_en": "BACKGROUND: Online health communities (OHCs) are important channels for families of children with autism spectrum disorder to obtain health information and psychosocial support. Differences between an open forum platform and the physician-patient consultation platforms may shape caregiver decisions, yet comparative evidence from China remains limited. A large language model (LLM) provides a scalable approach for systematic content annotation in large OHC datasets.\n\nOBJECTIVE: This study proposes and validates a standardized LLM-assisted annotation framework under a unified classification schema and compares topic distributions and poster identities across an open forum platform (Baidu Tieba) and physician-patient consultation platforms (Chunyu Doctor and Haodf).\n\nMETHODS: We implemented an LLM-assisted annotation framework. A unified taxonomy of topics and poster identities was first developed through human open coding. Poster identities in Baidu Tieba were annotated through a double-blind manual procedure. For topic classification, interannotator and human-LLM agreement were evaluated on a manually labeled subset to benchmark models of varying sizes. The best-performing LLM was selected for full-dataset topic annotation, followed by statistical and cross-platform analysis.\n\nRESULTS: When metrics were arithmetically averaged across all annotation tasks, the best-performing LLM achieved agreement levels comparable to human annotation (accuracy=79.18%, SD 0.20%; κ=0.736, SD 0.003; F\n\nCONCLUSIONS: The LLM-assisted annotation framework proposed in this study enables reliable large-scale annotation of OHC data while maintaining high human-LLM agreement and operational stability. Midsized models (eg, 14B) demonstrated favorable cost-performance efficiency. The findings reveal 2 key aspects: the open forum platform exhibits a complex participation structure, and the influence of commercially affiliated actors should not be overlooked; users on both platform types show sustained demand for resource-related information but follow different help-seeking pathways, emphasizing diagnostic exploration and professional intervention, respectively. These results suggest that platform structure and governance mechanisms may shape caregivers' information access and decision-making. The framework provides a transparent, reproducible, and cost-effective approach for OHC research. All data were deidentified and handled in accordance with relevant platform policies and ethical standards.",
+    "pmc_id": "",
+    "date_added": "2026-07-12"
+  },
+  {
+    "id": "10.1021/acsami.5c26183",
+    "title_en": "A Color Preference Recognition System for Children with Autism Spectrum Disorder Based on Fully Flexible Triboelectric Sensors and Artificial Intelligence Technology.",
+    "title_he": "מערכת זיהוי העדפת צבעים לילדים עם הפרעת אוטיזם המבוססת על חיישנים טריבואלקטריים גמישים וטכנולוגיית אינטליגנציה מלאכותית",
+    "authors": [
+      "Wang Yanhui",
+      "Liu Kaixuan",
+      "Wang Yuting",
+      "Nan Yaming",
+      "Wang Panfeng",
+      "Dai Kejie",
+      "Gao Lingxiao"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42340865/",
+    "keywords": [
+      "\"Autism Spectrum Disorder\"[MeSH] AND (\"social work\"[tiab] OR \"intervention\"[tiab])"
+    ],
+    "summary_he": "מאמר זה מציע פתרון טכנולוגי חדשני לזיהוי העדפות צבעים אצל ילדים עם הפרעת אוטיזם, באמצעות חיישנים טריבואלקטריים גמישים. החיישנים, המבוססים על מתכת נוזלית, מציעים רגישות גבוהה ויכולת לעקוב אחרי שינויים עדינים בלחץ המגע, מה שמאפשר זיהוי צבעים בצורה מדויקת ובלתי מעיקה. המערכת שנוצרה מציעה שיעור זיהוי של 98.125%, מה שמצביע על יכולת גבוהה לספק הערכות מותאמות אישית להעדפות צבעים של ילדים עם אוטיזם. השימוש בטכנולוגיה זו מציע יתרונות משמעותיים על פני שיטות התערבות מסורתיות, כמו היכולת לעקוב אחרי התנהגות בחירה בזמן אמת וללא תהליך מורכב. המאמר מדגיש את הפוטנציאל של שילוב טכנולוגיות מתקדמות כמו אינטליגנציה מלאכותית כדי לשפר את איכות החיים של ילדים עם לקויות קוגניטיביות.",
+    "abstract_en": "Appropriate color intervention can effectively regulate the autonomic arousal level of children with autism, improve their attention, and mitigate their anxiety. In consideration of the issues associated with traditional intervention methods, including cumbersome procedures and the inability to dynamically track the color-selection behavior of children with autism, this paper presents a fully flexible triboelectric sensor based on liquid metal. This sensor utilizes the current direct writing technology to construct a network-like liquid metal electrode layer, which can maintain excellent electrical conductivity under diverse mechanical deformations and temperature variations. Experiments demonstrated that this triboelectric sensor was capable of effectively detecting subtle variations in touch pressure and exhibited high sensitivity, durability, and structural stability in low-voltage monitoring scenarios. Ultimately, a color preference recognition system incorporating liquid metal flexible sensors was established to conduct color selection detection for children with autism under a light-touch operation without imposing a burden. When combined with machine learning, this system was capable of attaining stable and high-precision color selection recognition, with a recognition rate of 98.125%, offering a low-burden and highly effective technical approach for the individualized color preference assessment of children with autism.",
+    "pmc_id": "",
+    "date_added": "2026-07-12"
+  },
+  {
+    "id": "10.1007/s00431-026-07239-0",
+    "title_en": "The effect of the psychotraining-based communication workshop program on family functioning and psychological resilience in strengthening parents of children with special needs.",
+    "title_he": "השפעת תוכנית סדנאות תקשורת מבוססת פסיכו-אימון על תפקוד משפחתי וחוסן פסיכולוגי בה strengthening הורים לילדים עם צרכים מיוחדים",
+    "authors": [
+      "Kaçan Havva",
+      "Bozdemir Şevval Yeyit",
+      "Yıldız Eren"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42435078/",
+    "keywords": [
+      "\"Neurodevelopmental Disorders\"[MeSH] AND (\"family\"[tiab] OR \"caregiver\"[tiab])"
+    ],
+    "summary_he": "המאמר עוסק בהשפעות תוכנית סדנאות תקשורת מבוססת פסיכו-אימון על תפקוד משפחתי וחוסן פסיכולוגי בקרב הורים לילדים עם צרכים מיוחדים. במחקר רנדומלי מבוקר, 42 הורים חולקו לשתי קבוצות: קבוצת התערבות וקבוצת ביקורת. הסדנאות התקיימו במשך 6 שבועות, עם שני מפגשים בשבוע, והועברו על ידי אנשי מקצוע בתחום הבריאות והחינוך. הממצאים הראו שיפור משמעותי בתקשורת משפחתית, רגשות חיוביים, והפחתת קונפליקטים ורגשות שליליים בקרב קבוצת ההתערבות. כמו כן, נרשמו עליות בחוסן פסיכולוגי ובמשאבים משפחתיים, תרבותיים והקשריים. המאמר מציע כי תוכניות פסיכו-חינוכיות ממוקדות משפחה עשויות להוות כלי יעיל לשיפור התפקוד המשפחתי והחוסן הפסיכולוגי של הורים לילדים עם צרכים מיוחדים.",
+    "abstract_en": "UNLABELLED: The present study examined the effects of the Psychotraining-Based Communication Workshop Program on family functioning and psychological resilience among parents of children with special needs. This randomized controlled study investigated the effects of communication training therapy for parents of children with special needs. Participants were assigned to intervention (N = 21) and control (N = 21) groups. The workshop was delivered to parents of children with developmental delays over 6 weeks, consisting of two sessions per week lasting 45-60 min each, and was conducted by health and education professionals using a family-centered multidisciplinary approach. The Turkish versions of the Perceived Family Functioning Scale (PFFS) and Adult Psychological Resilience Scale (APRS) were administered in the pre- and post-tests. Following the workshop delivered by psychiatric nursing staff, the intervention group demonstrated significant improvements in family communication and positive affect (4.365 compared with 3.902, effect size = 1.02, p < 0.001), Conflicts and negative affect (1.881 compared with 2.470, effect size = 0.78, p = 0.002), and the total adult psychological resilience score (4.389 compared with 3.921, effect size = 0.74, p = 0.003). Significant increases were also observed in relational resources (4.357 compared with 4.064, effect size = 0.46, p = 0.047), cultural and contextual resources (4.429 compared with 3.743, effect size = 0.76, p = 0.002), and family resources (4.514 compared with 3.886, effect size = 0.85, p = 0.001).\n\nCONCLUSIONS: The psychoeducation-based communication workshop program was effective in improving family communication and psychological resilience among parents of children with special needs.The findings of this study suggest that family-centered psychoeducational programs may be beneficial and could contribute to nursing practice.\n\nWHAT IS KNOWN: • Parents of children with special needs frequently experience challenges in family functioning and reduced psychological resilience because of long-term caregiving responsibilities. • Psychoeducational interventions may improve psychosocial outcomes; however, evidence regarding communication-based programs targeting both family functioning and psychological resilience remains limited.\n\nWHAT IS NEW: • This psychotraining-based communication workshop significantly improved family communication and positive affect while reducing conflicts and negative emotions among parents of children with special needs. • The intervention strengthened overall psychological resilience, particularly relational, cultural-contextual, and family resources, supporting the integration of communication-based psychoeducation into family-centered nursing practice.",
+    "pmc_id": "",
+    "date_added": "2026-07-12"
+  },
+  {
+    "id": "10.1044/2026_AJSLP-25-00501",
+    "title_en": "Parent Support Group for Korean Immigrant Families of Individuals With Autism and Developmental Disabilities: Use of Academic-Community Partnership.",
+    "title_he": "קבוצת תמיכה להורים למשפחות מהגרים קוריאניות עם ילדים אוטיסטים ולקויות התפתחותיות: שימוש בשותפות אקדמית-קהילתית",
+    "authors": [
+      "Seung HyeKyeung",
+      "Baek Jinsook",
+      "Jung Adrian",
+      "Lee Sung Hee",
+      "Girolamo Teresa"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42340747/",
+    "keywords": [
+      "\"Neurodevelopmental Disorders\"[MeSH] AND (\"family\"[tiab] OR \"caregiver\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בקשיים המורכבים שמולידים משפחות מהגרים קוריאניות בגישה לשירותים עבור ילדיהן עם אוטיזם ולקויות התפתחותיות, בשל גורמים תרבותיים, לשוניים וכלכליים. המאמר מציע אסטרטגיות לסגירת הפערים הללו באמצעות שותפות אקדמית-קהילתית שהוקמה כדי להקים ולתחזק קבוצת תמיכה להורים. השותפות פעלה לפיתוח תמיכה ממוקדת משפחה, תוך התאמתה להקשר המקומי, במטרה להגביר ידע, תחושת מסוגלות ותמיכה קהילתית. תהליך הקמת קבוצת התמיכה כלל שלושה שלבים: הקמת שתי קבוצות נפרדות, מיזוג הקבוצות והעצמת המשפחות, ולבסוף, סיוע לשותפים בקהילה בהסדרת הקבוצה ובקבלת מימון ייעודי. השיטה הובילה לשותפות אקדמית-קהילתית חזקה שנמשכת מעל 20 שנה ומעורבת ביותר מ-400 משפחות. המאמר מדגיש את החשיבות של ניצול כוחות קהילתיים ושיתוף פעולה כדי להפחית את החסמים לשירותים הקשורים לאוטיזם.",
+    "abstract_en": "PURPOSE: Korean immigrant families face complex barriers to accessing services for their children with autism and developmental disabilities due to intersecting cultural, linguistic, and socioeconomic factors. However, there is limited information in the literature on strategies to close this gap. This tutorial reports on leveraging an academic-community partnership to establish and sustain a parent support group for Korean immigrant families of children with autism and other developmental disorders.\n\nMETHOD: Academic and community partners worked together to develop family-centered support. The partnership focused on iteratively tailoring support to a localized context to increase knowledge, self-efficacy, and community support for navigating service systems. The development of the parent support group progressed through three phases: (a) establishing two separate support groups led by a parent and a faculty member, (b) merging the groups and building capacity to empower families, and (c) supporting community partners in formalizing the group and securing grant funding for partner-driven initiatives. In all phases, academic partners contributed university resources, whereas community partners provided insider knowledge to create effective programming.\n\nCONCLUSIONS: This approach has resulted in a strong, ongoing academic-community partnership that has lasted for more than 2 decades and successfully engaged over 400 families. The lessons learned offer an example of how to reduce barriers to autism-related services by leveraging community strengths and fostering collaboration and by revisiting both the partnership and supports for families to more strongly address community priorities.",
+    "pmc_id": "",
+    "date_added": "2026-07-12"
+  },
+  {
+    "id": "10.1136/bmjsrh-2025-202938",
+    "title_en": "Contraception use in women with intellectual disability: a retrospective cohort study.",
+    "title_he": "שימוש באמצעי מניעה בקרב נשים עם לקות אינטלקטואלית: מחקר קוהורט רטרוספקטיבי",
+    "authors": [
+      "Huang Yunhe",
+      "Liao Peiwen",
+      "Srasuebkul Preeyaporn",
+      "Gunaratne Pramudie",
+      "Trollor Julian"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41461547/",
+    "keywords": [
+      "\"Neurodevelopmental Disorders\"[MeSH] AND (\"family\"[tiab] OR \"caregiver\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בשימוש באמצעי מניעה בקרב נשים עם לקות אינטלקטואלית, תוך השוואה בין שיעורי השימוש בהן לבין נשים תואמות ללא לקות. המחקר נערך באוסטרליה בין השנים 2001-2018, והשתמש בנתונים מנהליים מקושרים. נמצא כי נשים עם לקות אינטלקטואלית נוטות להשתמש באמצעי מניעה בשיעור גבוה יותר (26.8%) בהשוואה לנשים ללא לקות (23.9%). השימוש בכדורי מניעה היה הנפוץ ביותר בקרב שתי הקבוצות, אך נשים עם לקות אינטלקטואלית הראו שיעור גבוה יותר בשימוש בהזרקות מניעה (20.4% לעומת 4.8%). המאמר מדגיש את הצורך במידע ותמיכה טובה יותר לנשים עם לקות אינטלקטואלית, כדי לאפשר להן גישה למגוון רחב יותר של אפשרויות מניעה ולהגביר את מעורבותן בקבלת החלטות בתחום הבריאות הרבייתית.",
+    "abstract_en": "INTRODUCTION: Women with intellectual disability often have limited knowledge and decision-making input regarding their contraception use. This study aimed to examine and compare the prevalence of any and specific contraceptive use in women with intellectual disability and matched comparators.\n\nMETHODS: This was a retrospective, population-based, cohort study of women with intellectual disability and matched comparators aged 15-49 years in New South Wales, Australia in 2001-2018 using linked administrative datasets. Outcomes included overall and annual prevalence of any and specific contraceptive use calculated using person-years. We used a generalised linear model to examine the association between intellectual disability status and any contraceptive use.\n\nRESULTS: Women with intellectual disability were slightly more likely to use contraception overall (26.8% vs 23.9%), with different patterns of prevalence by age. The contraceptive pill accounted for 48.9% of overall contraceptive use in women with intellectual disability and 58.1% in comparators. Contraceptive injection showed increased prevalence in women with intellectual disability (20.4% vs 4.8%), while hormonal intrauterine device use showed decreased prevalence (11.2% vs 18.3%). Annual prevalence graphs showed a larger increase in contraceptive implant use in women with intellectual disability over time. The model showed a significant association between intellectual disability and any contraception use after controlling for covariates (relative rate 1.15, 95% CI 1.12 to 1.17).\n\nCONCLUSIONS: The tendency towards contraceptives that require minimal active management may reduce opportunities for decision-making involvement. We recommend the development of better information and support for women with intellectual disability to enable access to a wider range of contraceptive options and achieve greater agency in reproductive health.",
+    "pmc_id": "",
+    "date_added": "2026-07-12"
+  },
+  {
+    "id": "10.1177/08901171261466066",
+    "title_en": "Promoting Health Behaviors Among Latina Caregivers of Children With Intellectual and Developmental Disabilities Through Goal Setting.",
+    "title_he": "קידום התנהגויות בריאותיות בקרב מטפלות לטיניות של ילדים עם לקויות אינטלקטואליות והתפתחותיות באמצעות קביעת מטרות",
+    "authors": [
+      "Suarez-Balcazar Yolanda",
+      "Yu Amy Pei-Lung",
+      "Zeng Weiwen",
+      "Mirza Mansha",
+      "Castillo Ayala Claudia",
+      "Shepperd Christopher L",
+      "Holt Tana",
+      "Parra-Medina Deborah",
+      "Lee Pei-Chiang",
+      "Magaña Sandy"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42418255/",
+    "keywords": [
+      "IDD[tiab] AND (intervention[tiab] OR support[tiab] OR inclusion[tiab])"
+    ],
+    "summary_he": "המאמר עוסק בחקר סוגי המטרות הבריאותיות, האסטרטגיות שננקטו והאתגרים שחוו מטפלות לטיניות של ילדים עם לקויות אינטלקטואליות והתפתחותיות. המחקר מתבסס על נתונים איכותניים שנאספו במהלך התערבות שנערכה בשני אתרים בטקסס ובאילינוי. עשרים ושישה מטפלות גויסו והשתתפו בתוכנית התערבות בת 10 מפגשים, אשר עוצבה במיוחד עבורן. הממצאים מצביעים על חשיבות קביעת מטרות בריאותיות מותאמות תרבותית, וכן על האתגרים הייחודיים שהמטפלות מתמודדות איתן, כגון חוסר במשאבים ותמיכה. המאמר מדגיש את הצורך בתוכניות התערבות המותאמות לצרכים הספציפיים של אוכלוסיות שונות, כדי לשפר את הבריאות והרווחה של משפחות עם ילדים עם לקויות.",
+    "abstract_en": "PurposeThis study explored the types of health-related goals, the strategies employed, and challenges experienced by Latina caregivers of children with intellectual and developmental disabilities (IDD).DesignThis study focuses on exploratory data on goal setting obtained through qualitative observations and documentation of the intervention arm from a two-site RCT.Setting & SampleTwenty-six Latina caregivers were recruited and assigned to receive the intervention across 2 sites-Texas and Illinois.InterventionA 10-session culturally tailored health promotion intervention was delivered to participants by",
+    "pmc_id": "",
+    "date_added": "2026-07-12"
+  },
+  {
+    "id": "10.1016/j.acap.2026.103387",
+    "title_en": "Smart Inhaler RCT for Improving Inhaler Technique in Adolescents with Intellectual and Developmental Disabilities and Asthma.",
+    "title_he": "שימוש בשאיפון חכם לשיפור טכניקת השאיפה אצל מתבגרים עם לקויות קוגניטיביות והתפתחותיות ואסתמה",
+    "authors": [
+      "Park Sophia",
+      "Deavenport-Saman Alexis",
+      "Vu My",
+      "Durazo-Arvizu Ramon",
+      "Park Hyunbin",
+      "Delgado Jeanne",
+      "Mirzaian Christine",
+      "Sayegh Caitlin",
+      "Mendoza Naydelli",
+      "Osumo Jasmine",
+      "Enciso Megan",
+      "Torres Aneli",
+      "Yin Larry"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42413691/",
+    "keywords": [
+      "IDD[tiab] AND (intervention[tiab] OR support[tiab] OR inclusion[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בניסוי קליני מבוקר שנועד להעריך את היתכנות, קבילות ושימושיות של שאיפון חכם עם משוב בזמן אמת עבור מתבגרים עם לקויות קוגניטיביות והתפתחותיות (IDD) ואסתמה. הניסוי כלל 28 מתבגרים בגילאי 10-17, שחולקו לשתי קבוצות: קבוצה אחת השתמשה בשאיפונים חכמים עם משוב אודיו-ויזואלי, והשנייה קיבלה חינוך סטנדרטי לאסתמה. התוצאות הראו שהשימוש בשאיפון החכם היה קביל ומקובל, עם שיפור משמעותי בטכניקת השאיפה בקבוצה הניסוי לעומת קבוצת הביקורת. אף על פי שלא נצפו הבדלים משמעותיים בתפקוד הריאתי, תת הקבוצה עם אוטיזם הראתה שיפורים בטכניקת השאיפה. המאמר ממליץ על שילוב של אמצעי הערכה קליניים שאינם תלויים במאמץ במחקרים עתידיים, לאור האתגרים המובנים במדידה זו באוכלוסייה זו.",
+    "abstract_en": "OBJECTIVE: To evaluate the feasibility, acceptability, and usability of a real-time feedback smart inhaler for adolescents with intellectual and developmental disabilities (IDD) and asthma; assess preliminary efficacy in improving metered-dose inhaler (MDI) technique; and explore device-measured proficiency and lung function in the full cohort, alongside a predefined autism subgroup analysis.\n\nMETHODS: We conducted a single-center, single-blind, pilot randomized controlled trial involving 28 adolescents (aged 10-17 years) with IDD and asthma. Participants were randomized 1:1 to an intervention group using smart inhalers with audiovisual feedback for 8 weeks, or a control group receiving standard asthma education. Primary outcomes were parent- and adolescent-reported feasibility, acceptability, and usability. The secondary outcome was observer-rated inhaler proficiency. Exploratory outcomes were full-cohort device-measured inhaler proficiency and lung function (FEV\n\nRESULTS: The intervention was feasible, acceptable, and usable, yielding high parent and adolescent motivation and satisfaction. The intervention group demonstrated significantly greater improvement in observer-rated Inhaler Proficiency Scale scores from baseline to week 8 compared to the control group (mean difference 1.5 points; 95% CI: 0.4-2.6; p=0.02). Exploratory outcomes showed no significant between-group differences in lung function or device-measured proficiency. However, the autism subgroup exhibited inhaler technique improvements consistent with the broader cohort.\n\nCONCLUSIONS: Smart inhalers are feasible, acceptable, and usable for adolescents with IDD, and are associated with significant improvement in observer-rated inhaler technique when combined with standard clinical education. Given the inherent challenges of spirometry in this population, future studies should incorporate effort-independent clinical assessment measures.",
+    "pmc_id": "",
+    "date_added": "2026-07-12"
+  },
+  {
+    "id": "10.1016/j.ridd.2026.105337",
+    "title_en": "Predictors of depression and anxiety in adult siblings of individuals with intellectual developmental disorder.",
+    "title_he": "חיזויים לדיכאון ולחרדה אצל אחים בוגרים של אנשים עם לקויות התפתחותיות אינטלקטואליות",
+    "authors": [
+      "Fann Shelbie T",
+      "Schoonover Ciera E",
+      "Loveless James P",
+      "Ujcich Ward Kimberly J"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42413332/",
+    "keywords": [
+      "IDD[tiab] AND (intervention[tiab] OR support[tiab] OR inclusion[tiab])"
+    ],
+    "summary_he": "המאמר עוסק בקשרים בין הזנחה רגשית בילדות, תפקוד משפחתי ויחסים בין אחים לבין בריאות נפשית נוכחית אצל אחים בוגרים של אנשים עם לקויות התפתחותיות אינטלקטואליות. במחקר השתתפו 100 אחים בוגרים שהשלימו הערכות מקוונות על יחסים בין אחים, תפקוד משפחתי, טראומה בילדות ודיכאון וחרדה נוכחיים. התוצאות מראות שאחים בוגרים דיווחו על חיבה כלפי האחים שלהם עם לקויות התפתחותיות, כמו גם על יחסים חיוביים במשפחה ובין אחים. עם זאת, הם דיווחו גם על תסמינים קלים עד מתונים של דיכאון וחרדה, הקשורים לתפיסה של הזנחה רגשית בילדות, גיל וחומרת הלקות של האחים. הממצאים מדגישים את הצורך לזהות אינטראקציות בין גורמים אישיים, משפחתיים ומערכתיים, ולזהות גורמים מגנים פוטנציאליים שיכולים להציע דרכים לתמוך באחים ובמשפחותיהם.",
+    "abstract_en": "This study examined childhood emotional neglect, family functioning, and sibling relationships in relation to current mental health among adult siblings of individuals with intellectual and developmental disabilities. Participants included 100 adult siblings of individuals with intellectual and developmental disabilities who completed online assessments of sibling relationships, family functioning, childhood trauma, and current depression and anxiety. Adult siblings reported fondness for their siblings with IDD and positive family and sibling relationships. They also reported mild to moderate depressive and anxious symptomology, both significantly related to perception of emotional neglect in childhood, age, and severity of siblings' IDD. Findings demonstrate that lived experiences of adult siblings, especially perceptions of emotional neglect during childhood, predict depressive and anxious symptomology. Findings highlight the need to identify interactions among individual, family, and system factors, and to identify potential protective factors that suggest ways to support these siblings and families.",
+    "pmc_id": "",
+    "date_added": "2026-07-12"
+  },
+  {
+    "id": "10.1007/s10803-026-07431-z",
+    "title_en": "Developmental Trajectories in Young Autistic Children Receiving Parent-Mediated Intervention Through In-Person and Telehealth Service Delivery Models: A Naturalistic, Nonrandomized Clinical Study",
+    "title_he": "מסלולי התפתחות בילדים אוטיסטים צעירים המקבלים התערבות באמצעות הורים במודלים של שירות פנים אל פנים וטלהל",
+    "authors": [
+      "Naderi Malek Ali",
+      "Prelock Patricia A",
+      "Shahouzaei Nasrin"
+    ],
+    "year": 2026,
+    "source": "Europe PMC",
+    "url": "https://europepmc.org/article/MED/42405996",
+    "keywords": [
+      "ASD caregiver family intervention"
+    ],
+    "summary_he": "מאמר זה עוסק במסלולי ההתפתחות של ילדים אוטיסטים צעירים המקבלים התערבות באמצעות הורים, במודלים של שירות פנים אל פנים ובמודלים של טלהל. המחקר כלל 320 ילדים, מתוכם 297 נכללו בניתוח הסופי. תוצאות ההתפתחות הוערכו באמצעות שאלוני גיל ושלבים (ASQ) ומדדי התפתחות CDC. נמצא כי ציוני ההתפתחות של הילדים בקבוצות ההתערבות עלו לאורך הזמן, אך הם נותרו נמוכים יותר בהשוואה לקבוצת הילדים המתפתחים באופן רגיל. לא נמצאו הבדלים משמעותיים במסלולי ההתפתחות בין המודלים השונים של מתן השירות. המאמר מדגיש את הצורך במחקר נוסף עם עיצובים רנדומליים כדי להעריך את היעילות של המודלים השונים. הממצאים מצביעים על התקדמות משמעותית, אך גם על פערים שעדיין קיימים בהתפתחות הילדים האוטיסטים.",
+    "abstract_en": "<h4>Purpose</h4>Access to early autism intervention remains limited for many families, increasing interest in alternative service delivery models such as telehealth-based parent-mediated intervention. However, few studies have examined developmental trajectories observed under different service delivery formats within naturalistic clinical settings.<h4>Methods</h4>This longitudinal observational study examined developmental trajectories during a 20-session parent-mediated intervention delivered either in-person or through telehealth-based caregiver coaching for young autistic children. A total of 320 children were initially enrolled, and 297 were included in the final analytic sample (99 per group: in-person intervention, telehealth intervention, and typically developing comparison group). Developmental outcomes were assessed using the Ages and Stages Questionnaires (ASQ) and CDC developmental milestone indicators. Children in the intervention groups were assessed at baseline, Week 10, and Week 20. The typically developing group was assessed at baseline and Week 20 and was included for descriptive developmental context only. Linear mixed-effects models were used to examine developmental trajectories over time and to explore differences between service delivery formats.<h4>Results</h4>Across both intervention formats, caregiver-reported developmental scores increased over time on ASQ and CDC measures, with higher scores observed at Week 10 and Week 20 relative to baseline (ps < 0.001). The typically developing comparison group maintained higher developmental scores throughout the study period and demonstrated expected age-related developmental progression over time. Although children in both ASD intervention groups demonstrated substantial developmental gains over 20 weeks, developmental functioning remained below that of the typically developing group at follow-up, indicating that the developmental gap narrowed but was not eliminated. Analyses did not detect statistically significant differences in developmental trajectories between in-person and telehealth delivery formats (ps ≥ 0.27).<h4>Conclusions</h4>Children participating in both in-person and telehealth parent-mediated intervention demonstrated increasing caregiver-reported developmental scores over time. Differences in developmental trajectories between service delivery formats were not detected within the precision of the present analyses. These findings should not be interpreted as evidence of equivalence or comparative effectiveness. Rather, they provide observational information regarding developmental trajectories under two real-world, family-centered service delivery models. Further research using randomized comparative designs, blinded outcome measures, standardized fidelity monitoring, and formal noninferiority or equivalence frameworks is needed to evaluate comparative effectiveness across delivery formats.",
+    "pmc_id": "",
+    "date_added": "2026-07-12"
   }
 ]
