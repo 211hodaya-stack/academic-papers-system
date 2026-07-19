@@ -7467,5 +7467,90 @@
     "abstract_en": "<h4>Purpose</h4>Access to early autism intervention remains limited for many families, increasing interest in alternative service delivery models such as telehealth-based parent-mediated intervention. However, few studies have examined developmental trajectories observed under different service delivery formats within naturalistic clinical settings.<h4>Methods</h4>This longitudinal observational study examined developmental trajectories during a 20-session parent-mediated intervention delivered either in-person or through telehealth-based caregiver coaching for young autistic children. A total of 320 children were initially enrolled, and 297 were included in the final analytic sample (99 per group: in-person intervention, telehealth intervention, and typically developing comparison group). Developmental outcomes were assessed using the Ages and Stages Questionnaires (ASQ) and CDC developmental milestone indicators. Children in the intervention groups were assessed at baseline, Week 10, and Week 20. The typically developing group was assessed at baseline and Week 20 and was included for descriptive developmental context only. Linear mixed-effects models were used to examine developmental trajectories over time and to explore differences between service delivery formats.<h4>Results</h4>Across both intervention formats, caregiver-reported developmental scores increased over time on ASQ and CDC measures, with higher scores observed at Week 10 and Week 20 relative to baseline (ps < 0.001). The typically developing comparison group maintained higher developmental scores throughout the study period and demonstrated expected age-related developmental progression over time. Although children in both ASD intervention groups demonstrated substantial developmental gains over 20 weeks, developmental functioning remained below that of the typically developing group at follow-up, indicating that the developmental gap narrowed but was not eliminated. Analyses did not detect statistically significant differences in developmental trajectories between in-person and telehealth delivery formats (ps ≥ 0.27).<h4>Conclusions</h4>Children participating in both in-person and telehealth parent-mediated intervention demonstrated increasing caregiver-reported developmental scores over time. Differences in developmental trajectories between service delivery formats were not detected within the precision of the present analyses. These findings should not be interpreted as evidence of equivalence or comparative effectiveness. Rather, they provide observational information regarding developmental trajectories under two real-world, family-centered service delivery models. Further research using randomized comparative designs, blinded outcome measures, standardized fidelity monitoring, and formal noninferiority or equivalence frameworks is needed to evaluate comparative effectiveness across delivery formats.",
     "pmc_id": "",
     "date_added": "2026-07-12"
+  },
+  {
+    "id": "10.1007/s00431-026-07246-1",
+    "title_en": "A nonrandomised feasibility evaluation of a home‑based intervention for parents of adolescents with learning disabilities, with or without autism.",
+    "title_he": "הערכה של התערבות ביתית להורים של מתבגרים עם לקויות למידה, עם או בלי אוטיזם",
+    "authors": [
+      "Absoud Michael",
+      "Rush Carla",
+      "Mackey Lisa",
+      "Waters Amy",
+      "Forbes Gordon",
+      "Pratt Karen",
+      "Liew Ashley",
+      "Strudwick Katy",
+      "Slonims Vicky"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42469481/",
+    "keywords": [
+      "\"Autism Spectrum Disorder\"[MeSH] AND (\"social work\"[tiab] OR \"intervention\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בהערכה של התערבות ACHIEVE, המיועדת להורים של מתבגרים עם לקויות למידה, במטרה לבדוק את היתכנותה ואת קבלתה בשגרת העבודה בבריטניה. המחקר כלל 36 משפחות והשתמש בגישה לא אקראית, תוך התמקדות במטרות שהוגדרו על ידי ההורים בתחומים של טיפול עצמי, תקשורת והתנהגות. התוצאות הראו שיעור השתתפות גבוה ותחושת שותפות חזקה בין ההורים למטפלים. כמו כן, נצפו שיפורים במדדים שונים הקשורים לתפקוד, התנהגות ותקשורת. המאמר מציע כי התערבות זו היא אפשרית ומקובלת, ומספקת תובנות לגבי מספר המפגשים הנדרש להשגת תוצאות מיטביות. הממצאים יכולים לשמש כבסיס לתכנון ניסויים קליניים עתידיים בתחום זה.",
+    "abstract_en": "UNLABELLED: This study aims to determine the feasibility and acceptability of delivering ACHIEVE-a home‑based, parent‑coached OT/SLT intervention-in everyday UK practice and to describe recruitment/retention, data completeness, working alliance, delivery logistics, and exploratory changes in parent‑reported functional, behavioural, communication and stress outcomes. Single‑arm, non‑randomised feasibility study aligned with CONSORT pilot/feasibility guidance. Thirty‑six families of adolescents (11-19 years) with moderate-severe learning disabilities (many also autistic) were recruited via three special schools. Individually tailored OT/SLT sessions focussed on parent‑nominated goals in self‑care/daily living, communication, and behaviour. Hybrid delivery (home visits + secure video); feasibility and acceptability were primary outcomes; exploratory secondary outcomes included DBC, HSQ, APSI, COPM, and GAS. Recruitment via schools was via a convenience sample (36 families). Attendance was high (159/190 sessions; 83.7%) with 99 home and 59 video sessions. Endpoint data were obtained for 22 families. Parents reported strong alliance (WAI median 89.5, IQR 73.0-91.0). Exploratory signals suggested improvement: DBC T‑score - 3.90 (p = 0.004; n = 19); HSQ mean severity - 0.71 (p = 0.018; n = 19); APSI total - 6.80 (p = 0.046; n = 20). COPM median change + 3.0 (performance) and + 4.0 (satisfaction) (both p < 0.001; n = 17). GAS modelling suggested dose effects: ~ 7 sessions linked to ~ 80% probability of achieving expected goals, and ~ 10 to exceeding them (n = 31).\n\nCONCLUSION: ACHIEVE was feasible and acceptable in UK practice with high engagement and manageable data collection. Dose-response signals and alliance strength support a minimum session count and continued coaching emphasis. Findings inform outcome selection, dose, and schedules for a definitive trial; clinical changes remain exploratory.\n\nWHAT IS KNOWN: • Adolescents with learning disabilities (often with co-occurring autism) and their families struggle to access practical home‑based support; robust evidence is limited. • Family‑centred, parent‑coached allied‑health interventions are promising but under‑studied for adolescents and in home/hybrid formats.\n\nWHAT IS NEW: • ACHIEVE-a home‑based Occupational therapy/Speech & Language Therapy, parent‑nominated goal programme-proved feasible and acceptable with strong therapeutic alliance for families of adolescents with learning disabilities with or without autism. • Exploratory improvements and a dose signal (~7-10 sessions) guide scheduling and outcomes for a future comparative trial.",
+    "pmc_id": "",
+    "date_added": "2026-07-19"
+  },
+  {
+    "id": "10.1371/journal.pone.0352505",
+    "title_en": "Using natural language processing to support digital communication in adolescents and young adults with autism spectrum disorder.",
+    "title_he": "שימוש בעיבוד שפה טבעית לתמיכה בתקשורת דיגיטלית אצל מתבגרים ומבוגרים צעירים עם הפרעת ספקטרום האוטיזם",
+    "authors": [
+      "Algahtani Faris"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42447173/",
+    "keywords": [
+      "\"Autism Spectrum Disorder\"[MeSH] AND (\"social work\"[tiab] OR \"intervention\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בשימוש בכלים מבוססי עיבוד שפה טבעית (NLP) כדי לסייע בתקשורת דיגיטלית עבור מתבגרים ומבוגרים צעירים עם הפרעת ספקטרום האוטיזם (ASD). המחקר כלל 16 משתתפים עם ASD ו-16 שותפים לשיחה נוירוטיפיקליים, ונמשך שמונה שבועות. הכלי שנבחן שילב ניתוח רגשות, זיהוי כוונות ופישוט מצבים, והעניק משוב בזמן אמת במהלך תקשורת דיגיטלית. תוצאות ראשוניות הראו שיפור ברור בבהירות התקשורת, ירידה ברמות חרדה, ועלייה בביטחון העצמי של המשתתפים. ניתוח איכותני זיהה חמישה נושאים מרכזיים, כולל הפחתת העומס התקשורתי והעצמה אישית. המאמר מציע שהטכנולוגיות המסייעות המונעות על ידי NLP מצריכות מחקר נוסף, אם כי הממצאים המוקדמים אינם מאפשרים להסיק מסקנות סיבתיות עקב היעדר קבוצת ביקורת ודגימה קטנה.",
+    "abstract_en": "BACKGROUND: Autism Spectrum Disorder (ASD) is characterized by social communication challenges, including difficulties interpreting figurative language, understanding conversational context, and expressing thoughts clearly. This feasibility study examined an NLP-based communication assistance tool for adolescents and young adults with ASD. The tool combined sentiment analysis, intent identification, and situational simplification to provide real-time feedback in digital communication.\n\nMETHODS: Participants were 16 individuals with ASD (aged 15-28 years) and 16 neurotypical conversation partners in a within-subjects, mixed-methods design. The intervention lasted eight weeks. The tool was used in both structured tasks and naturalistic conversations.\n\nRESULTS: Preliminary data suggest associations between tool use and improved outcomes. Communication clarity increased from 3.12 to 3.89 (d = 0.74, 95% CI [0.28, 1.20], p < 0.001 after Bonferroni correction). Anxiety decreased by 2.3 points on a 7-point scale (d = 1.21, 95% CI [0.62, 1.80], p < 0.001). Confidence scores improved by 42% from baseline (d = 1.15, 95% CI [0.56, 1.74], p < 0.001). Qualitative thematic analysis (Braun & Clarke, 2006; inter-coder reliability, κ = 0.81) identified five themes: reduced communication burden, learning through use, empowerment and autonomy, context-specific value, and desire for customization. These preliminary findings suggest that NLP-driven assistive technologies warrant further investigation in controlled trials.\n\nCONCLUSION: This study demonstrates feasibility and provides preliminary evidence for NLP-based communication support, though causal conclusions cannot be drawn due to the absence of a control group, small sample size (N = 16), and short duration.",
+    "pmc_id": "13367686",
+    "date_added": "2026-07-19"
+  },
+  {
+    "id": "10.1371/journal.pone.0353994",
+    "title_en": "Between neuroaffirmation and access: Parents' experiences of autism caregiving in England.",
+    "title_he": "בין נוירואפירמציה לגישה: חוויות ההורים בטיפול באוטיזם באנגליה",
+    "authors": [
+      "Farooq Anum",
+      "Mason Rachael",
+      "Sclafani Valentina",
+      "Kargas Niko"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42467636/",
+    "keywords": [
+      "\"Neurodevelopmental Disorders\"[MeSH] AND (\"family\"[tiab] OR \"caregiver\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בחוויות ההורים המטפלים בילדים אוטיסטים באנגליה, תוך הדגשת האתגרים המיוחדים שהם חווים. המחקר מצביע על כך שהמחקר הקיים מתמקד בעיקר בלחץ ההורי ובנטל האישי, אך יש צורך בהבנה מעמיקה יותר של האינטראקציה בין דרישות הטיפול, מערכות השירותים וההקשרים הסוציוקלטריים. באמצעות ראיונות חצי-מובנים עם 12 הורים מרקעים אתניים שונים, זוהו שישה נושאים מרכזיים המתארים את חוויות המשפחות: האקולוגיה של טיפול 24/7, ההקשרים התרבותיים, הדתיים והמגדריים, בניית תמיכת רשת חברתית, מאבק במערכות, חוסן אדפטיבי ונוירואפירמציה, ותוצאות איכות חיי המשפחה. הממצאים מדגישים את הצורך בשירותי תמיכה באוטיזם שיהיו נגישים וממוקדים במשפחה, תוך הכרה בהקשרים השונים שבהם מתרחש הטיפול.",
+    "abstract_en": "Despite growing recognition of the challenges faced by families of autistic children in the United Kingdom, existing research has largely focused on parental stress and individual burden, with comparatively limited qualitative attention to how caregiving demands, service systems, and sociocultural contexts interact to shape family quality of life. Addressing this gap, the present study explored caregivers lived experiences of raising autistic children in England, examining how caregiving demands, access to support, and adaptive responses operate within broader family and systemic contexts to influence family quality of life. Semi-structured interviews were conducted with 12 caregivers of autistic children from diverse ethnic backgrounds, including both White British and ethnic minority backgrounds families, and analysed using reflexive thematic analysis. Six interrelated themes were identified that characterised families' experiences: (1) The 24/7 Care Ecology; (2) Culture, Religion, and Gender as Contextual Amplifiers (3) Building (and lacking) the Social Support Architecture; (4) Fighting the System(s); (5) Adaptive Resilience and Neuroaffirmation; and (6) Family Quality of Life Consequences. Findings illustrate how intensive and ongoing caregiving demands intersect with fragmented service systems and sociocultural expectations, particularly where cultural, religious, and gendered norms shaped caregiving roles and help-seeking. Notably, neuroaffirmation emerged as a protective and identity-affirming response for some families, reframing caregiving beyond deficit-oriented narratives and contributing to resilience within structurally constrained environments. These findings highlight the need for more accessible, coordinated, and family-centred autism support services that recognise the diverse contexts in which caregiving takes place.",
+    "pmc_id": "13378970",
+    "date_added": "2026-07-19"
+  },
+  {
+    "id": "10.1055/a-2876-8703",
+    "title_en": "[Mental health care for people with intellectual developmental disorders: a comparative overview of service structures in Germany and the UK]",
+    "title_he": "טיפול נפשי לאנשים עם לקויות התפתחות אינטלקטואליות: סקירה השוואתית של מבני שירותים בגרמניה ובבריטניה",
+    "authors": [
+      "Amazu Amanda",
+      "Heidenreich Thomas",
+      "Michalak Johannes"
+    ],
+    "year": 2026,
+    "source": "Europe PMC",
+    "url": "https://europepmc.org/article/MED/42447871",
+    "keywords": [
+      "intellectual disability inclusion community"
+    ],
+    "summary_he": "מאמר זה עוסק בטיפול נפשי לאנשים עם לקויות התפתחות אינטלקטואליות, אשר סובלים משכיחות גבוהה יותר של הפרעות נפשיות אך לרוב אינם מקבלים את השירותים הנדרשים. המאמר משווה בין מבני השירותים בגרמניה ובבריטניה, תוך שימוש במסגרת של דונאבידיאן בשלושה ממדים: מבני טיפול, הכשרה והנחיות. בגרמניה, הטיפול מתבסס על מרכזים מיוחדים, בעוד שבבריטניה ישנה גישה של שילוב טיפול ראשוני באמצעות צוותים רב-מקצועיים בקהילה. המאמר מדגיש גם את ההבדלים בהכשרה ובהנחיות, כאשר בבריטניה ישנה מערכת הקשורה בין המלצות ספציפיות להפרעות לבין אוכלוסיות מסוימות. כמו כן, נדונות ההשלכות עבור המערכת הגרמנית לאור הרפורמות המתמשכות.",
+    "abstract_en": "<h4>Abstract</h4>People with intellectual disabilities show elevated prevalence of mental disorders yet are consistently underserved. Comparing Germany and the United Kingdom, this paper analyses how health system architectures shape mental health provision, using Donabedian's framework across three dimensions: care structures, training, and guidelines. Germany relies on specialised centres, while the UK pursues systematic primary care inclusion via multiprofessional Community Learning Disability Teams. Divergences also appear in training and guidelines, with the UK systematically linking disorder-specific and population-specific recommendations. Implications for the German system amid ongoing reforms are discussed.",
+    "pmc_id": "",
+    "date_added": "2026-07-19"
   }
 ]
