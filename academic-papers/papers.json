@@ -7710,5 +7710,336 @@
     "abstract_en": "<h4>Purpose</h4>Children with autism spectrum disorder (ASD) frequently face barriers to accessing care. While prior research has explored general disparities in healthcare utilization, few studies have specifically examined barriers to behavioral therapy, a key recommended intervention for ASD. This study aimed to identify factors associated with access to behavioral therapy for children with ASD.<h4>Methods</h4>We analyzed data from the 2022-2023 National Survey of Children's Health. Our outcome was reported access to behavioral therapy among children with ASD, which we explored across child age, sex, race/ethnicity, poverty level, rurality, insurance type, parent household language, and parent education level. Descriptive statistics and chi-square tests were initially used to assess associations between these variables and therapy access. We then fit a logistic regression model to estimate independent predictors.<h4>Results</h4>Rural residence and having a caregiver with less than a high school education were both significantly associated with lower rates of behavioral therapy use. Insurance status was also crucial: children with public insurance or both public and private coverage had over three times the odds of accessing therapy compared to uninsured children.<h4>Conclusion</h4>Disparities in behavioral therapy access persist for children with ASD, particularly in rural and lower-education households. Strategies such as expanding telehealth delivery, increasing insurance outreach, and funding family navigation services may help reduce these gaps, requiring collaboration between policymakers and providers.",
     "pmc_id": "",
     "date_added": "2026-07-26"
+  },
+  {
+    "id": "10.1136/bmjpo-2025-004387",
+    "title_en": "Implementing a parent-mediated intervention for toddlers with ASD within the Chinese child healthcare system: a real-world study.",
+    "title_he": "יישום התערבות המועברת על ידי הורים לתינוקות עם ASD בתוך מערכת הבריאות לילדים בסין: מחקר בעולם האמיתי",
+    "authors": [
+      "Li Huiping",
+      "Long Xiang",
+      "Huang Xiuqing",
+      "Liu Shu",
+      "Yang Zhuhong",
+      "Chen Chun",
+      "Lou Qing",
+      "Tong Xiubin",
+      "Xu Xiu"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42527107/",
+    "keywords": [
+      "\"Autism Spectrum Disorder\"[MeSH] AND (\"social work\"[tiab] OR \"intervention\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בהערכה של התערבות המועברת על ידי הורים, הנקראת תוכנית הכשרה להורים עם ילדים על הספקטרום האוטיסטי (STPAC), שנועדה לשפר את הידע של ההורים על אסטרטגיות התערבות לאוטיזם ולשפר את כישורי התקשורת של הילדים. המחקר נערך בסין, בשני מרכזי בריאות לילדים, והשתתפו בו 128 משפחות של תינוקות בגיל 18-54 חודשים עם חשד או אבחון של ASD. התוכנית כללה הכשרה קבוצתית של 8 שבועות, שהשתמשה בשיעורים, דוגמאות וידאו ואימון מותאם אישית. התוצאות הראו שיפור משמעותי בידע ההורי על התערבויות לאוטיזם, שיפור בכישורי התקשורת של הילדים, והפחתת לחץ ההורות לרמות נורמליות. למרות שיעור נטישה של כ-30%, התוכנית הוכיחה את יכולתה לפעול בהצלחה במסגרת שירותי הבריאות לילדים. ממצאים אלו מצביעים על פוטנציאל התוכנית להרחיב את הגישה להתערבויות מוקדמות עבור ילדים עם ASD, אם כי יש צורך במחקר מבוקר אקראי לאישור הממצאים.",
+    "abstract_en": "BACKGROUND: Behavioural interventions remain the cornerstone of evidence-based practice for addressing the core symptoms of autism spectrum disorder (ASD). The Skill Training Program for Parents with ASD Children (STPAC) is a group intervention programme for parents and the first parent-mediated intervention programme developed by Chinese clinical practitioners. This study was conducted to evaluate the feasibility and effectiveness of STPAC within the context of routine child healthcare services in China.\n\nMETHODS: This is a real-world, multi-site implementation study employed a single-arm, pre-post design. Between July 2023 and June 2025, 128 families of toddlers (aged 18-54 months) with suspected or diagnosed ASD were enrolled from two child healthcare settings. Participants received the 8-week, group-based parent training programme, which integrated didactic lessons, video modelling and individualised coaching. Outcomes were assessed at baseline and post-intervention using parent-reported measures: the Knowledge of Autism Intervention Questionnaire (KAIQ), the Communication and Symbolic Behavior Scales Developmental Profile (CSBS DP) and the Parenting Stress Index-Short Form (PSI-SF). Statistical analysis included paired-samples t-tests to evaluate within-group changes, with effect sizes (Cohen's d) calculated to quantify the magnitude of improvement.\n\nRESULTS: Parental knowledge of autism intervention strategies increased substantially (mean improvement=6.26 points, p<0.001; d=1.17). Child communication and symbolic skills also improved, with the CSBS DP total score rising from 35.30 to 40.88 (p<0.001; d=0.99), representing an overall improvement rate of 85.7%. Furthermore, parenting stress decreased from clinically significant to normal levels (mean reduction=3.70 points, p=0.005). The intervention was equally effective across diverse family demographics, and baseline child communication ability was the strongest predictor of post-intervention gains.\n\nCONCLUSIONS: Despite an attrition rate of approximately 30%, STPAC demonstrated feasibility as a parent-mediated intervention delivered by trained local clinicians within routine child healthcare settings. Participation in the programme was associated with improvements in parental knowledge, child social communication and parenting stress. These findings provide preliminary evidence supporting the potential of STPAC to expand access to early ASD intervention, though confirmation in a randomised controlled trial is warranted.",
+    "pmc_id": "13422803",
+    "date_added": "2026-08-02"
+  },
+  {
+    "id": "10.1007/s10803-025-06791-2",
+    "title_en": "Parent-mediated Interventions Based on the NDBI for Children With ASD: A Systematic Review of Randomized Controlled Trials.",
+    "title_he": "התערבויות המנוהלות על ידי הורים המבוססות על NDBI לילדים עם ASD: סקירה שיטתית של ניסויים מבוקרים אקראיים",
+    "authors": [
+      "Song Ying",
+      "Kong Xiangying",
+      "Fu Wenjing",
+      "Song Fuxiang"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40120018/",
+    "keywords": [
+      "\"Autism Spectrum Disorder\"[MeSH] AND (\"social work\"[tiab] OR \"intervention\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בהפרעת הספקטרום האוטיסטי (ASD), שהיא הפרעה התפתחותית המחייבת התערבות מוקדמת. סקירה שיטתית זו מעריכה את היעילות של התערבויות התנהגותיות טבעיות המנוהלות על ידי הורים (NDBIs) עבור ילדים בגיל 0-6 עם ASD, בהתבסס על ניסויים מבוקרים אקראיים (RCTs). הסקירה כללה חיפוש במאגרי מידע כמו PubMed ו-Scopus, ובסופו זוהו שמונה ניסויים מבוקרים. למרות שהשיטות היו שונות ברמתן, הממצאים מצביעים על יתרונות בתחום התקשורת החברתית, כישורי השפה ואינטראקציות בין הורים לילדים. המאמר ממליץ על צורך במחקר עתידי שיכלול פרוטוקולים סטנדרטיים להתערבות, כלים להערכה רגישה ותוכניות ניתוח סטטיסטי מפורטות, כדי לשפר את הכלליות והאמינות של הממצאים.",
+    "abstract_en": "Autism spectrum disorder (ASD) is a developmental disorder that warrants early intervention. This systematic review evaluated the efficacy of parent-mediated natural developmental behavioral interventions (NDBIs) for children aged 0-6 with ASD across various randomized controlled trials (RCTs) and explored the limitations of these interventions. A systematic search was conducted across the PubMed, Web of Science, Embase, and Scopus databases to identify RCTs, and the selected studies were assessed for quality. The search was conducted through January 2024 and identified eight RCTs that, despite varying methodological rigor, collectively suggest benefits for social communication, language skills, and parent‒child interactions in individuals with ASD. Future research should implement standardized intervention protocols, employ sensitive assessment tools, and provide detailed statistical analysis plans to improve the generalizability and reliability of the outcomes of this study.",
+    "pmc_id": "",
+    "date_added": "2026-08-02"
+  },
+  {
+    "id": "10.1007/s10803-025-06798-9",
+    "title_en": "Family Navigation for Children with Autism: A Scoping Review of Quantitative and Qualitative Evidence.",
+    "title_he": "ניווט משפחתי עבור ילדים עם אוטיזם: סקירה של ראיות כמותיות ואיכותניות",
+    "authors": [
+      "Lin Ingrid Y",
+      "Morgan Anna C",
+      "Stave Christopher D",
+      "Feldman Heidi M",
+      "Huffman Lynne C"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40100561/",
+    "keywords": [
+      "\"Autism Spectrum Disorder\"[MeSH] AND (\"social work\"[tiab] OR \"intervention\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בניווט משפחתי (FN) כמתודולוגיה חדשה שמטרתה להפחית חסמים ולפתור אי-שוויון חברתי וכלכלי בהנגשת שירותים לילדים עם אוטיזם. הסקירה שואפת לסכם את הידע הקיים על FN, לתאר את המודלים והתוצאות של התערבות זו, ולזהות פערים בידע שדורשים מחקר נוסף. מתוך 308 מאמרים שנבדקו, 17 פורסמו על FN, מתוכם שבעה חקרו מודלים של ניווט מקצועי או חברתי, ושלושה חקרו כלים ל-FN. הממצאים מצביעים על השפעות חיוביות על הפעלת משפחות, רווחה, ידע ונגישות לשירותים. עם זאת, אף אחד מהמחקרים לא התייחס לשיפורים במצב ההתפתחותי או בפרופילים ההתנהגותיים של הילדים. המאמר מדגיש את הפוטנציאל של FN לשפר את התוצאות עבור משפחות ולהגביר את הנגישות לשירותים, אך מדגיש גם את הצורך במחקר נוסף כדי לקבוע שיטות עבודה מומלצות ולהגביר את הקיימות של התערבויות אלו.",
+    "abstract_en": "Family navigation (FN) has emerged as a promising intervention for reducing barriers and addressing social and economic inequities in autism service delivery. Little is known regarding the implementation and effectiveness of FN for children with autism. The aims of this scoping review are to: (1) summarize the breadth, quantity, and characteristics of the existing literature on FN for children diagnosed with autism; (2) describe the models and outcomes of FN for this population; and (3) identify knowledge gaps and provide directions for future research. Authors used Arksey and O'Malley's methodological framework for scoping reviews. Searches were conducted in PubMed, CINAHL, Embase, Social Services Abstracts, and Web of Science, resulting in identification of 308 papers. Two independent raters completed title/abstract and full-text screenings. Data was extracted using a researcher-developed tool. Results synthesis involved content and construct analysis and descriptive numerical summaries. 17 publications met inclusion criteria. Among these, seven studies evaluated FN models delivered by professional or peer navigators. Three studies investigated FN tools. The remaining seven papers included five qualitative and two mixed methods studies that provided valuable insights on improving FN programs. Overall, studies on FN models reported positive impacts on family activation and well-being, knowledge, and service access and utilization. None addressed improvements in child developmental status or behavioral profiles. FN is a promising intervention for improving family outcomes and increasing service access and utilization. Further research is needed to establish best practices, identify child- and family-centered outcome metrics, and promote scalability and sustainability.",
+    "pmc_id": "",
+    "date_added": "2026-08-02"
+  },
+  {
+    "id": "10.1007/s10803-024-06433-z",
+    "title_en": "Efficacy of Community-Delivered PEERS® for Adolescents: Increases in Social Skills and Decreases in Social Anxiety and Loneliness.",
+    "title_he": "יעילות תוכנית PEERS® לנוער בקהילה: עלייה בכישורים חברתיים והפחתה בחרדה חברתית ובבדידות",
+    "authors": [
+      "Parenteau China I",
+      "Floyd Jessica",
+      "Ankenman Katy",
+      "Glavin Tara",
+      "Charalel Julia",
+      "Lin Enjey",
+      "Ence Whitney",
+      "Kim Young Shin",
+      "Bishop Somer",
+      "Zheng Shuting"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38884888/",
+    "keywords": [
+      "\"Autism Spectrum Disorder\"[MeSH] AND (\"social work\"[tiab] OR \"intervention\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בתוכנית PEERS® לנוער, תוכנית מוכחת לשיפור כישורים חברתיים שנועדה לאנשים עם הפרעת אוטיזם. המחקר נועד לבדוק את השפעת התוכנית כאשר היא מיועדת לקהילה, ולא רק בסביבות מחקריות מבוקרות. הנתונים נלקחו מ-45 בני נוער עם אתגרים חברתיים, והושוו לפני ואחרי ההתערבות. התוצאות הראו עלייה משמעותית בכישורים חברתיים, כמו גם ירידה בחרדה ובבדידות. נמצא כי שיפור בכישורים החברתיים, כפי שדווח על ידי ההורים, היה קשור לירידה בבדידות. הממצאים מצביעים על כך שהתוכנית PEERS® יכולה לשפר את הכישורים החברתיים ואת בריאות הנפש של בני נוער עם אתגרים חברתיים כאשר היא מיועדת בקהילה.",
+    "abstract_en": "PURPOSE: PEERS® for Adolescents is an evidence-based social skills training program developed for individuals with autism spectrum disorder (ASD), which is now widely implemented by community providers in clinics and schools. However, majority of past efficacy studies on PEERS® were conducted in controlled research settings, with limited information about its effectiveness when delivered in the community. We sought to examine the effects of PEERS® on social functioning and mental health outcomes when delivered in an outpatient autism specialty clinic.\n\nMETHODS: Clinical data from 45 adolescents with social challenges (age range: 11-18 years old; 31.1% female assigned at birth) were extracted for secondary analyses. Paired t-tests were performed to examine the pre- to post-intervention changes in social and mental health outcomes. Correlations between pre- and post-change scores of outcome measures were examined.\n\nRESULTS: Self-reported social skills knowledge, caregiver-reported social skills (measured by the Social Skills Improvement Systems) and the number of get-togethers hosted, increased significantly from pre- to post-intervention. Additionally, caregiver-reported anxiety and self-reported loneliness significantly decreased from pre- to post-intervention. Exploratory analyses showed that increases in caregiver-reported social skills were associated with decreases in self-reported loneliness.\n\nCONCLUSIONS: Our findings provide evidence supporting the efficacy of PEERS® for improving social knowledge and skills of adolescents with social challenges when delivered in the community. The current study also showed the potential benefit of PEERS® for improving adolescent mental health.",
+    "pmc_id": "",
+    "date_added": "2026-08-02"
+  },
+  {
+    "id": "10.1007/s10803-025-06790-3",
+    "title_en": "The Effectiveness of Mindfulness-Based Interventions in Improving the Mental Health of Parents of Children with Intellectual or Developmental Disabilities: A Systematic Review and Meta-Analysis.",
+    "title_he": "היעילות של התערבויות מבוססות מיינדפולנס בשיפור בריאות הנפש של הורים לילדים עם לקויות קוגניטיביות או התפתחותיות: סקירה שיטתית ומטה-אנליזה",
+    "authors": [
+      "Yang Tingting",
+      "Wang Yufei",
+      "Xu Ping",
+      "Tao Yuexian"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40080346/",
+    "keywords": [
+      "\"Intellectual Disability\"[MeSH] AND (\"social support\"[tiab] OR \"intervention\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בהערכת היעילות של התערבויות מבוססות מיינדפולנס בשיפור בריאות הנפש של הורים לילדים עם לקויות קוגניטיביות או התפתחותיות. הסקירה השיטתית כוללת 15 מחקרים עם 1124 משתתפים, מהם 14 נכללו במטה-אנליזה. התוצאות מראות כי התערבויות אלו הצליחו להפחית את רמות הלחץ, תסמיני הדיכאון והחרדה של ההורים, ולשפר את הקשרים בין ההורים לילדיהם, אם כי ההשפעות היו מתונות. התערבויות שנמשכו 8 שבועות או יותר והכוונו רק להורים הראו השפעות חיוביות נוספות. המאמר מציע כי התערבויות מיינדפולנס עשויות לשפר את בריאות הנפש של ההורים, אך הראיות לגבי השפעתן על המיינדפולנס של ההורים עצמן אינן חד משמעיות. מומלץ לערוך מחקרים נוספים שיבחנו את הגורמים המרכזיים המשפיעים על יישום ההתערבויות ויעצבו ניסויים מבוקרים רחבי היקף להערכה מקיפה של היעילות והיישומיות של התערבויות אלו.",
+    "abstract_en": "This review aims to evaluate the effectiveness of mindfulness-based interventions in improving the mental health of parents of children with intellectual and developmental disabilities (IDDs), specifically focusing on outcomes such as parental stress, anxiety, depression, and parent-child relationships. A systematic search was conducted across multiple databases, including Web of Science, PubMed, Embase, and others, up to December 2024. Two reviewers independently screened studies, extracted data, and assessed bias risk using the Cochrane Risk of Bias tool. Studies involving parents of children with intellectual or developmental disabilities who received mindfulness-based interventions and reported psychological outcomes were included. The meta-analysis was conducted using Review Manager 5.4 software, with a random effects model applied. This systematic review included 15 studies (1124 participants), of which 14 were used for meta-analysis (1078 participants). The results indicate that mindfulness-based interventions reduced the stress levels [SMD = - 0.26, 95% CI (- 0.49, - 0.04)], depressive symptoms [SMD = - 0.37, 95% CI (- 0.66, - 0.08)], distress [SMD = - 0.26, 95% CI (- 0.43, - 0.09)] and anxiety symptoms[SMD = - 0.35, 95% CI (- 0.66, - 0.04)] of parents of children with IDDs, while also improving parent-child relationships [SMD = - 0.32, 95% CI (- 0.05, - 0.58)], although the effects were moderate. Subgroup analyses revealed that interventions lasting 8 weeks or more [SMD =- 0.41, 95% CI (-0.67, -0.14)] and those targeting only the parents [SMD = - 0.26, 95% CI (- 0.44, - 0.08)] showed some positive effects in improving parent-child relationships or parent stress. Mindfulness-based interventions appear to have a positive effect on improving the mental health of parents of children with IDDs. However, the evidence of their effectiveness in enhancing parental mindfulness remains inconclusive. Future studies should consider the key factors influencing intervention implementation and optimize the design of large-scale randomized controlled trials to systematically and comprehensively assess the effectiveness and applicability of mindfulness-based interventions.",
+    "pmc_id": "",
+    "date_added": "2026-08-02"
+  },
+  {
+    "id": "10.1016/j.actpsy.2026.107311",
+    "title_en": "Parent-reported clinical severity, functional challenges, and caregiver wellbeing in ASD: An exploratory pilot study.",
+    "title_he": "חומרת קלינית מדווחת על ידי הורים, אתגרים תפקודיים ורווחת המטפלים באוטיזם: מחקר פיילוט חוקר",
+    "authors": [
+      "Roy Malini",
+      "Naik Abdul Raffie"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42349190/",
+    "keywords": [
+      "\"Neurodevelopmental Disorders\"[MeSH] AND (\"family\"[tiab] OR \"caregiver\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בהשפעות של גידול ילדים עם הפרעת ספקטרום האוטיזם (ASD) על רווחת המטפלים. המחקר כלל 37 הורים לילדים עם ASD בדרום הודו, אשר מילאו שאלונים להערכת מתח מטפל, חוסן, תמיכה חברתית ותחושת איכות חיים. תוצאות המחקר הראו כי המתח הפנימי המופנם היה הגבוה ביותר בקרב המטפלים, וחוסן היה ברמה נמוכה. לא נמצאו הבדלים מגדריים במתח המטפל או באיכות החיים, אך אבות דיווחו על תמיכה נמוכה יותר מהמשפחה. חומרת הקלינית המדווחת על ידי ההורים הייתה קשורה בעיקר למתח המטפל, בעוד שהאתגרים התפקודיים המדווחים על ידי ההורים השפיעו על המתח, התמיכה החברתית ואיכות החיים. המאמר מדגיש את החשיבות של אתגרים תפקודיים יומיומיים בהבנת רווחת המטפלים באוטיזם.",
+    "abstract_en": "BACKGROUND: Parents of children with Autism Spectrum Disorder (ASD) often experience considerable psychological, social, and physical strain. This study examined caregiver strain, resilience, perceived social support, and quality of life and compared the associations of parent-reported clinical severity and parent-reported functional difficulties with caregiver outcomes.\n\nMETHODS: This exploratory cross-sectional pilot study included 37 parents of children with ASD in South India. Participants completed the Caregiver Strain Questionnaire (CGSQ), Connor-Davidson Resilience Scale-10 (CD-RISC-10), WHOQOL-BREF, and Multidimensional Scale of Perceived Social Support (MSPSS).\n\nRESULTS: Subjective internalized strain showed the highest scores among the caregiver strain dimensions. Resilience scores were in the lower quartile range, while perceived social support scores were within the moderate support range. No gender differences were observed in caregiver strain, resilience, or quality of life, although fathers reported lower perceived support from family and significant others. Parent-reported clinical severity was associated primarily with caregiver strain, whereas parent-reported functional difficulties were associated with caregiver strain, perceived social support, and all quality of life domains. Higher resilience and perceived social support were associated with lower caregiver strain and better quality of life.\n\nCONCLUSION: Caregiver wellbeing was more closely associated with parent-reported functional difficulties than with parent-reported clinical severity. These findings suggest that parent-reported everyday functional challenges may be important when examining caregiver wellbeing in ASD.",
+    "pmc_id": "",
+    "date_added": "2026-08-02"
+  },
+  {
+    "id": "10.1007/s10803-025-06776-1",
+    "title_en": "How Do Social Support and Resilience Interact in Parents of Children with ASD? A Cross-Lagged Mediation and Moderation Analysis from the COR Perspective.",
+    "title_he": "כיצד תומך חברתי וחוסן מתקשרים אצל הורים לילדים עם אוטיזם?",
+    "authors": [
+      "Wang Lin",
+      "Xie Qinxing",
+      "Hua Meng",
+      "Lu Haoyu"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40102375/",
+    "keywords": [
+      "\"Neurodevelopmental Disorders\"[MeSH] AND (\"family\"[tiab] OR \"caregiver\"[tiab])"
+    ],
+    "summary_he": "מאמר זה חוקר את הקשר בין תמיכה חברתית לחוסן בקרב הורים לילדים אוטיסטים, תוך שימוש בתיאוריה של שימור משאבים. המחקר כלל 436 הורים לילדים בגילאי 3 עד 15 מסין, אשר מילאו שאלונים על תמיכה חברתית, חוסן ואסטרטגיות התמודדות בשני זמנים שונים. הממצאים מצביעים על קשר דו-כיווני בין תמיכה חברתית לחוסן, כאשר התמודדות פעילה מתפקדת כמגשר בקשר זה. אף על פי שהמודל הכללי לא הראה הבדל משמעותי בין הורים לילדים בגיל הרך לבין הורים לילדים בגיל בית הספר, הקשר בין חוסן בתאריך הראשון לתמיכה חברתית בתאריך השני היה משמעותי עבור קבוצת גיל בית הספר. המאמר מדגיש את החשיבות של תמיכה חברתית וחוסן ככוחות מחזקים זה את זה, ומציע המלצות לשירותי משפחה מותאמים גיל, במטרה לשפר את החוסן והתמיכה החברתית להורים לילדים אוטיסטים.",
+    "abstract_en": "This study investigates a longitudinal cross-lagged relationship between social support and resilience among parents of autistic children within the framework of conservation of resources theory. It also examines the mediating role of active coping and conducts a group comparison between preschool-aged and school-aged children within this relationship. In total, 436 parents of autistic children aged three to fifteen years from China participated in this study. They completed the Social Support Questionnaire, the Connor-Davidson Resilience Scale, and the Coping Strategies Inventory at baseline (Time 1 [T1]) and 6 months later (Time 2 [T2]). A longitudinal cross-lagged structural equation modeling approach was applied. The findings indicated a longitudinal bidirectional relationship between social support and resilience over time, with active coping mediating this interaction. While the overall model did not significantly differ between parents of preschool- and school-aged children, the relationship between resilience at T1 and social support at T2 was significant for the school-aged group. The study highlights that social support and resilience mutually reinforce each other and that active coping serves as a key mechanism underlying this relationship. Considering the variation across age groups, this study offers implications for age-specific family services aimed at enhancing resilience and social support for parents of autistic children.",
+    "pmc_id": "",
+    "date_added": "2026-08-02"
+  },
+  {
+    "id": "10.1007/s10803-025-06773-4",
+    "title_en": "Resilience Within Families of Young Children with ASD.",
+    "title_he": "חוסן בתוך משפחות של ילדים צעירים עם אוטיזם",
+    "authors": [
+      "Dijkstra-de Neijs Leanne",
+      "Swaab Hanna",
+      "van Berckelaer-Onnes Ina A",
+      "Ester Wietske A"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40045036/",
+    "keywords": [
+      "\"Neurodevelopmental Disorders\"[MeSH] AND (\"family\"[tiab] OR \"caregiver\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בחוסן בתוך משפחות של ילדים צעירים עם אוטיזם (ASD) וכיצד הוא עשוי להפחית את רמות הלחץ ההורי הגבוהות שההורים חווים. המחקר כולל 249 משתתפים ומנתח את הקשרים בין לחץ הורי לבין גורמים תורמים לחוסן של אמהות ואבות. נמצא כי 33% מהמשפחות חוות לחץ הורי רגיל, בעוד ש-36% חוות לחץ הורי (תת)קליני. גורמים תורמים לחוסן של אמהות כוללים יכולות תכנון וארגון טובות ויחסים חברתיים מספקים, בעוד שאבות חווים חוסן בזכות רמות נמוכות של דאגה ויחסים חברתיים טובים. גורם משותף לחוסן במשפחות הוא שביעות רצון של שני ההורים מהיחסים החברתיים שלהם. הממצאים מצביעים על כך שההורים חווים רמות דומות של לחץ הורי, אך הדינמיקה האישית של כל הורה משפיעה על החוסן המשפחתי, מה שמדגיש את הצורך בגישה מותאמת אישית להורים במשפחות עם ילדים צעירים עם ASD.",
+    "abstract_en": "Resilience within families may temper the risk of high parenting stress faced by parents of young children with ASD. Within families, individual differences between parents may contribute differently to resilience. There is a lack in knowledge regarding the contribution of intrapersonal and contextual factors associated with resilience in parents of young children with ASD within the same family. In this cross-sectional study (n=249 individuals), resilience within families is addressed by investigating (1) family parenting stress, (2) associated factors contributing to maternal (n=87) and paternal (n=74) resilience, and (3) relating to resilience within families (n=74) of 3-to-6-year-old children with ASD (n=88). (1) The percentage of families with regular parenting stress in both parents (33%) is almost equal to the proportion of families with (sub)clinical parenting stress in both parents (36%), families with mothers experiencing (sub)clinical and fathers experience regular parenting stress are twice as common (22%) than the other way around (9%). Contributors to (2) mothers' resilience to parenting stress are good planning/organizing skills and satisfactory social relations. Contributors to fathers' resilience are low levels of 'worrying' and good social relations. The shared contributing factor to resilience within families (3) is the satisfaction of both parents with their social relations. Most of the parents of the same young child with ASD experience a comparable degree of parental stress, with different dynamics in individual parents contributing to resilience within families. This suggests the need for a personalized parental approach in families with young children with ASD.",
+    "pmc_id": "13391737",
+    "date_added": "2026-08-02"
+  },
+  {
+    "id": "10.1016/j.cct.2026.108380",
+    "title_en": "A cooking skills intervention for long-term weight loss in young adults with intellectual disabilities: Rationale and design for a randomized trial.",
+    "title_he": "התערבות מיומנויות בישול לירידה במשקל לטווח ארוך במבוגרים צעירים עם לקויות אינטלקטואליות: הנמקה ועיצוב לניסוי אקראי",
+    "authors": [
+      "Ptomey Lauren T",
+      "Danon Jessica C",
+      "Catley Delwyn",
+      "Washburn Richard A",
+      "Bodde Amy",
+      "Diaz Francisco J",
+      "Helsel Brian C",
+      "Rice Anna M",
+      "Sherman Joseph R",
+      "Koester Madison",
+      "McKinney Walker",
+      "Donnelly Joseph E"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42288222/",
+    "keywords": [
+      "\"Intellectual Disability\"[MeSH] AND (\"social support\"[tiab] OR \"intervention\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק באוכלוסיית מבוגרים צעירים עם לקויות אינטלקטואליות (ID) אשר סובלים משיעורי השמנה גבוהים ומבעיות בריאות הקשורות להשמנה. לאחר סיום הלימודים, רבים מהם מבלים יותר זמן בבית או בתוכניות יום, מה שמוביל לתזונה לא בריאה ולהפחתת פעילות גופנית. מחקרים קודמים הראו ירידה במשקל במבוגרים עם ID באמצעות התערבויות התנהגותיות, אך לא הושגו תוצאות דומות במבוגרים צעירים. המאמר מציע ניסוי אקראי לבחון את השפעת תוכנית מיומנויות בישול על ירידה במשקל בטווח הארוך. הניסוי יכלול 114 משתתפים שיחולקו לשתי קבוצות: אחת שתשתתף בתוכנית ירידה במשקל רגילה והשנייה בתוכנית זו בתוספת שיעורי בישול. המטרה העיקרית היא להשוות ירידה במשקל לאחר 18 חודשים, ובנוסף ייבחנו שינויים בהרכב הגוף, סמנים קארדיו-מטבוליים, מיומנויות בישול ועומס על המטפלים. הניתוחים החקירתיים יבדקו את הגורמים המתווכים והמדכאים של שינוי במשקל.",
+    "abstract_en": "Young adults with intellectual disability (ID) are an underserved population with a high prevalence of obesity, obesity-related health conditions, and reduced ability to complete instrumental and basic activities of daily living (I/ADLs). After leaving the structured environment of public school, many young adults with ID spend more time at home or in day programs, begin living more independently, or enter the workforce. These transitions may increase reliance on fast or processed foods and reduce opportunities for physical activity, contributing to accelerated weight gain. Previous research has demonstrated clinically meaningful short- and long-term weight loss (18-24 months) in adults with mild-to-moderate ID and overweight/obesity using multi-component behavioral interventions. However, similar approaches have not achieved long-term success in younger adults with ID. Limited evidence suggests that cooking-skills training is feasible and may improve diet quality in young adults with ID, yet no adequately powered trial has tested its impact on long-term weight loss in this population. This randomized trial will evaluate whether adding a cooking-skills program to a multicomponent weight-management intervention improves long-term weight loss in young adults with ID and overweight/obesity. We will randomize 114 participants (1:1) to a standard weight-loss program or a standard weight-loss program plus cooking skills sessions for an 18-month intervention with a 6-month no-contact follow-up period. The primary aim is to compare weight loss at 18 months; Secondarily, we will compare between-arm changes in body composition, cardiometabolic biomarkers, I/ADLs, cooking skills, and caregiver strain. Exploratory analyses will examine mediators and moderators of weight change.",
+    "pmc_id": "",
+    "date_added": "2026-08-02"
+  },
+  {
+    "id": "10.1016/j.ridd.2026.105345",
+    "title_en": "Effects of group-based music therapy combined with speech therapy on language and social skills in preschool children with autism spectrum disorder: An exploratory randomized controlled trial.",
+    "title_he": "השפעות טיפול במוזיקה קבוצתי בשילוב עם טיפול בדיבור על מיומנויות שפה וחברה אצל ילדים בגיל הרך עם הפרעת אוטיזם: ניסוי מבוקר רנדומלי חוקר",
+    "authors": [
+      "Liu Chih-En",
+      "Chen Pei-Ying",
+      "Lai Ting-Ju",
+      "Yang Shu-Mei"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42468411/",
+    "keywords": [
+      "\"Autism Spectrum Disorder\"[MeSH] AND (\"social work\"[tiab] OR \"intervention\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בהשפעות טיפול במוזיקה קבוצתי בשילוב עם טיפול בדיבור על ילדים בגיל הרך עם הפרעת אוטיזם (ASD) והפרעות שפה. הניסוי כלל 40 ילדים בגיל 3-5, שחולקו אקראית לשתי קבוצות: קבוצה שקיבלה טיפול במוזיקה יחד עם טיפול בדיבור, וקבוצה שקיבלה רק טיפול בדיבור. לאחר 8 שבועות, תוצאות השפה נמדדו באמצעות סולם השפה לגיל הרך (PLS). הממצאים הראו שיפור בניקוד השפה בשתי הקבוצות, אך לא נמצא יתרון מובהק סטטיסטית לטיפול במוזיקה ביחס לטיפול בדיבור בלבד. כמו כן, נצפו שיפורים בתכנים רגשיים וחברתיים בקבוצת טיפול המוזיקה, אך לא היו הבדלים משמעותיים בתוצאות המשניות. המאמר ממליץ על ניסויים נוספים עם מדגם גדול יותר כדי להעריך את היתרונות הפוטנציאליים של טיפול במוזיקה בשילוב עם טיפול בדיבור.",
+    "abstract_en": "BACKGROUND: Autism spectrum disorder (ASD) is characterized by early difficulties in language and social communication. While speech therapy is a core early intervention, music therapy has been increasingly applied to support social-emotional development. However, evidence regarding the additive effects of group-based music therapy combined with speech therapy in preschool children with ASD remains limited.\n\nMETHOD: This exploratory randomized controlled trial enrolled (RCT) preschool children aged 3-5 years with ASD and language delay. Participants were randomly assigned to a Music Therapy group receiving group-based music therapy (60 min/week) plus individual speech therapy (30 min/week), or a Control group receiving speech therapy alone, for 8 weeks. The primary outcome was week 8 language performance assessed using the Preschool Language Scale (PLS). Secondary outcomes included autism-related characteristics, emotional and behavioral functioning, and parenting stress, assessed using the Checklist for Autism Spectrum Disorder-Chinese Version (CASD-C), Pervasive Developmental Problems scale of the Child Behavior Checklist for Ages 1½-5 (CBCL 1½-5 PDP), and Parenting Stress Index-Short Form (PSI-4-SF), respectively. The primary treatment effect was evaluated using a multiple imputation-based intention-to-treat (ITT) adjusted analysis accounting for sex and baseline outcome measures. Secondary outcome analyses were interpreted with Benjamini-Hochberg false discovery rate correction for multiple comparisons. Exploratory within-group analyses and generalized estimating equation (GEE) models were used to characterize observed changes over time.\n\nRESULTS: Forty participants were randomized, and 38 participants completed the week 8 assessment. The ITT analysis included all randomized participants. Observed PLS total scores increased significantly within both groups. Exploratory within-group analyses also showed reductions in CASD-C social interaction issues and emotional difficulties in the Music Therapy group, and CBCL 1½-5 PDP T-scores decreased within both groups. However, the primary adjusted ITT analysis did not demonstrate statistically significant superiority of adjunctive group-based music therapy over speech therapy alone for the primary language outcome (adjusted between-group difference, -1.65; 95% confidence interval, -7.52-4.21; p = 0.569). No statistically significant adjusted between-group differences were observed for secondary outcomes. Exploratory GEE analyses indicated time-related changes in PLS total score, CASD-C sensory difficulties, and CBCL 1½-5 PDP T-score, but no significant group-by-time interactions.\n\nCONCLUSION: In this exploratory RCT, group-based music therapy was feasible to integrate with speech therapy and was not associated with intervention-related adverse events. Although language performance and selected autism-related behavioral features showed improvements over time, adjunctive group-based music therapy did not demonstrate statistically significant superiority over speech therapy alone. Larger adequately powered trials are needed to evaluate its incremental benefit.",
+    "pmc_id": "",
+    "date_added": "2026-08-02"
+  },
+  {
+    "id": "10.1016/j.jaac.2025.07.1058",
+    "title_en": "Efficacy of the Emotion Awareness and Skills Enhancement (EASE) Program in Autism: A Randomized Controlled Trial.",
+    "title_he": "יעילות תוכנית המודעות לרגש ושיפור מיומנויות (EASE) באוטיזם: ניסוי מבוקר רנדומלי",
+    "authors": [
+      "White Susan W",
+      "Conner Caitlin M",
+      "Beck Kelly",
+      "Mazefsky Carla A"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40750084/",
+    "keywords": [
+      "\"Autism Spectrum Disorder\"[MeSH] AND (\"social work\"[tiab] OR \"intervention\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בניסוי מבוקר רנדומלי שבחן תוכנית התערבות מבוססת מיינדפולנס בשם EASE, שנועדה לשפר את ויסות הרגשות בקרב מתבגרים ומבוגרים צעירים עם אוטיזם. הניסוי כלל 109 משתתפים בגילאים 12-22, אשר סבלו מהפרעות ויסות רגשיות. התוצאות הראו כי משתתפי EASE חוו שיפורים משמעותיים יותר בניהול רגשותיהם בהשוואה לקבוצת הביקורת, שהייתה התערבות פעילה אך לא כללה את מרכיבי EASE. בנוסף, משתתפי EASE הציגו שיפורים בסימפטומים פנימיים וחיצוניים, בעוד שקבוצת הביקורת חוותה שיפורים רק בסימפטומים חיצוניים. ממצאים אלו מצביעים על כך שהתוכנית EASE יכולה לסייע לנוער ומבוגרים צעירים עם אוטיזם לשפר את יכולותיהם בניהול רגשות, דבר שיכול לתרום לרווחתם הנפשית הכללית.",
+    "abstract_en": "OBJECTIVE: Autistic adolescents and adults often struggle with emotion dysregulation, and advocates consistently encourage more research on mental health. This study aimed to establish efficacy for psychotherapeutic intervention for emotion dysregulation for autistic adolescents and young adults.\n\nMETHOD: In this multisite randomized controlled trial, a primarily mindfulness-based intervention called the Emotion Awareness and Skills Enhancement (EASE) Program, developed to improve emotion dysregulation in autistic adolescents and young adults, was compared to a rigorous active control condition (ACC) that allowed for personalized and evidence-based intervention as long as it did not include EASE core elements. It was hypothesized that the EASE group would demonstrate a steeper decline in emotion dysregulation, as well as decreased mental health problems, compared to those in ACC. A total of 109 participants were randomized, 102 began treatment, 89 participants completed all treatment sessions. intent-to-treat (ITT; n = 109) analyses were conducted, with supplemental per protocol analyses (PP; n = 76).\n\nRESULTS: Primary outcomes included emotion dysregulation severity and its interference with daily functioning, whereas secondary outcomes assessed mental health symptoms. Condition-naive interviews, which gauged impairment related to dysregulation, showed that the EASE group had more treatment responders (63%) compared to ACC (44%) (p = .052, odds ratio = 2.85), but this difference was not statistically significant. EASE participants demonstrated greater declines in emotion dysregulation than those in ACC (Reactivity, b = -0.168, p = .017; Dysphoria, b = -0.182, p = .010) at endpoint. EASE participants demonstrated improvement in internalizing and externalizing symptoms, relative to baseline, based on self- and caregiver-report, whereas ACC participants showed improvement only in caregiver-reported externalizing symptoms. All effects were stronger in PP analyses, suggesting the possible importance of treatment dosage.\n\nCONCLUSION: Findings suggest that EASE improves emotion dysregulation for autistic adolescents and young adults.\n\nPLAIN LANGUAGE SUMMARY: This study tested a mindfulness-based intervention to improve autistic adolescents' and young adults' ability to manage emotions. Researchers compared the Emotion Awareness and Skills Enhancement (EASE) Program to an active control intervention in a multisite randomized controlled trial with 109 autistic participants (ages 12-22 years) whose caregivers reported the presence of emotion dysregulations at baseline. Those in EASE showed greater improvements in managing emotions compared to the control intervention. Both interventions were helpful with respect to mental health. EASE participants demonstrated improvements in both internalizing and externalizing symptoms, while the active control participants demonstrated improvements in externalizing symptoms only. These results suggest that EASE helps autistic youth and adults better manage their emotions.\n\nCLINICAL TRIAL REGISTRATION INFORMATION: Emotion Awareness and Skills Enhancement Program (EASE); https://clinicaltrials.gov/study/NCT03432832 DIVERSITY & INCLUSION STATEMENT: We worked to ensure that the study questionnaires were prepared in an inclusive way. We worked to ensure race, ethnic, and/or other types of diversity in the recruitment of human participants. One or more of the authors of this paper self-identifies as living with a disability.",
+    "pmc_id": "",
+    "date_added": "2026-08-02"
+  },
+  {
+    "id": "10.1016/j.ridd.2026.105341",
+    "title_en": "Interpersonal synchrony in caregiver-child dyads with autism spectrum condition: A scoping review.",
+    "title_he": "סנכרון בין אישי בדיאדות של הורים וילדים עם אוטיזם: סקירה מקיפה",
+    "authors": [
+      "Zaborowska Julia",
+      "Pisula Ewa",
+      "Pluta Agnieszka"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42456608/",
+    "keywords": [
+      "\"Autism Spectrum Disorder\"[MeSH] AND (\"social work\"[tiab] OR \"intervention\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בסנכרון בין אישי (IS) בדיאדות של הורים וילדים עם אוטיזם, ומדגיש את חשיבותו בהתקשרות חברתית ובוויסות רגשי. הסקירה מתמקדת בהבנת המאפיינים של IS בדיאדות אלו, תוך זיהוי שיטות והקשרים אינטראקציוניים למדידתו. ניתוח 39 מחקרים מצביע על כך שסנכרון בין אישי בדיאדות אלו מציג שונות רבה, ואינו בהכרח מופחת או מוגבר בהשוואה לדיאדות של הורים עם ילדים נוירוטיפיים. השונות ב-IS קשורה לגורמים אישיים, יחסים והקשרים שונים. ממצאים ממחקרים ארוכי טווח מצביעים על כך שסנכרון הוא תהליך שניתן לשנותו עם הזמן, והוא עשוי להשפיע על תוצאות התפתחותיות עתידיות. המאמר מדגיש את הצורך בגישות תיאורטיות משולבות, רב-מודליות וארוכות טווח כדי לקדם הבנה מעמיקה יותר של אינטראקציות בין הורים לילדים אוטיסטים, תוך תמיכה בהתקשרות חברתית משמעותית.",
+    "abstract_en": "PURPOSE: Interpersonal synchrony (IS), the temporal alignment of behavior and biological processes between interaction partners, is a key mechanism for social engagement and co-regulation. While well-studied in neurotypical populations, its nature in caregiver-autistic child dyads remains fragmented. This scoping review maps the current knowledge on IS in these dyads across behavioral and biological levels and identifies methods and interactional contexts used for its measurement.\n\nMETHODS: A literature search was conducted in PubMed, Scopus, and Web of Science on October 12, 2024, with an updated search on September 30, 2025, following PRISMA guidelines. Quantitative studies examining behavioral and/or biological interpersonal synchrony in caregiver-child dyads involving autistic children or children with an elevated likelihood of autism were included. Studies were screened using predefined inclusion and exclusion criteria. A total of 39 studies met all eligibility criteria and were included in this review.\n\nRESULTS: Across studies, IS in caregiver-autistic child dyads shows substantial heterogeneity. IS is neither uniformly reduced nor enhanced relative to caregiver-neurotypical child dyads but varies across modalities, interactional contexts, and developmental periods. Variability in IS has been associated with individual (child and caregiver), relational, and contextual factors. Evidence from longitudinal and intervention research suggests that synchrony is modifiable over time and may be linked to downstream developmental outcomes.\n\nCONCLUSIONS: Findings highlight IS as a multidimensional, context-sensitive, and dyadically constructed process in caregiver-autistic child interactions. Advancing the field will require theoretically integrated, multimodal and longitudinal approaches that move beyond deficit-based models and support mutually attuned and meaningful social engagement in neurodiverse populations.",
+    "pmc_id": "",
+    "date_added": "2026-08-02"
+  },
+  {
+    "id": "10.1177/13623613261460931",
+    "title_en": "The Views of Autistic Adults on Early Autism Interventions: A Mixed-Methods Systematic Literature Review.",
+    "title_he": "דעותיהם של מבוגרים אוטיסטים על התערבויות מוקדמות באוטיזם: סקירה שיטתית מעורבת",
+    "authors": [
+      "Nosova Elizaveta",
+      "Sturrock Alexandra",
+      "Humphrey Neil",
+      "Leadbitter Kathy"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42411151/",
+    "keywords": [
+      "\"Autism Spectrum Disorder\"[MeSH] AND (\"social work\"[tiab] OR \"intervention\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בדעות ובחוויות של מבוגרים אוטיסטים בנוגע להתערבויות פסיכו-חינוכיות עבור ילדים אוטיסטים צעירים. במשך שנים רבות, התערבויות אלו פותחו ללא מעורבות של אנשים אוטיסטים, דבר שהוביל לצורך בהבנת נקודת המבט שלהם. הסקירה כללה חיפוש בארבעה מאגרי מידע, אשר זיהו 19 מחקרים. ניתוח הנתונים האיכותניים בוצע באמצעות סינתזה תמתית, בעוד שהנתונים הכמותיים נותחו באמצעות סינתזה נרטיבית תיאורית. מתוך המחקרים שנבדקו, פותחו חמישה נושאים מרכזיים, הממחישים את החוויות וההמלצות של מבוגרים אוטיסטים לגבי התערבויות מוקדמות. המאמר מדגיש את החשיבות של הכללת קולות אוטיסטים בתכנון וביצוע התערבויות, כדי להבטיח שהן יהיו רלוונטיות ויעילות עבור הקהל היעד.",
+    "abstract_en": "For many years, early autism interventions were developed without the involvement of autistic people. This review explores the views and experiences of autistic adults regarding psychosocial/educational interventions for young autistic children. Four databases (Web of Science Core Collection, Education Resource Information Centre, Education Database and PsycINFO) were searched; 19 studies were identified. Quality appraisal was performed using the Quality Assessment with Diverse Studies tool. Qualitative data were analysed using thematic synthesis. Quantitative data were analysed using descriptive narrative synthesis, including textual description, tabulation and a visual representation. Five themes were developed among studies with qualitative data:",
+    "pmc_id": "13392167",
+    "date_added": "2026-08-02"
+  },
+  {
+    "id": "10.1007/s10803-025-06787-y",
+    "title_en": "Effects of I-Connect to Increase Communication Initiations of Elementary Students on the Autism Spectrum.",
+    "title_he": "השפעות I-Connect על ייזום תקשורת של תלמידים יסודיים על הספקטרום האוטיסטי",
+    "authors": [
+      "Fuqua Amelia",
+      "Baker Joshua",
+      "Morgan Joseph J",
+      "Higgins Kyle"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40106126/",
+    "keywords": [
+      "\"Autism Spectrum Disorder\"[MeSH] AND (\"social work\"[tiab] OR \"intervention\"[tiab])"
+    ],
+    "summary_he": "מחקר זה בדק את השפעת המעקב העצמי באמצעות אפליקציית I-Connect על ניסי ייזום תקשורת בקרב תלמידים יסודיים על הספקטרום האוטיסטי, שאינם מדברים או מדברים מעט. ייזום תקשורת הוא חיוני לפיתוח מיומנויות תקשורת בסיסיות בקרב אוכלוסייה זו. המחקר חזר על ניסוי קודם שהשתמש בהתערבות מבוססת אסימון פיזי לשיפור מיומנויות היזום. שלושה תלמידים בגילאי 8-11 השתתפו במחקר, והעיצוב הניסויי כלל בסיס מרובה בין המשתתפים. התוצאות הראו עלייה ברמות היזום של כל המשתתפים, עם תוצאות סטטיסטיות מובהקות. סקרים ומבחנים לפני ואחרי המחקר הצביעו על שיפור במיומנויות תפקודיות וורבליות, כמו גם תוצאות חברתיות חיוביות. הממצאים מוסיפים לידע המוגבל על מעקב עצמי מבוסס טכנולוגיה ליזום תקשורת בקרב תלמידים על הספקטרום האוטיסטי שאינם מדברים או מדברים מעט. מגבלות המחקר כללו חוסר בהתאמה אישית, ניבוי של אורך ההתערבות הקבוע, ופוטנציאל להטיית בחירה.",
+    "abstract_en": "PURPOSE: The purpose of this research study was to determine the effect of self-monitoring with I-Connect on communication initiation attempts by elementary school students on the autism spectrum who are non-speaking or minimally speaking and participate in an alternate assessment. Initiations are essential for developing basic communication skills for this population of students.\n\nMETHODS: This research study replicated a published study that used a physical token-based self-monitoring intervention to improve the initiation skills of students on the autism spectrum. The published study provided a benchmark for comparison with self-monitoring of initiations using the I-Connect application for self-monitoring. Participants in the study were three elementary school students aged 8-11 years on the autism spectrum who were non-speaking or minimally speaking and participated in the state's alternate assessment. A multiple baseline design across participants visualized the effect of self-monitoring of initiations using I-Connect.\n\nRESULTS: Visual analysis demonstrated that all participants increased initiation levels comparable with the results of the benchmark study. Tau-U showed statistical significance of three potential demonstrations of effect. Pre- and post-study surveys and tests showed improved functional and verbal skills, and positive social outcomes.\n\nCONCLUSION: The outcomes add to the limited studies on technology-based self-monitoring of communication initiations by participants on the autism spectrum who are also non-speaking or minimally-speaking and who participate in an alternate assessment. The study limitations included lack of individualization, predictability of the fixed interval length of the intervention, and the potential for selection bias.",
+    "pmc_id": "13391653",
+    "date_added": "2026-08-02"
+  },
+  {
+    "id": "10.1007/s10803-025-06745-8",
+    "title_en": "Exploring the Human-Animal Interaction (HAI) for Children with ASD Across Countries: A Systematic Review.",
+    "title_he": "חקר האינטראקציה בין בני אדם לבעלי חיים (HAI) עבור ילדים עם ASD במדינות שונות: סקירה שיטתית",
+    "authors": [
+      "Chan Hiu Wo",
+      "Hsu Lucy Shih Ju",
+      "Shum Kathy Kar Man"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40029503/",
+    "keywords": [
+      "\"Autism Spectrum Disorder\"[MeSH] AND (\"social work\"[tiab] OR \"intervention\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק באינטראקציה בין בני אדם לבעלי חיים (HAI) כגישה לשיפור רווחת ילדים עם אוטיזם (ASD), אשר מתמודדים לעיתים קרובות עם קשיים חברתיים ורגשיים. הסקירה השיטתית מנתחת את השפעת HAI על ילדים עם ASD במדינות שונות, תוך הדגשת הצורך להבין את ההבדלים התרבותיים בהקשרים שונים. מתוך 97 מחקרים שנבחרו, רובם נערכו באירופה ובארצות הברית, כאשר ההתערבות הנפוצה ביותר הייתה טיפול בעזרת בעלי חיים, ולאחר מכן בעלות על חיות מחמד. כלבים וסוסים היו בעלי החיים המרכזיים המעורבים, והאינטראקציות התרחשו בעיקר בבית ובמרכזי רכיבה או אימון. המאמר מספק תובנות תרפויטיות לגבי ההיבטים הרב-תרבותיים של HAI, ומציע כיוונים לעתיד עבור התערבויות לילדים עם ASD בהקשרים מגוונים יותר.",
+    "abstract_en": "Human-Animal Interaction (HAI) has been widely adopted as an approach to enhance the well-being of children with ASD, who often experience significant social impairments, emotional dysregulation, and other daily challenges. Given the potential variation of HAI across countries, there is a particular need to explore this phenomenon within different cultural contexts and to illuminate directions for facilitating positive HAI among children with ASD. The purpose of this review is to systematically synthesize the current knowledge of HAI as applied to children with ASD and to discuss possible variations across different cultural contexts. A systematic database search was conducted to synthesize HAI characteristics from existing studies that met the selection criteria. The results highlighted that most of the selected studies (N = 97) were conducted in Europe or the United States. The most common format of HAI identified was animal-assisted intervention, followed by pet ownership. Dogs and horses were the primary animals involved in HAI for children with ASD, while the majority of HAI occurred in home settings and at horse riding or training centres. To conclude, this review provides a more comprehensive lens for understanding the phenomenon of HAI for children with ASD across different countries and discusses cultural variations in terms of the companion animals involved, the formats, and the settings of HAI. It also offers therapeutic insights into the multicultural aspects of HAI, which may shed light on future interventions for children with ASD through HAI in more diverse settings.",
+    "pmc_id": "13391456",
+    "date_added": "2026-08-02"
   }
 ]
