@@ -8212,5 +8212,144 @@
     "abstract_en": "A growing body of work on robot-mediated therapy suggests that robots can elicit engagement and novel social behaviors among users with autism. In this narrative review, we trace the full historical arc of this field to date, from its inception in 2001 to 2024, covering 304 studies that present a robot for autism support. Early work largely consisted of short, highly structured sessions conducted in controlled laboratory or clinical environments. More recent research has shifted toward longer-term, real-world deployments in which robots operate with greater autonomy and engage users over multiple days or weeks. However, evidence for lasting and generalized benefits is still limited. The literature also remains focused primarily on children, with comparatively little research involving adults or individuals across a wider range of support needs. Despite rapid growth over these past two decades, the research remains fragmented across disciplinary boundaries, with robotics and clinical communities advancing similar goals without a cohesive, shared research framework. To address this, we offer a translational roadmap that details what interventions work, for whom, under which conditions, and why. We highlight current methodological gaps, outline key design considerations, and propose priorities for future research.",
     "pmc_id": "",
     "date_added": "2026-08-09"
+  },
+  {
+    "id": "10.1371/journal.pone.0354823",
+    "title_en": "An evidence-informed psychosocial intervention program for caregiver burden among family caregivers of children with autism spectrum disorder: a multi-stage development and Delphi study.",
+    "title_he": "תוכנית התערבות פסיכו-חברתית מבוססת ראיות להקלת העומס על מטפלים בקרב הורים לילדים עם הפרעת ספקטרום האוטיזם: פיתוח רב-שלבי ולימוד דלפי",
+    "authors": [
+      "Tian Xinyu",
+      "Qian Wenna",
+      "Zhang Jiashuo",
+      "Li Jialin",
+      "Chen Biyun",
+      "Li Xiaohan",
+      "Yan Xiuchuan"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42585162/",
+    "keywords": [
+      "\"Autism Spectrum Disorder\"[MeSH] AND (\"social work\"[tiab] OR \"intervention\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בפיתוח תוכנית התערבות פסיכו-חברתית שמטרתה להקל על העומס המוטל על מטפלים משפחתיים של ילדים עם הפרעת ספקטרום האוטיזם. העומס על מטפלים אלו יכול להשפיע לרעה על רווחתם הפיזית והנפשית, תפקוד המשפחה ושיקום הילד. התוכנית פותחה באמצעות עיצוב רב-שלבי, תוך שימוש במודלים תיאורטיים של לחץ משפחתי ותיאוריה של התמודדות. בשלב הראשון, נאסף מידע מהראיות הטובות ביותר כדי לזהות אסטרטגיות התערבות רלוונטיות. בשלב השני, שולבו ממצאים משלב מחקר כמותי ואיכותני כדי להגדיר את מטרות ההתערבות. בשלב השלישי, התוכנית עברה שיפוט באמצעות תהליך דלפי, שהוביל לשיפוט מקצועי ולשיפור התוכן. התוכנית כוללת שלושה מודולים מרכזיים, שבעה נושאים ו-22 רכיבים, כולל חינוך פסיכולוגי, גישות מבוססות מיינדפולנס, כתיבה מבוססת הכרת תודה, אסטרטגיות של קבלה ומחויבות, הכשרה של חמלה עצמית ומיומנויות פתרון בעיות. המאמר מדגיש את הצורך בהמשך בדיקות של התוכנית עם מטפלים כדי להעריך את היישום והאפקטיביות שלה.",
+    "abstract_en": "BACKGROUND: Family caregivers of children with autism spectrum disorder (ASD) often experience substantial and multidimensional caregiver burden, which may adversely affect their physical and psychological well-being, family functioning, and the child's rehabilitation. Although caregiver-focused psychosocial interventions have shown promise, structured and theory-informed programs specifically designed to address caregiver burden in this population remain limited.\n\nMETHODS: A multi-stage intervention development design was used, guided by an integrated framework of the ABC-X family stress model and stress and coping theory. First, best-available evidence was synthesized to identify relevant intervention strategies. Second, findings from prior quantitative and qualitative phases of a mixed-methods research program were integrated to define intervention targets and draft content. Third, the draft program was refined through a two-round asynchronous modified Delphi consultation to improve content relevance, clarity, and implementation planning.\n\nRESULTS: The finalized program comprised three core modules (stressors, cognitive appraisal, and coping), seven themes, and 22 components. It incorporated psychoeducation, mindfulness-based approaches, gratitude-based expressive writing, acceptance and commitment-informed strategies, self-compassion training, and problem-solving skills. Expert response and authority were high; however, Kendall's W values were modest across the two rounds (0.23 and 0.25). These findings suggest that the Delphi process contributed to systematic refinement and expert appraisal of the program and reflected experts' perceptions of the relevance, clarity, and appropriateness of its content; practical feasibility remains to be tested directly with caregivers.\n\nCONCLUSIONS: This study developed a theory-driven and evidence-informed psychosocial intervention framework for caregiver burden among family caregivers of children with autism spectrum disorder. The program provides a structured basis for ongoing caregiver-informed feasibility testing and subsequent effectiveness evaluation; its acceptability, delivery fidelity, and later effectiveness require further empirical validation.",
+    "pmc_id": "13465810",
+    "date_added": "2026-08-16"
+  },
+  {
+    "id": "10.1044/2026_JSLHR-25-00845",
+    "title_en": "Prosodic Synchrony Profiles in Mandarin-Speaking Children With Autism, Developmental Delay, and Typical Development: A Multi-Timescale Analysis.",
+    "title_he": "פרופילים של סינכרוניה פרוזודית בילדים דוברי מנדרין עם אוטיזם, עיכוב התפתחותי והתפתחות טיפוסית: ניתוח במגוון קני מידה",
+    "authors": [
+      "Yin Tongxin",
+      "Qin Saige",
+      "Zhang Yuexin",
+      "Wang Jie",
+      "Xu Lian",
+      "Han Xuling",
+      "Hu Xinyu",
+      "Wang Yanxia",
+      "Sun Mudi",
+      "Qu Lu",
+      "Lu Haidan",
+      "Zhao Hang",
+      "Liu Min",
+      "Liu Qiaoyun"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42454971/",
+    "keywords": [
+      "\"Autism Spectrum Disorder\"[MeSH] AND (\"social work\"[tiab] OR \"intervention\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בהבדלים בסינכרוניה פרוזודית בין ילדים אוטיסטים לבין ילדים עם התפתחות טיפוסית ועיכוב התפתחותי. במחקר השתתפו 60 ילדים דוברי מנדרין, אשר עברו אינטראקציות חופשיות עם הורים במשך 10 דקות. הממצאים מראים כי ילדים עם אוטיזם הציגו סינכרוניה פרוזודית סטטית מופחתת בהשוואה לעמיתיהם עם התפתחות טיפוסית, תופעה שנצפתה באופן עקבי ברמות שונות של אינטראקציה. המאמר מציע פרופיל התנהגותי רב-ממדי של סינכרוניה פרוזודית במצבים נוירו-התפתחותיים, ומדגיש את הפוטנציאל של סינכרוניה ברמת התור כדי לשמש ככלי לסינון מוקדם, כמו גם את השונות במעברים דינמיים לתמיכה בהבחנה ובמעקב אחר התערבויות.",
+    "abstract_en": "PURPOSE: Prosodic synchrony differences between autistic and non-autistic individuals have been increasingly documented, but findings remain heterogeneous. This study delineates a multi-timescale profile of static and dynamic pitch synchrony in autistic children during naturalistic Mandarin caregiver-child interactions to deepen understanding of interactional characteristics in autism.\n\nMETHOD: Sixty Mandarin-speaking children with autism spectrum disorder (ASD), developmental delay, or typical development (TD) participated in 10-min caregiver-child free-play interactions (20 per group). Prosodic synchrony was indexed from fundamental frequency (\n\nRESULTS: The results indicated that children with ASD demonstrated significantly reduced static prosodic synchrony compared to their TD peers, consistently observed across turn-level (\n\nCONCLUSIONS: The results offer a multi-scale behavioral profile of prosodic synchrony in neurodevelopmental conditions. Turn-level synchrony may be informative for early screening, and dynamic-trajectory variability may support differential characterization and intervention tracking.\n\nSUPPLEMENTAL MATERIAL: https://doi.org/10.23641/asha.32867315.",
+    "pmc_id": "",
+    "date_added": "2026-08-16"
+  },
+  {
+    "id": "10.1080/17482631.2026.2719072",
+    "title_en": "Walking together: exploring australian parent experiences of walking in nature with their preschool children with autism using a bioecological lens.",
+    "title_he": "הליכה יחד: חקר חוויות הורים אוסטרליים בהליכה בטבע עם ילדיהם הקטנים עם אוטיזם באמצעות עדשה ביואקולוגית",
+    "authors": [
+      "Galbraith Carolyn",
+      "Gray Tonia",
+      "Sturges Marion"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42603141/",
+    "keywords": [
+      "\"Neurodevelopmental Disorders\"[MeSH] AND (\"family\"[tiab] OR \"caregiver\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בחוויות של הורים לילדים עם אוטיזם בהליכה בטבע, תוך שימוש במודל ביואקולוגי של ברונפנברנר. ההליכה בטבע נחשבת לפעילות בריאה שמספקת יתרונות קוגניטיביים, רגשיים ופיזיים להורים ולילדיהם. עם זאת, ילדים עם אוטיזם נוטים פחות להשתתף בפעילויות פיזיות או לגשת לטבע. המאמר מציע כי יש לתמוך בהורים על מנת לאפשר להם ולילדיהם גישה לפעילויות יומיומיות כמו הליכה בטבע, מה שיכול להוות הזדמנות עשירה לחוויות משותפות. במחקר השתתפו 20 הורים לילדים עם אוטיזם ו-12 הורים לילדים ללא אוטיזם, אשר מילאו סקר איכותני מקוון. מתוך התגובות זוהו חמישה נושאים מרכזיים, המצביעים על החשיבות של פעילות זו עבור משפחות עם ילדים על הספקטרום האוטיסטי.",
+    "abstract_en": "BACKGROUND: Walking regularly in natural settings is a common healthy activity for Australian parents and their preschool children. Extant research conveys that walking in nature provides cognitive, emotional and physical benefits for both parents and children. Children with autism are less likely to participate in physical activity or access nature regularly, and autistic adults are less likely to hold pro-environmental views. While research exploring the experiences of typical parents and preschoolers exists, the perceptions of parents of preschool children with autism on walking is yet to be studied.\n\nMETHODS: This paper examines the experiences of parents of children with autism using Bronfenbrenner's bioecological model as a theoretical framework. We recruited 20 parents of preschoolers with autism and a comparison group of 12 parents of preschoolers without autism and invited them to complete an online qualitative survey about walking together in nature.\n\nRESULTS: Five themes were generated from their responses, including\n\nCONCLUSION: We advocate that supporting family priorities includes supporting their ability to access everyday activities such as walking in nature, a common activity that provides rich opportunities for parents and their preschoolers with autism.",
+    "pmc_id": "",
+    "date_added": "2026-08-16"
+  },
+  {
+    "id": "10.1007/s11920-026-01710-3",
+    "title_en": "Eating Disorder Focused Family Therapy with Autistic Children and Young People: A Narrative Review of Recent Developments.",
+    "title_he": "טיפול משפחתי ממוקד בהפרעות אכילה עם ילדים ובני נוער אוטיסטים: סקירה נרטיבית של התפתחויות אחרונות",
+    "authors": [
+      "Austin Amelia",
+      "Loomes Rachel",
+      "Duffy Fiona"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42599540/",
+    "keywords": [
+      "\"Neurodevelopmental Disorders\"[MeSH] AND (\"family\"[tiab] OR \"caregiver\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בהתקדמות האחרונה בטיפול משפחתי ממוקד בהפרעות אכילה (FT-ED) עבור ילדים ובני נוער אוטיסטים. ממצאים כמותיים מצביעים על כך שילדים ובני נוער אוטיסטים, כמו גם כאלה עם תכונות אוטיסטיות גבוהות, נדרשים לרוב להעלות את רמת הטיפול בהשוואה לעמיתיהם הלא אוטיסטים. ממצאים איכותניים מראים כי צעירים אוטיסטים והוריהם מדווחים לעיתים קרובות על חוויות רעות בטיפול זה. קלינאים מדווחים על חוסר ביטחון, במיוחד כשמדובר בהתאמת הטיפול לגישה ממוסדת. בין ההתאמות המומלצות: שינויים בסביבה (כגון חללים שקטים, תאורה מעומעמת), הבנה רגישותית של אוכל והעדפות אכילה, התאמות בתקשורת (כגון דרכונים ושפה ברורה), חינוך פסיכו על אוטיזם והפרעות אכילה, ושימוש במפגשים נפרדים. בהתחשב בכך שילדים ובני נוער אוטיסטים והוריהם מדווחים על חוויות פחות טובות, יש לשקול התאמות שיתאימו לצרכים האוטיסטיים מבלי להפריע להחלמה מההפרעה. פיתוח נוסף של הנחיות וכלי קבלת החלטות עשוי לתמוך בקלינאים במתן טיפול אפקטיבי ומכיל.",
+    "abstract_en": "PURPOSE OF REVIEW: This review aims to report the recent advances for eating disorder focused family therapy (FT-ED) for Autistic children and young people, including outcomes, experiences, and suggested adaptations.\n\nRECENT FINDINGS: Quantitative studies suggest that Autistic children and young people (and those with high autistic traits) receiving outpatient FT-ED are more likely to require escalation to more intensive levels of care compared to non-autistic peers. Qualitative research shows that Autistic young people and their parents/carers often report poor experiences of FT-ED. Clinicians report a lack of confidence, particularly when adapting care from a manualised approach. Commonly suggested adaptations include environmental adjustments (e.g., quiet spaces, dimmed lights), sensory-informed understanding of food and eating preferences (e.g., accounting for historical eating behaviour), communication adaptations (e.g., passports and clear, literal language), psychoeducation on autism and eating disorders, careful consideration of externalization, and use of separated sessions. Given that Autistic children and young people and their parents report poorer experiences of FT-ED relative to their non-autistic peers, adaptations that accommodate autistic needs while not interfering with ED recovery should be considered. Further development of guidelines and decision-making tools may support FT-ED clinicians to deliver effective and inclusive care.",
+    "pmc_id": "",
+    "date_added": "2026-08-16"
+  },
+  {
+    "id": "10.1371/journal.pone.0355749",
+    "title_en": "Creating a caregiver education program with chinese caregivers of autistic children: A community engaged process.",
+    "title_he": "יצירת תוכנית הכשרה למטפלים עם מטפלים סינים של ילדים אוטיסטים: תהליך מעורב קהילתי",
+    "authors": [
+      "Yang Yi",
+      "Pan Qichao",
+      "Xin Yi",
+      "Liu Xuejing",
+      "Qiu Hongrui",
+      "Bak Moon Young Savana",
+      "Dueñas Ana D",
+      "Reilly Amber M",
+      "Dumas Natalie G"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42594083/",
+    "keywords": [
+      "\"Neurodevelopmental Disorders\"[MeSH] AND (\"family\"[tiab] OR \"caregiver\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בצורך בהכשרת מטפלים עבור מטפלים סינים של ילדים אוטיסטים, תוך הדגשה על החשיבות של הבנת הצרכים וההעדפות של קבוצה זו. במחקר איכותני, 14 מטפלים סינים השתתפו בשני קבוצות מיקוד, שבהן שיתפו את רצונותיהם לגבי תוכן ההכשרה ואופן ההגשה שלה. הקבוצה הראשונה התמחתה בתוכן הרצוי, בעוד השנייה סיפקה משוב על שני סרטוני דוגמה שנוצרו בעקבות הקבוצה הראשונה. ניתוח תמות רפלקטיבי חשף שלוש תמות עיקריות לגבי התוכן ושתי תמות לגבי שיטת ההגשה. הממצאים מדגישים את הצורך במעורבות המשתמשים בתהליך הפיתוח של תוכניות הכשרה מקוונות למטפלים, כדי להבטיח שהן יעמדו בציפיות ובצרכים של המטפלים עצמם.",
+    "abstract_en": "Despite a growing body of research highlighting the advantages of caregiver education for both autistic individuals and their caregivers, little is known about what Chinese caregivers of autistic children may want and need within caregiver education. In this qualitative study, we invited 14 Chinese caregivers of autistic children to share their needs and perspectives on the content and delivery of a caregiver education program. Specifically, we conducted two focus groups. The first focus group asked caregivers about the desired content of caregiver education. The second focus group asked for feedback on two prototype videos created based on the first focus group. We used reflexive thematic analysis, revealing three emergent themes regarding content and two themes regarding the delivery method. The study results show that the content and modality of online caregiver education programs should be created by solicitating intended user input throughout the development process.",
+    "pmc_id": "13472438",
+    "date_added": "2026-08-16"
+  },
+  {
+    "id": "10.1111/jir.70161",
+    "title_en": "The Gap Between Humanistic Ideals and Everyday Direct Support for Adults With Intellectual Disabilities: Reflections of Young Volunteers in Residential ID Services",
+    "title_he": "הפער בין אידיאלים הומניסטיים לתמיכה יומיומית ישירה למבוגרים עם לקויות אינטלקטואליות: השתקפויות של מתנדבים צעירים בשירותי ID מגורים",
+    "authors": [
+      "Neuman Ran"
+    ],
+    "year": 2026,
+    "source": "Europe PMC",
+    "url": "https://europepmc.org/article/MED/42578333",
+    "keywords": [
+      "intellectual disability inclusion community"
+    ],
+    "summary_he": "מאמר זה עוסק בפער בין אידיאלים הומניסטיים לבין התמיכה היומיומית הניתנת למבוגרים עם לקויות אינטלקטואליות (ID). המחקר מתמקד בתוכנית מתנדבים מגיל ז' המתגוררים יחד עם אנשים עם ID בקהילה מגוננת. המתנדבים, בגילאי 18-19, שיתפו את חוויותיהם מהתמחותם, תוך דגש על אוטונומיה, הגנה והכללה חברתית. הממצאים מצביעים על כך שהמתנדבים רואים את מטרות התמיכה כמתעלות על עצמאות פונקציונלית, ומדגישים את החשיבות של דיאלוג אותנטי ואתגרים נתמכים. הם חוו את ההתנדבות כמפגש מעצב, ששינה את תפיסותיהם העצמיות. כמו כן, הם טוענים ששינוי חברתי תלוי בחשיפה יומיומית לאנשים עם ID, מה שמוביל להפחתת הסטיגמה. המאמר מציע לחזק את הפרקטיקה הרפלקטיבית בשירותי ID ולבחון מחדש את ההגדרה של 'התקדמות' בתמיכה היומיומית, מעבר למטרות פונקציונליות וציפיות סטנדרטיות.",
+    "abstract_en": "<h4>Background</h4>Humanistic and rights-based approaches emphasize dignity, autonomy, self-determination and meaningful participation in community life for adults with intellectual disabilities (ID). Yet, in many ID services, everyday support is often shaped by risk-averse routines, safeguarding responsibilities and normalization-oriented expectations, creating tensions between declared commitments and daily practice. This study focuses on a year-long residential volunteer programme in which Generation Z young adults live and volunteer alongside adults with ID in a residential community. Their close involvement in everyday life, combined with their absence of formal professional responsibilities, offers a unique vantage point for re-examining how autonomy, protection and expectations of progress are negotiated in everyday support.<h4>Method</h4>Using a qualitative design, the study drew on focus-group data collected over 6 months with 12 young volunteers aged 18-19 in a year-long residential programme within a professionally guided residential ID service. The discussions explored volunteers' reflections on everyday support relationships, autonomy, protection, social inclusion and the meanings they attributed to volunteering. Data were transcribed verbatim and analysed manually using reflexive thematic analysis.<h4>Results</h4>The findings are organized according to the study's three research questions. Volunteers perceived the goals of support as extending beyond functional independence towards authentic dialogue, supported challenge and a more flexible understanding of progress. They also described volunteering as a developmental encounter that reshaped their self-perceptions through vulnerability, responsibility and relational acceptance. Finally, they viewed social change as dependent on everyday exposure to people with ID, through which their presence becomes familiar, ordinary and less stigmatized.<h4>Conclusions</h4>Volunteers' reflections offer a distinctive lens for examining how humanistic commitments are translated into everyday residential support. Their accounts illuminate the relational and ethical tensions involved in balancing autonomy, protection, normalization and expectations of independence. The findings suggest the value of strengthening reflective practice in ID services and of re-examining how 'progress' is defined in everyday support, beyond functional goals and standardized expectations.",
+    "pmc_id": "",
+    "date_added": "2026-08-16"
   }
 ]
