@@ -10918,5 +10918,165 @@
     "abstract_en": "OBJECTIVE: This study investigated the associations between dietary behaviors and gut microbiota in children with autism spectrum disorder (ASD) stratified according to symptom severity, aiming to provide evidence for targeted interventions.\n\nMETHODS: A cross-sectional study enrolled 81 children with ASD aged 3-12 years, divided into mild-to-moderate (n = 35) and severe (n = 46) groups based on Childhood Autism Rating Scale scores. Dietary behaviors were assessed using the Children's Eating Behavior Questionnaire. Gut microbiota was analyzed by 16S rRNA (16S ribosomal RNA) gene sequencing. Spearman correlation examined associations.\n\nRESULTS: The severe ASD group showed significantly lower Enjoyment of Food scores and higher scores for both Emotional Undereating and Emotional Overeating (p < 0.05). Alpha diversity (Shannon and Simpson indices) was significantly lower in the severe group (p < 0.05). Beta diversity showed significant between-group separation (p < 0.05). The severe group exhibited decreased Firmicutes and increased Proteobacteria at the phylum level, with decreased Faecalibacterium and Dialister and a 2.8-fold increase in Klebsiella at the genus level (p < 0.05). Correlation analysis revealed severity-dependent associations: mild-to-moderate ASD showed phylum-level associations, while severe ASD showed genus-level associations.\n\nCONCLUSION: Children with severe ASD exhibited more pronounced dietary behavior abnormalities and gut microbiota dysbiosis. The severity-dependent associations suggest stratified intervention strategies for ASD children.",
     "pmc_id": "",
     "date_added": "2026-11-08"
+  },
+  {
+    "id": "10.2196/94908",
+    "title_en": "Mobile Apps Addressing Feeding of Children With Autism: Systematic Search and Content and Quality Analysis.",
+    "title_he": "אפליקציות ניידות המתמודדות עם האכלה של ילדים עם אוטיזם: חיפוש שיטתי וניתוח תוכן ואיכות",
+    "authors": [
+      "Mukarage Fabrice",
+      "Cofie Kuzagbe Christopher",
+      "Nandi Adams Skye",
+      "Yves-Roland Douha N'guessan",
+      "Talina Luhanga Edith"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43008191/",
+    "keywords": [
+      "\"Autism Spectrum Disorder\"[MeSH] AND (\"social work\"[tiab] OR \"intervention\"[tiab])"
+    ],
+    "summary_he": "במאמר זה נדונה בעיית האכלה של ילדים עם אוטיזם, כאשר כ-46% עד 89% מהילדים המאובחנים חווים קשיים משמעותיים בתחום זה. החוקרים ביצעו חיפוש שיטתי באפסטור ובגוגל פליי, ומצאו 333 אפליקציות, מתוכן רק שתיים עמדו בקריטריונים שנקבעו. האפליקציות שנבחרו, EduKitchen-Toddlers Food Games ו-Autism Food Coach 2, מציעות כלים שונים להורים ולילדים, אך יש להן מגבלות כמו חוסר בהתאמה אישית ואי-קיום תיעוד קליני. המאמר מדגיש את הצורך החיוני בפיתוח אפליקציות mHealth איכותיות ומבוססות ראיות שיתמכו בהורים ובילדים עם אוטיזם בהתמודדות עם קשיים בהאכלה.",
+    "abstract_en": "BACKGROUND: Approximately 1 in 100 children worldwide are diagnosed with autism spectrum disorder (ASD), and 46% to 89% of those diagnosed experience significant feeding difficulties. Mobile health (mHealth) apps are a potential tool for scalable support. However, there is nascent literature on the quality and relevance of mHealth apps for managing ASD-related feeding challenges.\n\nOBJECTIVE: This study aimed at systematically identifying and reviewing the content, behavior change strategies, and quality of free English-language mHealth apps supporting the feeding of children with autism.\n\nMETHODS: A systematic search was conducted on the Apple App Store and Google Play Store between September and October 2024 and updated between June and July 2026. Apps were included if they were free or freemium, in English, updated within the past year, and explicitly focused on the feeding of children with autism. Apps were excluded if they targeted clinicians rather than parents or children; could not be installed on the test devices; or primarily focused on learning or communication rather than feeding, despite descriptions suggesting relevance to feeding. We identified intervention strategies in the included apps using the behavior change wheel (BCW) framework and evaluated their quality using the Mobile App Rating Scale (MARS).\n\nRESULTS: The search returned 333 apps from both app stores. After removing duplicates and screening, only 2 iOS apps (EduKitchen-Toddlers Food Games and Autism Food Coach 2) met all inclusion criteria. 331 apps were excluded due to their focus on communication, early education, or other autism support that was not food related. EduKitchen-Toddlers Food Games provided child-centered interactive games and sensory-friendly visuals, while Autism Food Coach 2 provided structured caregiver tools, visual meal plans, and progress tracking. EduKitchen-Toddlers Food Games provided the BCW intervention functions of education, training, enablement, incentivization, and modeling, while Autism Food Coach 2 provided education, training, enablement, persuasion, incentivization, and environmental restructuring. The apps received MARS scores of 3.9 and 3.7, respectively, indicating acceptable quality. The apps' shortcomings included limited customization for diverse user needs and the absence of documented clinical validation.\n\nCONCLUSIONS: There is a critical shortage of mHealth apps for feeding difficulties in children with autism that are both evidence-based and of high quality. Future development must integrate robust clinical validation and comprehensive, caregiver-centered support features to address this significant gap.",
+    "pmc_id": "13750524",
+    "date_added": "2026-11-15"
+  },
+  {
+    "id": "10.1093/sleep/zsag199",
+    "title_en": "Effectiveness of guided internet-delivered cognitive behavioral therapy for insomnia in autistic adults (i-Sleep Autism): a randomized controlled trial.",
+    "title_he": "יעילות טיפול קוגניטיבי התנהגותי באינטרנט להפרעות שינה במבוגרים אוטיסטים (i-Sleep Autism): ניסוי מבוקר אקראי",
+    "authors": [
+      "Spaargaren Kirsten L",
+      "Begeer Sander",
+      "Nieuwenhuis Smiddy",
+      "Bradley Jessie",
+      "Riper Heleen",
+      "Greaves-Lord Kirstin",
+      "van Straten Annemieke"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42472472/",
+    "keywords": [
+      "\"Autism Spectrum Disorder\"[MeSH] AND (\"social work\"[tiab] OR \"intervention\"[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק ביעילות של טיפול קוגניטיבי התנהגותי באינטרנט, המיועד להפרעות שינה במבוגרים אוטיסטים. כ-60% מהמבוגרים האוטיסטים סובלים מהפרעות שינה, דבר הפוגע בתפקוד היומיומי ובבריאותם הכללית. המחקר כלל 163 מבוגרים אוטיסטים עם בעיות שינה, שחולקו אקראית לשתי קבוצות: קבוצה שטופלה בעזרת i-Sleep Autism וקבוצת ביקורת. התוצאות הראו ירידה משמעותית בחומרת הפרעות השינה בקבוצת ההתערבות, עם שיפור באיכות החיים. עם זאת, לא נמצאו השפעות משמעותיות על חרדה, דיכאון או תפקוד יומיומי. המאמר מדגיש את הצורך בהתאמה אישית של ההתערבויות כדי לשפר את ההיענות והיעילות עבור כל המשתתפים. המחקר מציע שהטיפול הדיגיטלי המותאם לאוטיסטים יכול לשפר את איכות השינה וההיבטים הקשורים לכך, עם השפעות שנשמרות לאורך זמן.",
+    "abstract_en": "An estimated 60% of autistic adults suffer from insomnia symptoms, which significantly impairs daily functioning and wellbeing. This study evaluated the effectiveness of i-Sleep Autism, a 5-week, guided self-help internet-delivered cognitive behavioral therapy-based intervention (ICBT-I) for insomnia in autistic adults. In co-creation with seven autistic adults with sleeping problems, i-Sleep Autism was adapted from i-Sleep, a pre-existing non-autism specific intervention. A total of 163 adults with autism and insomnia (ISI ≥ 10) was randomly allocated to i-Sleep Autism (n = 82) or waitlist control (n = 81; receiving psychoeducation and sleep hygiene). Participants were assessed at baseline (T0), mid-intervention (T1; 3-weeks), post-test (T2; 6-weeks), and follow-up (T3; 6 months) on insomnia severity (primary outcome), pre-sleep arousal, anxiety, depression, daily functioning, and quality of life. In the intervention group, 56.1% completed four, and 50% all five modules. Intent-To-Treat analyses revealed a significant reduction in insomnia severity at T1 and T2 (d = 1.02, 95%CI = [0.65, 1.40]), and cognitive- and somatic pre-sleep arousal at post-test, when comparing intervention to control. The intervention group showed significantly higher quality of life at post-test. At T2, 37.8% of the intervention group versus 11.1% of the control group showed clinically meaningful improvement of insomnia. Effects on insomnia severity were maintained at 6-month follow up. No significant effects were found for anxiety, depression, or daily functioning. This is the first RCT to investigate autism-adapted ICBT-I for autistic adults suffering from insomnia. i-Sleep Autism effectively and sustainably improves insomnia. Additional strategies are needed to support dropouts and those who did not benefit. Statement of Significance Insomnia is very common among autistic adults and has substantial consequences for daily functioning and well-being, yet evidence-based sleep interventions for this group are lacking. This study provides the first randomized controlled evaluation of an internet-delivered cognitive behavioral intervention for insomnia that was adapted in collaboration with autistic adults. The findings demonstrate that autism-adapted, guided, digital sleep interventions can meaningfully improve sleep and related outcomes in autistic adults, with effects that are sustained over time. At the same time, considerable variation in engagement and response highlights the need for further refinement and personalization. Future research should focus on identifying who benefits most, optimizing support for non-responders, and improving accessibility and adherence.",
+    "pmc_id": "13747339",
+    "date_added": "2026-11-15"
+  },
+  {
+    "id": "10.1177/01454455261503522",
+    "title_en": "Using Caregiver-Implemented Structured Work System to Promote Daily Living Skills for Adolescents or Young Adults With Intellectual and/or Developmental Disabilities.",
+    "title_he": "שימוש במערכת עבודה מובנית שהוטמעה על ידי מטפלים לקידום מיומנויות חיים יומיות עבור מתבגרים או צעירים עם לקויות אינטלקטואליות ו/או התפתחותיות",
+    "authors": [
+      "Liu Renming",
+      "Davis Tonya N",
+      "Garza Serena R",
+      "Sparks Kelsey M",
+      "Hrabal Julia M"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43021600/",
+    "keywords": [
+      "IDD[tiab] AND (intervention[tiab] OR support[tiab] OR inclusion[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק במיומנויות חיים יומיות (DLS) הנדרשות לעצמאות של אנשים עם לקויות אינטלקטואליות והתפתחותיות (I/DD). מתבגרים וצעירים רבים מתקשים לרכוש מיומנויות אלו. המאמר מציע שימוש במערכות עבודה מובנות (SWS), אסטרטגיה של תמיכה חזותית המבוססת על עקרונות ניתוח התנהגות, שהוכיחה את יעילותה בקידום עצמאות, אך נדירה במחקר כאשר היא מיועדת למטפלים. המחקר העריך הכשרה למטפלים לפיתוח והטמעה של SWS מותאמת, המתמקדת במערכת עבודה כתובה עם הוראות כתובות המלוות בתמונות. לאחר הכשרת המערכת, המטפלים שיפרו את יכולתם לעצב SWS מותאמות אישית. בניסוי הראשון, עיצוב רב-בסיסי הראה כי הכשרה למטפלים והדרכה מתמשכת העלו את נאמנות הטיפול, עם שיפורים שהתרחבו לסביבה הביתית. בניסוי השני, אנשים עם I/DD הראו שיפור בביצוע עצמאי של DLS לאחר הטמעת SWS על ידי המטפלים, והשיפורים נשמרו במהלך מעקבים. דירוגי תוקף חברתי הראו קבלה גבוהה מצד המטפלים ואנשים עם I/DD. ממצאים אלו מדגישים את SWS הכתובה המותאמת כהתערבות התנהגותית גמישה וישימה, שיכולה לקדם עצמאות במיומנויות חיים יומיות בסביבות טבעיות.",
+    "abstract_en": "Daily living skills (DLS) are essential for independence among individuals with intellectual and developmental disabilities (I/DD), yet many adolescents and young adults have difficulties acquiring such skills. Structured work systems (SWS), a visual support strategy grounded in behavior analytic principles, have demonstrated effectiveness in promoting independence but are rarely studied when implemented by caregivers. This study evaluated caregiver training to develop and implement a modified SWS, focusing exclusively on the modified written work system (i.e., written instructions paired with pictures for complex steps). After the SWS development training, caregivers improved their ability to design individualized SWS. In Experiment 1, a multiple-baseline design showed that caregiver training and on-going coaching increased treatment fidelity, with gains generalizing to the home environment. In Experiment 2, individuals with I/DD demonstrated improved independent performance of DLS following caregiver implementation of SWS, and the improvements were maintained during follow-up probes. Social validity ratings indicated high acceptability from both caregivers and individuals with I/DD. Findings highlight the modified written SWS as a flexible, feasible behavioral intervention that caregivers can use to promote independence in DLS within natural settings.",
+    "pmc_id": "",
+    "date_added": "2026-11-15"
+  },
+  {
+    "id": "10.1016/j.ridd.2026.105423",
+    "title_en": "A future already in the making: The life-course formation of sibling responsibility in Arab families of people with intellectual and developmental disabilities.",
+    "title_he": "עתיד שכבר נבנה: התפתחות תחושת האחריות של אחים במשפחות ערביות של אנשים עם לקויות קוגניטיביות והתפתחותיות",
+    "authors": [
+      "Neuman Ran",
+      "Arslan Maha",
+      "Reiter Shunit"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43019632/",
+    "keywords": [
+      "IDD[tiab] AND (intervention[tiab] OR support[tiab] OR inclusion[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק בתהליך שבו אחים של אנשים עם לקויות קוגניטיביות והתפתחותיות (IDD) מפתחים תחושת אחריות ותפקידים עתידיים במהלך חייהם. המחקר מתמקד בהקשר המשפחתי הערבי, שבו קשרים משפחתיים חזקים וציפיות לתמיכה הדדית מאפשרים להבין כיצד מתפתחת תחושת האחריות בחיי המשפחה. בעזרת ראיונות עם עשרה אחים מבוגרים מקהילות ערביות בישראל, זוהו שלושה נושאים מרכזיים: תפקיד האח התומך, הקשר בין אחריות ליחסים משפחתיים, והציפיות לעתיד. המאמר מדגיש כי תחושת האחריות יכולה להתפתח עוד לפני תכנון עתידי פורמלי, ומציע כי הכרה בתהליך זה עשויה לסייע למשפחות ולשירותים לדון בציפיות המתפתחות מבלי לראות את האחים כמטפלים עתידיים מוכנים. הממצאים יכולים לתרום לתכנון עתידי שבו קיימת סינרגיה בין תמיכה משפחתית לתמיכה פורמלית.",
+    "abstract_en": "BACKGROUND: Siblings of people with intellectual and developmental disabilities (IDD) may become increasingly involved in support and develop expectations about their future roles across the life course. This study examines how everyday involvement, an emerging sense of responsibility, and imagined futures become connected within siblings' personal trajectories. The Arab family context provides a particularly informative setting for examining this process, as enduring family ties and expectations of mutual support make it possible to trace how responsibility develops within ongoing family life, before future changes in parental support become a central concern.\n\nAIMS: To examine how adult siblings narrate the development of responsibility through everyday involvement, its place in sibling identity, and its implications for imagined futures.\n\nMETHODS AND PROCEDURES: Ten adult siblings from Arab communities in Israel participated in semi-structured interviews analyzed using Four World Analysis and positioning theory.\n\nOUTCOMES AND RESULTS: Three themes were developed: Drawn into a Supportive Sibling Role: Between Circumstance and Agency; Responsibility Woven into Siblinghood: Between Kinship and Accountability; and Responsibility Laying Claim to the Future: Between Commitment and Possibility. Cross-case analysis generated the concept of a sibling responsibility trajectory: a narratively reconstructed, contextually situated process linking everyday involvement, responsibility within sibling identity, and anticipated future support.\n\nCONCLUSIONS AND IMPLICATIONS: Sibling responsibility may take shape within ongoing family life before formal future planning begins. Recognizing this process may help families and services discuss and revisit emerging expectations without treating siblings as predetermined future caregivers. It may also inform future planning where family and formal supports coexist.",
+    "pmc_id": "",
+    "date_added": "2026-11-15"
+  },
+  {
+    "id": "10.1093/sw/swag060",
+    "title_en": "Ethical Challenges Encountered by Social Workers and Guidelines for Conducting Research among Individuals with Intellectual and Developmental Disabilities.",
+    "title_he": "אתגרים אתיים המופיעים בעבודת עובדים סוציאליים והנחיות לעריכת מחקר בקרב אנשים עם לקויות קוגניטיביות והתפתחותיות",
+    "authors": [
+      "Raftar-Ozery Tehila",
+      "Shapira-Lishchinsky Orly"
+    ],
+    "year": 2026,
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43016008/",
+    "keywords": [
+      "IDD[tiab] AND (intervention[tiab] OR support[tiab] OR inclusion[tiab])"
+    ],
+    "summary_he": "מאמר זה עוסק באתגרים אתיים שעובדים סוציאליים נתקלים בהם במהלך עבודתם, במיוחד כאשר מדובר במחקר בקרב אנשים עם לקויות קוגניטיביות והתפתחותיות (IDD). החוקרים ראיינו 22 עובדים סוציאליים בישראל והשתמשו בתיאוריה מעוגנת כדי לנתח את המידע. שלושה אתגרים אתיים מרכזיים זוהו: חוסר במערכת תמיכה לניהול דילמות אתיות, קשיים בקבלת החלטות אתיות המפחיתים את השתתפותם של אנשים עם IDD במחקר, וקושי בהשגת הסכמה מדעת. המאמר מציע שלוש הנחיות אתיות: מניעת נזק, כללי עבודה, והשתתפות אנשים עם IDD במחקר. ממצאים אלו יכולים לשמש כהנחיות אתיות ייחודיות ליישום בישראל ובמדינות נוספות.",
+    "abstract_en": "Social workers encounter ethical challenges during their work that intensify when conducting research among individuals with intellectual and developmental disabilities (IDD). Research may be characterized by excessive protectiveness, exploitation, and exclusion of people with IDD. The main goal of this study was to explore the ethical challenges of social workers in Israel and the guidelines applied to their work. The researchers interviewed 22 social workers and used grounded theory based on open coding, axial coding, and selective coding. Three main ethical challenges emerged: (1) Social workers lack a support system for managing ethical dilemmas involving individuals with IDD; (2) social workers can have difficulties reaching ethical decisions, which can reduce the participation of people with IDD in research; and (3) social workers can encounter difficulty obtaining informed consent. Based on these results, the authors propose three ethical guidelines: (1) preventing and minimizing harm, (2) work rules, and (3) involvement of individuals with IDD in research. These findings can inform ethical guidelines that include unique ethical challenges for application in Israel as well as in other countries.",
+    "pmc_id": "",
+    "date_added": "2026-11-15"
+  },
+  {
+    "id": "10.1016/j.ridd.2026.105415",
+    "title_en": "Effectiveness of an early reading intervention for young children with intellectual disabilities who need or use augmentative and alternative communication on trajectories of decoding and sight word recognition: Study protocol for a cluster-randomized controlled factorial trial",
+    "title_he": "יעילות התערבות קריאה מוקדמת לילדים עם לקויות אינטלקטואליות הזקוקים או משתמשים בתקשורת תומכת ומחליפת שפה",
+    "authors": [
+      "Köver Annelin",
+      "Bilet-Mossige Marthe",
+      "Ulriksen Line Britt",
+      "Dechsling Anders",
+      "Cogo-Moreira Hugo",
+      "Larsen Kenneth",
+      "Næss Kari-Anne Bottegård",
+      "McNaughton David",
+      "Marschik Peter",
+      "Bölte Sven",
+      "Nordahl-Hansen Anders"
+    ],
+    "year": 2026,
+    "source": "Europe PMC",
+    "url": "https://europepmc.org/article/MED/43025215",
+    "keywords": [
+      "AAC augmentative alternative communication"
+    ],
+    "summary_he": "מאמר זה מציע מחקר על השפעת התערבות קריאה מוקדמת על יכולות פענוח וזיהוי מילים לילדים עם לקויות אינטלקטואליות הזקוקים או משתמשים בתקשורת תומכת. ילדים אלו לעיתים קרובות מודרים מהוראת קריאה בגיל הרך בשל אתגרים התנהגותיים, חוסר בדיבור פונקציונלי וציפיות נמוכות לגבי רכישת קריאה. התערבות הקריאה תתבצע בגני ילדים ובכיתות א' באמצעות ניסוי מבוקר אקראי, כאשר הגנים יחולקו לארבע קבוצות שונות. התוכנית תימשך 37 שבועות ותתמקד בהוראת קריאה על בסיס פונטי, עם דגש על מיומנויות כמו הכרת אותיות, זיהוי צלילים והבנת טקסט. תוצאות המחקר צפויות לספק ראיות על יעילות ההוראה הפונטית בקרב אוכלוסייה זו, ולבחון את השפעת המודעות הפונטית על יכולות הקריאה. כל המשתתפים בקבוצת הביקורת יקבלו גישה לחומרי הקריאה בכיתה ב' לאחר סיום הניסוי, במטרה להתמודד עם דילמות אתיות.",
+    "abstract_en": "<h4>Background</h4>Children with intellectual disabilities who need or use augmentative and alternative communication are often excluded from early reading instruction in both kindergarten and school. Behavioral challenges, lack of functional speech, and low expectations regarding reading acquisition may be contributing factors. Reading ability has a significant impact on the self-expression and social life of individuals who need or use augmentative and alternative communication. These individuals can acquire reading skills with a tailored curriculum designed to meet their needs. Research shows that phonological-based reading instruction can be beneficial for this population; however, no randomized controlled trials have evaluated early reading instructions both in kindergarten and first grade on developmental trajectories for these individuals.<h4>Methods</h4>This study will examine the effect of an early reading intervention on trajectories of decoding and sight word recognition for children with intellectual disabilities who need or use augmentative and alternative communication. The intervention will be implemented in kindergarten and first grade using a two-by-two factorial, randomized controlled trial. Kindergartens are randomized into one of four groups: (1) intervention in kindergarten and first grade, (2) intervention in kindergarten only, (3) intervention in first grade only, or (4) training-as-usual in both years. Each intervention lasts 37 weeks over the course of one academic year, with children aged 4-8 years receiving reading instruction delivered by special education teachers. The intervention uses Reading for All material, which is a phonological-based instruction targeting skills such as letter-sound knowledge, first-sound recognition, sound blending, shared reading, sight word recognition, and decoding. Outcomes will be assessed at multiple time points during each intervention year.<h4>Discussion</h4>The results of this RCT bring evidence of effectiveness of phonological reading instruction among children with intellectual disabilities who need or use augmentative and alternative communication on trajectories of decoding and sight word recognition from kindergarten to first grade. Moreover, our design tests the indirect effect of phonological awareness (formed by sound blending and first-sound recognition) and letter-sound knowledge on trajectories of decoding. Because the use of a control group that does not receive any intervention raises ethical concerns, all participants in the control group will be offered access to the reading material in second grade, outside the study context.",
+    "pmc_id": "",
+    "date_added": "2026-11-15"
+  },
+  {
+    "id": "10.1371/journal.pone.0345827",
+    "title_en": "The Demand Avoidance and Autonomy Questionnaire (DAAQ): Development of a new measure of demand avoidance",
+    "title_he": "שאלון הימנעות מדרישות ואוטונומיה (DAAQ): פיתוח כלי מדידה חדש להימנעות מדרישות",
+    "authors": [
+      "Carlozzi Noelle E",
+      "Lai Jin-Shei",
+      "Lombard Wendy L",
+      "Troost Jonathan P",
+      "Graves Christopher M",
+      "Miner Jennifer A",
+      "Fansher Madison",
+      "Ehrlich Casey"
+    ],
+    "year": 2026,
+    "source": "Europe PMC",
+    "url": "https://europepmc.org/article/MED/43013504",
+    "keywords": [
+      "intellectual disability inclusion community"
+    ],
+    "summary_he": "מאמר זה מציג את שאלון ההימנעות מדרישות ואוטונומיה (DAAQ), כלי מדידה חדש שנועד להעריך את ההימנעות מדרישות (PDA) בקרב ילדים ובני נוער. PDA מתארת דפוס התנהגותי המלווה במתח עז והימנעות מדרישות חיצוניות ופנימיות, ולעיתים קרובות מתקשרת להפרעת הספקטרום האוטיסטי. הפיתוח של ה-DAAQ נועד להתגבר על מגבלות של כלים קיימים, כמו ה-EDA-Q, ולספק מדידה מדויקת יותר של השפעת ההימנעות על צרכים בסיסיים. במחקר השתתפו הורים לילדים בגיל 4-17 עם פרופיל PDA, אשר השלימו את השאלון. ניתוחים סטטיסטיים אישרו את תקפות השאלון, והראו כי הוא מבחין בין קבוצות עם רמות שונות של הימנעות מדרישות. המאמר מדגיש את חשיבות הכלי החדש במחקר ובקליניקה, אך מציין כי תוצאות ה-DAAQ אינן מיועדות לשמש כאבחון. המאמר מציע גם כיוונים עתידיים להערכה נוספת של הכלי, כולל פיתוח גרסאות לדיווח עצמי.",
+    "abstract_en": "<h4>Background</h4>Pathological demand avoidance (PDA; also described as persistent/extreme demand avoidance or a pervasive drive for autonomy) is a complex, debated construct. It most often refers to a pattern of behavior characterized by intense distress and avoidance of both external and internal demands across home and community settings and is frequently discussed as a profile of autism spectrum disorder (ASD). Progress toward resolving the scientific controversy around PDA has been limited by the lack of consensus definitions and robust clinical measurement tools. Existing PDA measures (e.g., the Extreme Demand Avoidance Questionnaire; EDA-Q/EDA-8) have conceptual and psychometric limitations, including limited assessment of functional impact on basic needs (i.e., hygiene, eating, sleeping) and toileting. We developed the Demand Avoidance and Autonomy Questionnaire (DAAQ) to capture PDA-relevant behavioral expression and basic-needs impacts using contemporary measurement-development methods.<h4>Methods</h4>Self-identified adult parents/legal guardians of children aged 4-17 with a suspected PDA profile (N = 707) completed the DAAQ 60-item pool and other parent proxy measures (EDA-8, CAST, SDQ, and PROMIS Parent Proxy-Global Health). Analyses included exploratory and confirmatory factor analyses and item response theory (graded response models), differential item functioning (DIF), as well as reliability, convergent/discriminant validity, and known-groups validity.<h4>Results</h4>Factor analysis supported retention of 36 items across three factors in the DAAQ: Behavioral Expression (20 items), Basic Needs (10 items), and Toileting (6 items). Differential item functioning for child age, education, school type, and sex; and parent age and education did not result in any items being deleted. Convergent validity was supported via moderate correlations with the EDA-8, and discriminant validity was supported by generally negligible-to-small associations with prespecified measures. Known-groups comparisons differentiated groups as hypothesized (e.g., higher DAAQ scores among children with higher demand avoidance, greater basic needs difficulties, and co-occurring ASD).<h4>Conclusions</h4>This paper describes a new, methodologically sound measurement tool to facilitate screening for and characterizing demand avoidance among children and adolescents in research and clinical settings. Given the controversy surrounding the existence of PDA and how to classify it, DAAQ scores should not be interpreted as diagnostic, and associations with autism-screening measures should be interpreted cautiously. The rigorous measurement development approach, strong preliminary reliability and validity, and inclusion of a general PDA behavior factor as well as basic needs and toileting impact factors are strengths of the DAAQ. Future work should evaluate performance in clinician-characterized samples, develop self-report versions, and further assess validity (e.g., predictive validity and sensitivity/specificity).",
+    "pmc_id": "13754100",
+    "date_added": "2026-11-15"
   }
 ]
